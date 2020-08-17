@@ -10,7 +10,10 @@
         "财经": [4,3,2]
         },
     "local_filter_for_non_local_news":{
-        "min_exposure":500,
-        "min_ctr": 0.4
-        }
+        "exposure_threshold":500,
+        "ctr_threshold": 0.4
+        },
+    "consider_time_score":{
+        "category":["国际", "时政", "财经", "社会"]
+    }
 }
