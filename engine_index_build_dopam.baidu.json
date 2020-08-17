@@ -1,0 +1,12 @@
+{
+    "wildcard":{
+        "category":["国际", "军事", "时政", "科技", "科学", "财经"]
+        },
+    "restrict_media":{
+        "国际": ["offical_media", 4, 3],
+        "时政": ["offical_media",4],
+        "军事": ["offical_media",4, 3],
+        "社会": [4,3,2,1, 0],
+        "财经": [4,3,2]
+        }
+}
