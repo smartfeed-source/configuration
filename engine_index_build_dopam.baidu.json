@@ -8,5 +8,9 @@
         "军事": ["offical_media",4, 3],
         "社会": [4,3,2,1, 0],
         "财经": [4,3,2]
+        },
+    "local_filter_for_non_local_news":{
+        "min_exposure":500,
+        "min_ctr": 0.4
         }
 }
