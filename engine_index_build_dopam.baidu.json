@@ -6,7 +6,7 @@
         "国际": ["offical_media", 4, 3],
         "时政": ["offical_media",4],
         "军事": ["offical_media",4, 3],
-        "社会": [4,3,2,1, 0],
+        "社会": [4,3,2],
         "财经": [4,3,2]
         },
     "local_filter_for_non_local_news":{
@@ -14,6 +14,14 @@
         "ctr_threshold": 0.4
         },
     "consider_time_score":{
-        "category":["国际", "时政", "财经", "社会"]
+        "category":{
+            "国际":{"start_days": 3}, 
+            "时政":{"start_days": 2}, 
+            "财经":{"start_days": 3}, 
+            "社会":{"start_days": 3}
+        }
+    },
+    "cold_start_exposure_setting":{
+        "default": {"max_cold_start_exposure": 50}
     }
 }
