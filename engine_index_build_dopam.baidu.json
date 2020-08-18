@@ -13,6 +13,9 @@
         "exposure_threshold":500,
         "ctr_threshold": 0.4
         },
+    "subcategory_filter":{
+        "社会": ["法制", "正能量", "奇闻轶事", "奇葩", "历史", "婚姻", "传染病", "时政"]
+        },
     "consider_time_score":{
         "category":{
             "国际":{"start_days": 3}, 
