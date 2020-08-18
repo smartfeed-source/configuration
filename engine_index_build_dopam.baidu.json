@@ -21,7 +21,8 @@
             "国际":{"start_days": 2}, 
             "时政":{"start_days": 2}, 
             "财经":{"start_days": 2}, 
-            "社会":{"start_days": 2}
+            "社会":{"start_days": 2},
+            "军事":{"start_days": 3}
         }
     },
     "cold_start_exposure_setting":{
