@@ -98,7 +98,7 @@
 	],
 	"coldstart_strategy": [{
 		"name": "gamer coldstart",
-		"codition": {
+		"condition": {
 			"apps": {
 				"include": [],
 				"exclude": []
