@@ -22,7 +22,7 @@
 					"category": ["国际"],
 					"count": 2,
 					"max_count": 5,
-					"source": ["baidu_news"],
+					"source": ["sohu_news"],
 					"flags": {}
 				},
 				{
