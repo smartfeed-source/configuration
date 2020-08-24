@@ -106,6 +106,14 @@
 			"location": {
 				"include": [],
 				"exclude": []
+			},
+			"device":{
+				"include": [],
+				"exclude": []
+			},
+			"hour":{
+				"include": [],
+				"exclude": []
 			}
 		},/*end of condition*/
 		"override_blending_strategy": [{
