@@ -100,7 +100,7 @@
 		"name": "coldstart_test",
 		"condition": {
 			"apps": {
-				"include": ["com.tencent.tmgp.pubgmhd", "com.tencent.tmgp.sgame"],
+				"include": [],
 				"exclude": []
 			},
 			"location": {
