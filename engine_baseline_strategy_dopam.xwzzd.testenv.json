@@ -97,18 +97,18 @@
 		}/*end of rcmd channel*/
 	],
 	"coldstart_strategy": [{
-		"name": "gamer_coldstart",
+		"name": "coldstart_test",
 		"condition": {
 			"apps": {
 				"include": [],
 				"exclude": []
 			},
 			"location": {
-				"include": [],
+				"include": ["深圳"],
 				"exclude": []
 			},
 			"device":{
-				"include": [],
+				"include": ["HUAWEI"],
 				"exclude": []
 			},
 			"hour":{
