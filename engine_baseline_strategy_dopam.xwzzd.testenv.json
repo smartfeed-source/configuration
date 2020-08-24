@@ -100,7 +100,7 @@
 		"name": "coldstart_test",
 		"condition": {
 			"apps": {
-				"include": [],
+				"include": ["com.tencent.tmgp.pubgmhd", "com.tencent.tmgp.sgame"],
 				"exclude": []
 			},
 			"location": {
@@ -121,9 +121,9 @@
 				"category": [{
 						"id": 5,
 						"category": ["游戏"],
-						"count": 2,
+						"count": 3,
 						"max_count": 5,
-						"source": ["baidu_news"],
+						"source": ["baidu_video", "baidu_news"],
 						"flags": {}
 					},
 					{
