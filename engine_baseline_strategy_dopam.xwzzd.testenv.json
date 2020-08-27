@@ -35,8 +35,8 @@
 				},
 				{
 					"id": 4,
-					"category": ["历史","游戏","育儿","生活","房产"],
-					"count": 1,
+					"category": ["历史", "游戏", "育儿", "生活", "房产"],
+					"count": 2,
 					"max_count": 5,
 					"source": ["baidu_news"],
 					"flags": {}
