@@ -120,8 +120,8 @@
 				"channel": "rcmd",
 				"category": [{
 						"id": 5,
-						"category": ["游戏"],
-						"count": 3,
+						"category": ["军事"],
+						"count": 1,
 						"max_count": 5,
 						"source": ["baidu_video", "baidu_news"],
 						"flags": {}
