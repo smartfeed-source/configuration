@@ -3,30 +3,6 @@
 			"channel": "rcmd",
 			"category": [{
 					"id": 0,
-					"category": ["历史"],
-					"count": 1,
-					"max_count": 5,
-					"source": ["baidu_news"],
-					"flags": {}
-				},
-				{
-					"id": 1,
-					"category": ["法制"],
-					"count": 1,
-					"max_count": 5,
-					"source": ["baidu_news"],
-					"flags": {}
-				},
-				{
-					"id": 2,
-					"category": ["国际"],
-					"count": 2,
-					"max_count": 5,
-					"source": ["sohu_news"],
-					"flags": {}
-				},
-				{
-					"id": 3,
 					"category": ["军事"],
 					"count": 2,
 					"max_count": 5,
@@ -34,8 +10,32 @@
 					"flags": {}
 				},
 				{
-					"id": 4,
+					"id": 1,
+					"category": ["时政"],
+					"count": 2,
+					"max_count": 5,
+					"source": ["baidu_news"],
+					"flags": {}
+				},
+				{
+					"id": 2,
 					"category": ["社会"],
+					"count": 1,
+					"max_count": 5,
+					"source": ["baidu_news"],
+					"flags": {}
+				},
+				{
+					"id": 3,
+					"category": ["健康"],
+					"count": 1,
+					"max_count": 5,
+					"source": ["baidu_news"],
+					"flags": {}
+				},
+				{
+					"id": 4,
+					"category": ["历史","游戏","育儿","生活","房产"],
 					"count": 1,
 					"max_count": 5,
 					"source": ["baidu_news"],
@@ -44,7 +44,7 @@
 				{
 					"id": 5,
 					"category": ["健康"],
-					"count": 1,
+					"count": 0,
 					"max_count": 5,
 					"source": ["baidu_news"],
 					"flags": {}
@@ -52,7 +52,7 @@
 				{
 					"id": 6,
 					"category": ["国际", "军事", "历史"],
-					"count": 2,
+					"count": 0,
 					"max_count": 5,
 					"source": ["baidu_video"],
 					"flags": {}
@@ -136,7 +136,7 @@
 				"channel": "video",
 				"category": [{
 						"id": 0,
-						"category": ["游戏"],
+						"category": ["军事"],
 						"count": 1,
 						"max_count": 5,
 						"source": ["baidu_video"],
@@ -144,7 +144,7 @@
 					},
 					{
 						"id": 1,
-						"category": ["漫画"],
+						"category": ["时政"],
 						"count": 1,
 						"max_count": 5,
 						"source": ["baidu_video"],
