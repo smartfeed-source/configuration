@@ -43,16 +43,16 @@
 				},
 				{
 					"id": 5,
-					"category": ["健康"],
-					"count": 0,
+					"category": ["时政"],
+					"count": 1,
 					"max_count": 5,
-					"source": ["baidu_news"],
+					"source": ["baidu_video"],
 					"flags": {}
 				},
 				{
 					"id": 6,
-					"category": ["国际", "军事", "历史"],
-					"count": 0,
+					"category": [ "军事"],
+					"count": 1,
 					"max_count": 5,
 					"source": ["baidu_video"],
 					"flags": {}
