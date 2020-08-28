@@ -96,7 +96,9 @@
 			]/*end of category setting*/
 		}/*end of rcmd channel*/
 	],
-	
+	 "coldstart_strategy": [
+
+                         ]      
 			{
 				"channel": "video",
 				"category": [{
