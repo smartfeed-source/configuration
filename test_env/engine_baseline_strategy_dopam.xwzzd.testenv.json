@@ -57,12 +57,9 @@
 					"source": ["baidu_video"],
 					"flags": {}
 				}
-			]/*end of category setting*/
-		},/*end of rcmd channel*/
+			] /*end of category setting*/
+		}/*end of rcmd channel*/ 
+    ],
+	 "coldstart_strategy": [ ] 
 	
-	],
-	 "coldstart_strategy": [
-
-                         ]      
-			
-	}
+}
