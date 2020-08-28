@@ -96,42 +96,7 @@
 			]/*end of category setting*/
 		}/*end of rcmd channel*/
 	],
-	"coldstart_strategy": [{
-		"name": "coldstart_test",
-		"condition": {
-			"apps": {
-				"include": ["com.tencent.tmgp.pubgmhd", "com.tencent.tmgp.sgame"],
-				"exclude": []
-			},
-			"location": {
-				"include": [],
-				"exclude": []
-			},
-			"device":{
-				"include": [],
-				"exclude": []
-			},
-			"hour":{
-				"include": [],
-				"exclude": []
-			}
-		},/*end of condition*/
-		"override_blending_strategy": [{
-				"channel": "rcmd",
-				"category": [{
-						"id": 5,
-						"category": ["军事"],
-						"count": 1,
-						"max_count": 5,
-						"source": ["baidu_video", "baidu_news"],
-						"flags": {}
-					},
-					{
-						"id": 4,
-						"delete": true
-					}
-				]/*end of category*/
-			},/*end of rcmd channel*/
+	
 			{
 				"channel": "video",
 				"category": [{
