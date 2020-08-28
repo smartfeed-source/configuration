@@ -59,66 +59,10 @@
 				}
 			]/*end of category setting*/
 		},/*end of rcmd channel*/
-		{
-			"channel": "video",
-			"category": [{
-					"id": 0,
-					"category": ["历史"],
-					"count": 1,
-					"max_count": 5,
-					"source": ["baidu_video"],
-					"flags": {}
-				},
-				{
-					"id": 1,
-					"category": ["法制"],
-					"count": 1,
-					"max_count": 5,
-					"source": ["baidu_video"],
-					"flags": {}
-				},
-				{
-					"id": 2,
-					"category": ["国际"],
-					"count": 2,
-					"max_count": 5,
-					"source": ["baidu_video"],
-					"flags": {}
-				},
-				{
-					"id": 3,
-					"category": ["军事"],
-					"count": 2,
-					"max_count": 5,
-					"source": ["baidu_video"],
-					"flags": {}
-				}
-			]/*end of category setting*/
-		}/*end of rcmd channel*/
+	
 	],
 	 "coldstart_strategy": [
 
                          ]      
-			{
-				"channel": "video",
-				"category": [{
-						"id": 0,
-						"category": ["军事"],
-						"count": 1,
-						"max_count": 5,
-						"source": ["baidu_video"],
-						"flags": {}
-					},
-					{
-						"id": 1,
-						"category": ["时政"],
-						"count": 1,
-						"max_count": 5,
-						"source": ["baidu_video"],
-						"flags": {}
-					}
-				]/*end of category*/
-			}/*end of video channel*/
-		]/*end of override blending */
-	}]
-}
+			
+	}
