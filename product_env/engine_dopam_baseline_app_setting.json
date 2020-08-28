@@ -1,0 +1,10 @@
+[
+    {
+        "app": "xwzzd",
+        "config": "https://gitee.com/hotpush/configuration/raw/master/engine_baseline_strategy_dopam.xwzzd.json"
+    },
+    {
+        "app": "videoapp1",
+        "config": "https://gitee.com/hotpush/configuration/raw/master/engine_baseline_strategy_dopam.videoapp1.json"
+    }
+]
