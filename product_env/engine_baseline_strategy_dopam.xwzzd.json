@@ -43,7 +43,7 @@
 				},
 				{
 					"id": 5,
-					"category": ["时政"],
+					"category": ["时政", "国际"],
 					"count": 1,
 					"max_count": 5,
 					"source": ["baidu_video"],
@@ -51,7 +51,7 @@
 				},
 				{
 					"id": 6,
-					"category": ["军事"],
+					"category": ["军事", "社会"],
 					"count": 1,
 					"max_count": 5,
 					"source": ["baidu_video"],
