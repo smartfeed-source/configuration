@@ -27,7 +27,7 @@
 				},
 				{
 					"id": 3,
-					"category": ["其他"],
+					"category": ["美食", "汽车", "财经"],
 					"count": 1,
 					"max_count": 5,
 					"source": ["baidu_news"],
@@ -35,7 +35,7 @@
 				},
 				{
 					"id": 4,
-					"category": ["历史", "科技",  "育儿", "生活", "房产"],
+					"category": ["历史", "娱乐",  "生活", "三农"],
 					"count": 2,
 					"max_count": 5,
 					"source": ["baidu_news"],
