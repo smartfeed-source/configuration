@@ -60,6 +60,30 @@
 			] /*end of category setting*/
 		}/*end of rcmd channel*/ 
     ],
-	 "coldstart_strategy": [ ] 
-	
+	 "coldstart_strategy": [ ],
+     "personalization": [/*个性化推荐配置*/
+         {
+            "channel": "rcmd",/*频道*/
+            "setting":[
+                {
+                    "name": "article_personalization",
+                    "keyword_max_count_per_slide": 2,/*每刷最多出多少条包含同一个关键词的内容*/
+                    "category_max_count_per_slide": 5,/*同一个分类每刷最多出多少条*/
+                    "author_max_count_per_slide": 3,/*每个作者每刷最多出多少条*/
+                    "restrict_category":false,/*为true则个性化限制在default_strategy所设置的category范围内,false为不限制*/
+                    "seats":4,/*所占槽位,个性化优先级高于default_setting,所以直接抢占它的槽位,在个性化内容质量较低时,才由他补充*/
+                    "source":["baidu_news"]/*个性化数据源范围,当前只支持baidu_news和baidu_video*/
+                },
+                {
+                    "name": "video_personalization",
+                    "keyword_max_count_per_slide": 2,/*每刷最多出多少条包含同一个关键词的内容*/
+                    "category_max_count_per_slide": 2,/*同一个分类每刷最多出多少条*/
+                    "author_max_count_per_slide": 1,/*每个作者每刷最多出多少条*/
+                    "restrict_category":false,/*为true则个性化限制在default_strategy所设置的category范围内,false为不限制*/
+                    "seats":2,/*所占槽位,个性化优先级高于default_setting,所以直接抢占它的槽位,在个性化内容质量较低时,才由他补充*/
+                    "source":["baidu_video"]/*个性化数据源范围,当前只支持baidu_news和baidu_video*/
+                }
+            ]
+         }
+     ]
 }
