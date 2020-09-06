@@ -73,8 +73,8 @@
                     "restrict_category":false,/*为true则个性化限制在default_strategy所设置的category范围内,false为不限制*/
                     "seats":4,/*所占槽位,个性化优先级高于default_setting,所以直接抢占它的槽位,在个性化内容质量较低时,才由他补充*/
                     "engine":{/*个性化引擎设置*/
-                        "ranking": {"algo": "baseline"},/*精排设置*/
-                        "sorting": {"algo": "baseline"},/*粗排设置*/
+                        "ranking": {"algo": "baseline"},/*精排引擎设置*/
+                        "proposing": {"algo": null},/*粗排设置设置*/
                         "recall": {"keywords":{}, "category":{}}/*召回路由配置*/
                     },
                     "source":["baidu_news"]/*个性化数据源范围,当前只支持baidu_news和baidu_video*/
@@ -87,8 +87,8 @@
                     "restrict_category":false,/*为true则个性化限制在default_strategy所设置的category范围内,false为不限制*/
                     "seats":2,/*所占槽位,个性化优先级高于default_setting,所以直接抢占它的槽位,在个性化内容质量较低时,才由他补充*/
                     "engine":{/*个性化引擎设置*/
-                        "ranking": {"algo": "baseline"},/*精排设置*/
-                        "sorting": {"algo": "baseline"},/*粗排设置*/
+                        "ranking": {"algo": "baseline"},/*精排引擎设置*/
+                        "proposing": {"algo": null},/*粗排设置设置*/
                         "recall": {"keywords":{}, "category":{}}/*召回路由配置*/
                     },
                     "source":["baidu_video"]/*个性化数据源范围,当前只支持baidu_news和baidu_video*/
