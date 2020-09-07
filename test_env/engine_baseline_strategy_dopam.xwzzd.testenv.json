@@ -64,7 +64,7 @@
      "personalization": [/*个性化推荐配置*/
          {
             "channel": "rcmd",/*频道*/
-            "setting":[
+            "plans":[
                 {
                     "name": "article_personalization",
                     "keyword_max_count_per_slide": 2,/*每刷最多出多少条包含同一个关键词的内容*/
