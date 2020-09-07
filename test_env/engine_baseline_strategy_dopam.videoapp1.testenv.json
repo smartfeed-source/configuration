@@ -153,5 +153,6 @@
 				]/*end of category*/
 			}/*end of video channel*/
 		]/*end of override blending */
-	}]
+	}],
+    "personalization":[]
 }
