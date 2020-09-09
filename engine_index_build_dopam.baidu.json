@@ -37,7 +37,7 @@
 	},
 	"cold_start_exposure_setting": {
 		"default": {
-			"max_cold_start_exposure": 50
+			"max_cold_start_exposure": 20
 		}
 	}
 }
