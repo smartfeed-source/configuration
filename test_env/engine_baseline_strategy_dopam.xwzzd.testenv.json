@@ -68,7 +68,7 @@
                 {
                     "name": "article_personalization",
                     "keyword_max_count_per_slide": 2,/*每刷最多出多少条包含同一个关键词的内容*/
-                    "category_max_count_per_slide": 2,/*同一个分类每刷最多出多少条*/
+                    "category_max_count_per_slide": 1,/*同一个分类每刷最多出多少条*/
                     "author_max_count_per_slide": 1,/*每个作者每刷最多出多少条*/
                     "restrict_category":false,/*为true则个性化限制在default_strategy所设置的category范围内,false为不限制*/
                     "seats":6,/*所占槽位,个性化优先级高于default_setting,所以直接抢占它的槽位,在个性化内容质量较低时,才由他补充*/
@@ -81,7 +81,7 @@
                 },
                 {
                     "name": "video_personalization",
-                    "keyword_max_count_per_slide": 2,/*每刷最多出多少条包含同一个关键词的内容*/
+                    "keyword_max_count_per_slide": 1,/*每刷最多出多少条包含同一个关键词的内容*/
                     "category_max_count_per_slide": 1,/*同一个分类每刷最多出多少条*/
                     "author_max_count_per_slide": 1,/*每个作者每刷最多出多少条*/
                     "restrict_category":false,/*为true则个性化限制在default_strategy所设置的category范围内,false为不限制*/
