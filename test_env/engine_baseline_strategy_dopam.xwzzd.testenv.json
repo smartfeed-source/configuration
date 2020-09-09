@@ -89,7 +89,7 @@
                     "engine":{/*个性化引擎设置*/
                         "ranking": {"algo": "w2v"},/*精排引擎设置*/
                         "proposing": {"algo": null},/*粗排设置设置*/
-                        "recall": {"keyword":{}, "category":{}}/*召回路由配置*/
+                        "recall": {"keyword":{}}/*召回路由配置*/
                     },
                     "source":["baidu_video"]/*个性化数据源范围,当前只支持baidu_news和baidu_video*/
                 }
