@@ -3,30 +3,14 @@
 			"channel": "rcmd",
 			"category": [{
 					"id": 0,
-					"category": ["军事"],
-					"count": 2,
+					"category": ["军事", "时政", "国际", "社会"],
+					"count": 5,
 					"max_count": 5,
 					"source": ["baidu_news"],
 					"flags": {}
-				},
+				},	
 				{
 					"id": 1,
-					"category": ["时政", "国际"],
-					"count": 2,
-					"max_count": 5,
-					"source": ["baidu_news"],
-					"flags": {}
-				},
-				{
-					"id": 2,
-					"category": ["社会"],
-					"count": 1,
-					"max_count": 5,
-					"source": ["baidu_news"],
-					"flags": {}
-				},
-				{
-					"id": 3,
 					"category": ["美食", "汽车", "财经"],
 					"count": 1,
 					"max_count": 5,
@@ -34,7 +18,7 @@
 					"flags": {}
 				},
 				{
-					"id": 4,
+					"id": 2,
 					"category": ["历史", "娱乐",  "生活", "三农"],
 					"count": 2,
 					"max_count": 5,
@@ -42,7 +26,7 @@
 					"flags": {}
 				},
 				{
-					"id": 5,
+					"id": 3,
 					"category": ["时政", "国际"],
 					"count": 1,
 					"max_count": 5,
@@ -50,7 +34,7 @@
 					"flags": {}
 				},
 				{
-					"id": 6,
+					"id": 4,
 					"category": ["军事", "社会"],
 					"count": 1,
 					"max_count": 5,
