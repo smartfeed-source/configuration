@@ -4,7 +4,7 @@
 			"category": [{
 					"id": 0,
 					"category": ["军事", "时政", "国际", "社会"],
-					"count": 5,
+					"count": 2,
 					"max_count": 5,
 					"source": ["baidu_news"],
 					"flags": {}
