@@ -11,7 +11,7 @@
 				},	
                 {
 					"id": 1,
-					"category": ["互联网", "IT", "科技", "科学", "旅游", "文化", "职场"],
+					"category": ["互联网", "IT", "科技", "科学", "旅游", "文化"],
 					"count": 2,
 					"max_count": 10,
 					"source": ["baidu_news"],
@@ -43,7 +43,7 @@
 				},
                 {
 					"id": 5,
-					"category": ["娱乐", "时尚"],
+					"category": ["娱乐", "社会"],
 					"count": 2,
 					"max_count": 10,
 					"source": ["baidu_news"],
