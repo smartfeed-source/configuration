@@ -3,63 +3,91 @@
 			"channel": "rcmd",
 			"category": [{
 					"id": 0,
-					"category": ["军事"],
+					"category": ["军事", "时政", "国际", "社会", "财经","法制","时政"],
+					"count": 3,
+					"max_count": 10,
+					"source": ["baidu_news"],
+					"flags": {}
+				},	
+                {
+					"id": 1,
+					"category": ["互联网", "IT", "科技", "科学", "旅游", "文化"],
 					"count": 2,
-					"max_count": 5,
+					"max_count": 10,
 					"source": ["baidu_news"],
 					"flags": {}
 				},
-				{
-					"id": 1,
-					"category": ["时政", "国际"],
-					"count": 2,
-					"max_count": 5,
+                {
+					"id": 4,
+					"category": ["宠物", "大自然", "房产", "家居", "健康", "养生", "美食","育儿"],
+					"count": 1,
+					"max_count": 10,
 					"source": ["baidu_news"],
 					"flags": {}
 				},
 				{
 					"id": 2,
-					"category": ["社会"],
+					"category": ["时政", "国际","军事", "社会"],
 					"count": 1,
-					"max_count": 5,
-					"source": ["baidu_news"],
+					"max_count": 10,
+					"source": ["baidu_video"],
 					"flags": {}
 				},
 				{
 					"id": 3,
-					"category": ["健康"],
+					"category": ["相声小品","音乐", "影视"],
 					"count": 1,
-					"max_count": 5,
-					"source": ["baidu_news"],
+					"max_count": 10,
+					"source": ["baidu_video"],
 					"flags": {}
 				},
-				{
-					"id": 4,
-					"category": ["历史", "育儿", "生活", "房产"],
-					"count": 2,
-					"max_count": 5,
-					"source": ["baidu_news"],
-					"flags": {}
-				},
-				{
+                {
 					"id": 5,
-					"category": ["时政", "国际"],
-					"count": 1,
-					"max_count": 5,
-					"source": ["baidu_video"],
-					"flags": {}
-				},
-				{
-					"id": 6,
-					"category": ["军事", "社会"],
-					"count": 1,
-					"max_count": 5,
-					"source": ["baidu_video"],
+					"category": ["娱乐", "社会"],
+					"count": 2,
+					"max_count": 10,
+					"source": ["baidu_news"],
 					"flags": {}
 				}
 			] /*end of category setting*/
 		}/*end of rcmd channel*/ 
     ],
-	 "coldstart_strategy": [ ] 
-	
+	 "coldstart_strategy": [ ],
+     "personalization": [/*个性化推荐配置*/
+         {
+            "channel": "rcmd",/*频道*/
+            "plans":[
+                {
+                    "name": "article_personalization",
+                    "keyword_max_count_per_slide": 1,/*每刷最多出多少条包含同一个关键词的内容*/
+                    "category_max_count_per_slide": 2,/*同一个分类每刷最多出多少条*/
+                    "author_max_count_per_slide": 1,/*每个作者每刷最多出多少条*/
+                    "explore_expliot_weight": 0.5,/*让引擎更多地探索新兴趣(可能导致推送的内容不是用户喜欢的)还是曝光兴趣内容(可能导致用户很快厌倦),1是全explore, 0是全expliot*/ 
+                    "restrict_category":false,/*为true则个性化限制在default_strategy所设置的category范围内,false为不限制*/
+                    "seats":6,/*所占槽位,个性化优先级高于default_setting,所以直接抢占它的槽位,在个性化内容质量较低时,才由他补充*/
+                    "engine":{/*个性化引擎设置*/
+                        "ranking": {"algo": "w2v"},/*精排引擎设置*/
+                        "proposing": {"algo": null},/*粗排设置设置*/
+                        "recall": {"keyword":{},"category":{}}/*召回路由配置*/
+                    },
+                    "source":["baidu_news"]/*个性化数据源范围,当前只支持baidu_news和baidu_video*/
+                },
+                {
+                    "name": "video_personalization",
+                    "keyword_max_count_per_slide": 1,/*每刷最多出多少条包含同一个关键词的内容*/
+                    "category_max_count_per_slide": 1,/*同一个分类每刷最多出多少条*/
+                    "author_max_count_per_slide": 1,/*每个作者每刷最多出多少条*/
+                    "explore_expliot_weight": 0.5,/*让引擎更多地探索新兴趣(可能导致推送的内容不是用户喜欢的)还是曝光兴趣内容(可能导致用户很快厌倦),1是全explore, 0是全expliot*/ 
+                    "restrict_category":false,/*为true则个性化限制在default_strategy所设置的category范围内,false为不限制*/
+                    "seats":2,/*所占槽位,个性化优先级高于default_setting,所以直接抢占它的槽位,在个性化内容质量较低时,才由他补充*/
+                    "engine":{/*个性化引擎设置*/
+                        "ranking": {"algo": "w2v"},/*精排引擎设置*/
+                        "proposing": {"algo": null},/*粗排设置设置*/
+                        "recall": {"keyword":{},"category":{}}/*召回路由配置*/
+                    },
+                    "source":["baidu_video"]/*个性化数据源范围,当前只支持baidu_news和baidu_video*/
+                }
+            ]
+         }
+     ]
 }
