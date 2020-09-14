@@ -4,7 +4,7 @@
 			"category": [{
 					"id": 0,
 					"category": ["军事", "时政", "国际", "社会", "财经","法制","时政"],
-					"count": 2,
+					"count": 3,
 					"max_count": 10,
 					"source": ["baidu_news"],
 					"flags": {}
@@ -20,14 +20,14 @@
                 {
 					"id": 4,
 					"category": ["宠物", "大自然", "房产", "家居", "健康", "养生", "美食","育儿"],
-					"count": 2,
+					"count": 1,
 					"max_count": 10,
 					"source": ["baidu_news"],
 					"flags": {}
 				},
 				{
 					"id": 2,
-					"category": ["时政", "国际", "相声小品","音乐", "影视"],
+					"category": ["时政", "国际","军事", "社会"],
 					"count": 1,
 					"max_count": 10,
 					"source": ["baidu_video"],
@@ -35,7 +35,7 @@
 				},
 				{
 					"id": 3,
-					"category": ["军事", "社会"],
+					"category": ["相声小品","音乐", "影视"],
 					"count": 1,
 					"max_count": 10,
 					"source": ["baidu_video"],
