@@ -59,7 +59,7 @@
             "plans":[
                 {
                     "name": "article_personalization",
-                    "keyword_max_count_per_slide": 2,/*每刷最多出多少条包含同一个关键词的内容*/
+                    "keyword_max_count_per_slide": 1,/*每刷最多出多少条包含同一个关键词的内容*/
                     "category_max_count_per_slide": 2,/*同一个分类每刷最多出多少条*/
                     "author_max_count_per_slide": 1,/*每个作者每刷最多出多少条*/
                     "explore_expliot_weight": 0.8,/*让引擎更多地探索新兴趣(可能导致推送的内容不是用户喜欢的)还是曝光兴趣内容(可能导致用户很快厌倦),1是全explore, 0是全expliot*/ 
