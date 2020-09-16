@@ -50,43 +50,8 @@
 					"flags": {}
 				}
 			] /*end of category setting*/
-		},/*end of rcmd channel*/ 
-       {
-			"channel": "health",
-			"category": [{
-					"id": 0,
-					"category": ["健康","养生","癌症","传染病","高血压","睡眠"],
-					"count": 5,
-					"max_count": 10,
-					"source": ["baidu_news"],
-					"flags": {}
-				},
-                   {
-					"id": 1,
-					"category": ["健康","中医","护肤","糖尿病","健身","食品安全"],
-					"count": 2,
-					"max_count": 10,
-					"source": ["baidu_news"],
-					"flags": {}
-				},
-                   {
-					"id": 2,
-					"category": ["健康","不孕不育","保健品","呼吸道疾病","心血管病"],
-					"count": 1,
-					"max_count": 10,
-					"source": ["baidu_news"],
-					"flags": {}
-				},
-				{
-					"id": 3,
-					"category": ["健康"],
-					"count": 2,
-					"max_count": 10,
-					"source": ["baidu_video"],
-					"flags": {}
-				}
-			]/*end of category setting*/
-		}/*end of health channel*/ 
+		}/*end of rcmd channel*/ 
+      
     ],
 	 "coldstart_strategy": [ ],
      "personalization": [/*个性化推荐配置*/
