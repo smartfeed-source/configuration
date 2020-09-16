@@ -252,7 +252,7 @@
 			]/*end of category setting*/
 		},/*end of phone channel*/
          {
-			"channel": "phone",
+			"channel": "car",
 			"category": [{
 					"id": 0,
 					"category": ["汽车"],
@@ -283,7 +283,7 @@
 				},
                    {
 					"id": 1,
-					"category": ["科技","科学","航空航天","IT","互联网","无人机","机器人"],
+					"category": ["科技","科学","新能源","航空航天","IT","互联网","无人机","机器人"],
 					"count": 3,
 					"max_count": 10,
 					"source": ["baidu_news"],
@@ -298,7 +298,35 @@
 					"flags": {}
 				}
 			]/*end of category setting*/
-		}/*end of technology channel*/
+		},/*end of technology channel*/
+         {
+			"channel": "finance",
+			"category": [{
+					"id": 0,
+					"category": ["财经","投资","金融"],
+					"count": 5,
+					"max_count": 10,
+					"source": ["baidu_news"],
+					"flags": {}
+				},
+                   {
+					"id": 1,
+					"category": ["财经","银行业","宏观经济"],
+					"count": 3,
+					"max_count": 10,
+					"source": ["baidu_news"],
+					"flags": {}
+				},
+                   {
+					"id": 2,
+					"category": ["财经","投资","金融"],
+					"count": 2,
+					"max_count": 10,
+					"source": ["baidu_video","baidu_news"],
+					"flags": {}
+				}
+			]/*end of category setting*/
+		}/*end of finance channel*/
     ],
 	 "coldstart_strategy": [ ],
      "personalization": [/*个性化推荐配置*/
