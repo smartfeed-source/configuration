@@ -50,27 +50,8 @@
 					"flags": {}
 				}
 			] /*end of category setting*/
-		},/*end of rcmd channel*/ 
-        {
-			"channel": "health",
-			"category": [{
-					"id": 0,
-					"category": ["国际"],
-					"count": 8,
-					"max_count": 10,
-					"source": ["baidu_news"],
-					"flags": {}
-				},
-				{
-					"id": 1,
-					"category": ["军事"],
-					"count": 2,
-					"max_count": 10,
-					"source": ["baidu_video"],
-					"flags": {}
-				}
-			]/*end of category setting*/
-		}/*end of hot channel*/
+		}/*end of rcmd channel*/ 
+       
     ],
 	 "coldstart_strategy": [ ],
      "personalization": [/*个性化推荐配置*/
