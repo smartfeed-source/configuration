@@ -222,7 +222,35 @@
 					"flags": {}
 				}
 			]/*end of category setting*/
-		}/*end of entertainment channel*/
+		},/*end of entertainment channel*/
+         {
+			"channel": "phone",
+			"category": [{
+					"id": 0,
+					"category": ["手机","数码","通信"],
+					"count": 5,
+					"max_count": 10,
+					"source": ["baidu_news"],
+					"flags": {}
+				},
+                   {
+					"id": 1,
+					"category": ["手机","IT","互联网","耳机","相机"],
+					"count": 3,
+					"max_count": 10,
+					"source": ["baidu_news"],
+					"flags": {}
+				},
+                   {
+					"id": 2,
+					"category": ["手机","数码","通信"],
+					"count": 2,
+					"max_count": 10,
+					"source": ["baidu_video","baidu_news"],
+					"flags": {}
+				}
+			]/*end of category setting*/
+		}/*end of phone channel*/
     ],
 	 "coldstart_strategy": [ ],
      "personalization": [/*个性化推荐配置*/
