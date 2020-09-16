@@ -270,7 +270,35 @@
 					"flags": {}
 				}
 			]/*end of category setting*/
-		}/*end of car channel*/
+		},/*end of car channel*/
+         {
+			"channel": "technology",
+			"category": [{
+					"id": 0,
+					"category": ["科学","科技"],
+					"count": 5,
+					"max_count": 10,
+					"source": ["baidu_news"],
+					"flags": {}
+				},
+                   {
+					"id": 1,
+					"category": ["科技","科学","航空航天","IT","互联网","无人机","机器人"],
+					"count": 3,
+					"max_count": 10,
+					"source": ["baidu_news"],
+					"flags": {}
+				},
+                   {
+					"id": 2,
+					"category": ["科技","科学","航空航天","IT","互联网","无人机","机器人"],
+					"count": 2,
+					"max_count": 10,
+					"source": ["baidu_video","baidu_news"],
+					"flags": {}
+				}
+			]/*end of category setting*/
+		}/*end of technology channel*/
     ],
 	 "coldstart_strategy": [ ],
      "personalization": [/*个性化推荐配置*/
