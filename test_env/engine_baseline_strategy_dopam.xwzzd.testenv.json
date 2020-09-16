@@ -64,7 +64,7 @@
                    {
 					"id": 1,
 					"category": ["健康","中医","护肤","糖尿病","健身","食品安全"],
-					"count": 2,
+					"count": 3,
 					"max_count": 10,
 					"source": ["baidu_news"],
 					"flags": {}
