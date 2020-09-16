@@ -52,7 +52,7 @@
 			] /*end of category setting*/
 		},/*end of rcmd channel*/ 
         {
-			"channel": "local",
+			"channel": "hot",
 			"category": [{
 					"id": 0,
 					"category": ["历史"],
