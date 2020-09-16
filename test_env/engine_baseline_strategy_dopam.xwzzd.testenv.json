@@ -346,7 +346,27 @@
 					"flags": {}
 				}
 			]/*end of category setting*/
-		}/*end of sport channel*/
+		},/*end of sport channel*/
+         {
+			"channel": "house",
+			"category": [{
+					"id": 0,
+					"category": ["房产","家居","建筑","房地产"],
+					"count": 8,
+					"max_count": 10,
+					"source": ["baidu_news"],
+					"flags": {}
+				},
+                   {
+					"id": 1,
+					"category": ["房产","家居","建筑","房地产"],
+					"count": 2,
+					"max_count": 10,
+					"source": ["baidu_video","baidu_news"],
+					"flags": {}
+				}
+			]/*end of category setting*/
+		}/*end of house channel*/
     ],
 	 "coldstart_strategy": [ ],
      "personalization": [/*个性化推荐配置*/
