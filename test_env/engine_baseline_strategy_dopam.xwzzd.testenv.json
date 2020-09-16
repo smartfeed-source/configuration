@@ -250,7 +250,27 @@
 					"flags": {}
 				}
 			]/*end of category setting*/
-		}/*end of phone channel*/
+		},/*end of phone channel*/
+         {
+			"channel": "phone",
+			"category": [{
+					"id": 0,
+					"category": ["汽车"],
+					"count": 8,
+					"max_count": 10,
+					"source": ["baidu_news"],
+					"flags": {}
+				},
+                   {
+					"id": 1,
+					"category": ["汽车"],
+					"count": 2,
+					"max_count": 10,
+					"source": ["baidu_video","baidu_news"],
+					"flags": {}
+				}
+			]/*end of category setting*/
+		}/*end of car channel*/
     ],
 	 "coldstart_strategy": [ ],
      "personalization": [/*个性化推荐配置*/
