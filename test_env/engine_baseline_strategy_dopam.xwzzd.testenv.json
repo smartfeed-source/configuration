@@ -52,7 +52,7 @@
 			] /*end of category setting*/
 		},/*end of rcmd channel*/ 
         {
-			"channel": "hot",
+			"channel": "health",
 			"category": [{
 					"id": 0,
 					"category": ["国际"],
@@ -65,7 +65,7 @@
 					"id": 1,
 					"category": ["军事"],
 					"count": 2,
-					"max_count": 5,
+					"max_count": 10,
 					"source": ["baidu_video"],
 					"flags": {}
 				}
