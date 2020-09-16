@@ -50,27 +50,7 @@
 					"flags": {}
 				}
 			] /*end of category setting*/
-		},/*end of rcmd channel*/ 
-        {
-			"channel": "hot",
-			"category": [{
-					"id": 0,
-					"category": ["历史"],
-					"count": 8,
-					"max_count": 10,
-					"source": ["baidu_news"],
-					"flags": {}
-				},
-				{
-					"id": 1,
-					"category": ["历史"],
-					"count": 2,
-					"max_count": 5,
-					"source": ["baidu_video"],
-					"flags": {}
-				}
-			]/*end of category setting*/
-		}/*end of rcmd channel*/
+		}/*end of rcmd channel*/ 
     ],
 	 "coldstart_strategy": [ ],
      "personalization": [/*个性化推荐配置*/
