@@ -100,7 +100,7 @@
                    {
 					"id": 1,
 					"category": ["军事","国际","时政","搞笑","小品","娱乐"],
-					"count": 2,
+					"count": 3,
 					"max_count": 10,
 					"source": ["baidu_video"],
 					"flags": {}
@@ -108,7 +108,7 @@
                    {
 					"id": 2,
 					"category": ["影视","猎奇","萌萌哒","广场舞","社会","音乐"],
-					"count": 1,
+					"count": 2,
 					"max_count": 10,
 					"source": ["baidu_news"],
 					"flags": {}
