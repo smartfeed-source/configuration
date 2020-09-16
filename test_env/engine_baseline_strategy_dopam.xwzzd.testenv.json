@@ -122,7 +122,43 @@
 					"flags": {}
 				}
 			]/*end of category setting*/
-		}/*end of video channel*/
+		},/*end of video channel*/
+        {
+			"channel": "hot",
+			"category": [{
+					"id": 0,
+					"category": ["国际","时政"],
+					"count": 3,
+					"max_count": 10,
+					"source": ["baidu_news"],
+					"flags": {}
+				},
+                   {
+					"id": 1,
+					"category": ["军事","历史","社会","生活"],
+					"count": 3,
+					"max_count": 10,
+					"source": ["baidu_news"],
+					"flags": {}
+				},
+                   {
+					"id": 2,
+					"category": ["国际","时政","历史","科技","IT"],
+					"count": 2,
+					"max_count": 10,
+					"source": ["baidu_news"],
+					"flags": {}
+				},
+				{
+					"id": 3,
+					"category": ["国际","时政","军事","历史"],
+					"count": 2,
+					"max_count": 10,
+					"source": ["baidu_video"],
+					"flags": {}
+				}
+			]/*end of category setting*/
+		}/*end of hot channel*/
     ],
 	 "coldstart_strategy": [ ],
      "personalization": [/*个性化推荐配置*/
