@@ -352,7 +352,7 @@
 			"category": [{
 					"id": 0,
 					"category": ["房产","家居","建筑","房地产","自建房","购房"],
-					"count": 8,
+					"count": 5,
 					"max_count": 10,
 					"source": ["baidu_news"],
 					"flags": {}
@@ -360,7 +360,7 @@
                 {
 					"id": 1,
 					"category": ["二手房","房产","房地产","装修","租房","智能家居"],
-					"count": 8,
+					"count": 3,
 					"max_count": 10,
 					"source": ["baidu_news"],
 					"flags": {}
