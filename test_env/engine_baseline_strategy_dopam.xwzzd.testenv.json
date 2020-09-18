@@ -351,7 +351,7 @@
 			"channel": "house",
 			"category": [{
 					"id": 0,
-					"category": ["房产","家居","建筑","房地产","自建房","购房"],
+					"category": ["房产","家居","建筑","房地产","自建房","购房","楼盘"],
 					"count": 5,
 					"max_count": 10,
 					"source": ["baidu_news"],
