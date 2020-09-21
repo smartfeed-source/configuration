@@ -1,0 +1,61 @@
+{
+	"wildcard": {
+		"category": ["国际", "军事", "时政", "科技", "科学", "财经", "时尚", "娱乐", "台海"]
+	},
+	"restrict_media": {
+		"国际": ["official_media", 4],
+		"时政": ["official_media", 4],
+		"军事": ["official_media", 4],
+		"社会": [4, 3],
+		"财经": [4, 3]
+	},
+	"local_filter_for_non_local_news": {
+		"exposure_threshold": 500,
+		"ctr_threshold": 0.4
+	},
+	"subcategory_filter": {
+		"社会": ["法制", "正能量", "奇闻轶事", "奇葩", "历史", "婚姻", "传染病", "时政"]
+	},
+	"consider_time_score": {
+        "default":{
+            "start_days": 3,
+            "max_allowed_publish_days": 90 
+        },		
+        "category": {
+            "生肖": {
+                "max_allowed_publish_days": 1,
+                "start_days": 2
+            },
+            "运势": {
+                "max_allowed_publish_days": 1,
+                "start_days": 2
+            },
+            "热点": {
+                "max_allowed_publish_days": 3,
+                "start_days": 2
+            },
+			"国际": {
+				"start_days": 2,
+                "max_allowed_publish_days": 5
+			},
+			"时政": {
+				"start_days": 2,
+                "max_allowed_publish_days": 3
+			},
+			"财经": {
+				"start_days": 2
+			},
+			"社会": {
+				"start_days": 2
+			},
+			"军事": {
+				"start_days": 2
+			}
+		}
+	},
+	"cold_start_exposure_setting": {
+		"default": {
+			"max_cold_start_exposure": 20
+		}
+	}
+}
