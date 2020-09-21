@@ -22,6 +22,14 @@
             "max_allowed_publish_days": 90 
         },		
         "category": {
+            "生肖": {
+                "max_allowed_publish_days": 1,
+                "start_days": 2
+            },
+            "运势": {
+                "max_allowed_publish_days": 1,
+                "start_days": 2
+            },
             "热点": {
                 "max_allowed_publish_days": 3,
                 "start_days": 2
