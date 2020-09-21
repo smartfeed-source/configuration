@@ -17,12 +17,22 @@
 		"社会": ["法制", "正能量", "奇闻轶事", "奇葩", "历史", "婚姻", "传染病", "时政"]
 	},
 	"consider_time_score": {
-		"category": {
+        "default":{
+            "start_days": 3,
+            "max_allowed_publish_days": 90 
+        },		
+        "category": {
+            "热点": {
+                "max_allowed_publish_days": 3,
+                "start_days": 2
+            },
 			"国际": {
-				"start_days": 2
+				"start_days": 2,
+                "max_allowed_publish_days": 5
 			},
 			"时政": {
-				"start_days": 2
+				"start_days": 2,
+                "max_allowed_publish_days": 3
 			},
 			"财经": {
 				"start_days": 2
@@ -31,7 +41,7 @@
 				"start_days": 2
 			},
 			"军事": {
-				"start_days": 3
+				"start_days": 2
 			}
 		}
 	},
