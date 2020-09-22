@@ -99,7 +99,7 @@
 			"channel": "video",
 			"category": [{
 					"id": 0,
-					"category": ["台海时事", "军事", "环球军事", "国外宏观","国际"],
+					"category": ["台海时事", "军事", "环球军事", "国外宏观","国际","历史"],
 					"count": 3,
 					"max_count": 10,
 					"source": ["baidu_video"],
@@ -123,7 +123,7 @@
 				},
 				{
 					"id": 3,
-					"category": ["科技","财经","历史","娱乐","旅游","养生"],
+					"category": ["科技","财经","历史","旅游","养生"],
 					"count": 2,
 					"max_count": 10,
 					"source": ["baidu_video"],
