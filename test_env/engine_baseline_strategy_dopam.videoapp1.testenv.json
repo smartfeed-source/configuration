@@ -117,7 +117,7 @@
 			}
 		},/*end of condition*/
 		"override_blending_strategy": [{
-				"channel": "rcmd",
+				"channel": "rcmd_video",
 				"category": [{
 						"id": 5,
 						"category": ["游戏", "漫画"],
