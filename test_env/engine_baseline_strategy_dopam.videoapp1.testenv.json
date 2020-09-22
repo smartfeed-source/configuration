@@ -27,7 +27,7 @@
 				},
 				{
 					"id": 3,
-					"category": ["军事"],
+					"category": ["财经", "投资","数码", "银行","娱乐","能源","运营商"],
 					"count": 2,
 					"max_count": 5,
 					"source": ["baidu_video"],
