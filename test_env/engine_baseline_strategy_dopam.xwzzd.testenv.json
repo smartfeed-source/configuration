@@ -172,7 +172,7 @@
 			"category": [{
 					"id": 0,
 					"category": ["军事","中国军情","国际","台海时事"],
-					"count": 5,
+					"count": 3,
 					"max_count": 10,
 					"source": ["baidu_news"],
 					"flags": {}
@@ -180,6 +180,14 @@
                    {
 					"id": 1,
 					"category": ["军事","军事历史","海军","战斗机","空军","武器装备","军情"],
+					"count": 2,
+					"max_count": 10,
+					"source": ["baidu_news"],
+					"flags": {}
+				},
+                        {
+					"id": 4,
+					"category": ["军事","中国军情","国际","台海时事","时政","历史"],
 					"count": 2,
 					"max_count": 10,
 					"source": ["baidu_news"],
@@ -198,7 +206,7 @@
 					"category": ["军事"],
 					"count": 2,
 					"max_count": 10,
-					"source": ["baidu_video"],
+					"source": ["baidu_video","baidu_news"],
 					"flags": {}
 				}
 			]/*end of category setting*/
