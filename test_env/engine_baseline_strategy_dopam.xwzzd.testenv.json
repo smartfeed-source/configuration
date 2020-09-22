@@ -99,7 +99,7 @@
 			"channel": "video",
 			"category": [{
 					"id": 0,
-					"category": ["国际","时政","癌症","社会","生活"],
+					"category": ["台海时事", "军事", "环球军事", "国外宏观","国际"],
 					"count": 3,
 					"max_count": 10,
 					"source": ["baidu_video"],
@@ -115,7 +115,7 @@
 				},
                    {
 					"id": 2,
-					"category": ["影视","猎奇","萌萌哒","广场舞","社会","音乐"],
+					"category": ["影视","猎奇","萌萌哒","广场舞","社会","音乐","生活"],
 					"count": 2,
 					"max_count": 10,
 					"source": ["baidu_video"],
