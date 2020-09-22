@@ -3,7 +3,7 @@
 			"channel": "rcmd",
 			"category": [{
 					"id": 0,
-					"category": ["军事", "时政", "国际", "社会", "财经","法制","时政"],
+					"category": [ "台海时事", "军事", "环球军事", "国外宏观","国际"],
 					"count": 3,
 					"max_count": 10,
 					"source": ["baidu_news"],
@@ -11,7 +11,7 @@
 				},	
                 {
 					"id": 1,
-					"category": ["互联网", "IT", "科技", "科学", "旅游", "文化"],
+					"category": ["健康", "历史", "三农", "法制", "时政", "旅游","社会","养生"],
 					"count": 2,
 					"max_count": 10,
 					"source": ["baidu_news"],
@@ -19,7 +19,7 @@
 				},
                 {
 					"id": 4,
-					"category": ["宠物", "大自然", "房产", "家居", "健康", "养生", "美食","育儿"],
+					"category": ["生活", "美食", "国际社会", "水果", "通讯", "科技"],
 					"count": 1,
 					"max_count": 10,
 					"source": ["baidu_news"],
@@ -27,15 +27,23 @@
 				},
 				{
 					"id": 2,
-					"category": ["时政", "国际","军事", "社会"],
+					"category": ["财经", "投资","数码", "银行","娱乐","能源","运营商"],
 					"count": 1,
 					"max_count": 10,
-					"source": ["baidu_video"],
+					"source": ["baidu_news"],
+					"flags": {}
+				},
+                 {
+					"id": 3,
+					"category": ["热点", "社会"],
+					"count": 1,
+					"max_count": 10,
+					"source": ["baidu_news"],
 					"flags": {}
 				},
 				{
-					"id": 3,
-					"category": ["相声小品","音乐", "影视"],
+					"id": 4,
+					"category": ["军事","时政", "历史","国际","旅游"],
 					"count": 1,
 					"max_count": 10,
 					"source": ["baidu_video"],
@@ -43,14 +51,346 @@
 				},
                 {
 					"id": 5,
-					"category": ["娱乐", "社会"],
+					"category": ["娱乐", "影视周边","财经","文化","国际"],
+					"count": 1,
+					"max_count": 10,
+					"source": ["baidu_video"],
+					"flags": {}
+				}
+			] /*end of category setting*/
+		},/*end of rcmd channel*/ 
+       {
+			"channel": "health",
+			"category": [{
+					"id": 0,
+					"category": ["健康","养生","癌症","传染病","高血压","睡眠"],
+					"count": 5,
+					"max_count": 10,
+					"source": ["baidu_news"],
+					"flags": {}
+				},
+                   {
+					"id": 1,
+					"category": ["健康","中医","护肤","糖尿病","健身","食品安全"],
+					"count": 3,
+					"max_count": 10,
+					"source": ["baidu_news"],
+					"flags": {}
+				},
+                   {
+					"id": 2,
+					"category": ["健康","不孕不育","保健品","呼吸道疾病","心血管病"],
+					"count": 1,
+					"max_count": 10,
+					"source": ["baidu_news"],
+					"flags": {}
+				},
+				{
+					"id": 3,
+					"category": ["健康"],
+					"count": 2,
+					"max_count": 10,
+					"source": ["baidu_video"],
+					"flags": {}
+				}
+			]/*end of category setting*/
+		},/*end of health channel*/ 
+         {
+			"channel": "video",
+			"category": [{
+					"id": 0,
+					"category": ["台海时事", "军事", "环球军事", "国外宏观","国际","历史"],
+					"count": 3,
+					"max_count": 10,
+					"source": ["baidu_video"],
+					"flags": {}
+				},
+                   {
+					"id": 1,
+					"category": ["军事","国际","时政","搞笑","小品","娱乐"],
+					"count": 3,
+					"max_count": 10,
+					"source": ["baidu_video"],
+					"flags": {}
+				},
+                   {
+					"id": 2,
+					"category": ["影视","猎奇","萌萌哒","广场舞","社会","音乐","生活"],
+					"count": 2,
+					"max_count": 10,
+					"source": ["baidu_video"],
+					"flags": {}
+				},
+				{
+					"id": 3,
+					"category": ["科技","财经","历史","旅游","养生"],
+					"count": 2,
+					"max_count": 10,
+					"source": ["baidu_video"],
+					"flags": {}
+				}
+			]/*end of category setting*/
+		},/*end of video channel*/
+        {
+			"channel": "hot",
+			"category": [{
+					"id": 0,
+					"category": ["国际","时政"],
+					"count": 3,
+					"max_count": 10,
+					"source": ["baidu_news"],
+					"flags": {}
+				},
+                   {
+					"id": 1,
+					"category": ["军事","历史","社会","生活"],
+					"count": 3,
+					"max_count": 10,
+					"source": ["baidu_news"],
+					"flags": {}
+				},
+                   {
+					"id": 2,
+					"category": ["国际","时政","历史","科技","IT"],
 					"count": 2,
 					"max_count": 10,
 					"source": ["baidu_news"],
 					"flags": {}
+				},
+				{
+					"id": 3,
+					"category": ["国际","时政","军事","历史"],
+					"count": 2,
+					"max_count": 10,
+					"source": ["baidu_video"],
+					"flags": {}
 				}
-			] /*end of category setting*/
-		}/*end of rcmd channel*/ 
+			]/*end of category setting*/
+		},/*end of hot channel*/
+         {
+			"channel": "military",
+			"category": [{
+					"id": 0,
+					"category": ["军事","中国军情","国际","台海时事"],
+					"count": 3,
+					"max_count": 10,
+					"source": ["baidu_news"],
+					"flags": {}
+				},
+                   {
+					"id": 1,
+					"category": ["军事","军事历史","海军","战斗机","空军","武器装备","军情"],
+					"count": 2,
+					"max_count": 10,
+					"source": ["baidu_news"],
+					"flags": {}
+				},
+                        {
+					"id": 4,
+					"category": ["军事","中国军情","国际","台海时事","时政","历史"],
+					"count": 2,
+					"max_count": 10,
+					"source": ["baidu_news"],
+					"flags": {}
+				},
+                   {
+					"id": 2,
+					"category": ["环球军事","导弹","航母","陆军","军事历史","中东局势","军舰"],
+					"count": 1,
+					"max_count": 10,
+					"source": ["baidu_news"],
+					"flags": {}
+				},
+				{
+					"id": 3,
+					"category": ["军事"],
+					"count": 2,
+					"max_count": 10,
+					"source": ["baidu_video","baidu_news"],
+					"flags": {}
+				}
+			]/*end of category setting*/
+		},/*end of military channel*/
+         {
+			"channel": "entertainment",
+			"category": [{
+					"id": 0,
+					"category": ["娱乐"],
+					"count": 7,
+					"max_count": 10,
+					"source": ["baidu_news"],
+					"flags": {}
+				},
+                   {
+					"id": 1,
+					"category": ["娱乐","影视周边","小品","相声","搞笑","综艺","影视"],
+					"count": 1,
+					"max_count": 10,
+					"source": ["baidu_video","baidu_news"],
+					"flags": {}
+				},
+				{
+					"id": 2,
+					"category": ["娱乐","影视周边","小品","相声","搞笑","综艺","影视"],
+					"count": 2,
+					"max_count": 10,
+					"source": ["baidu_video"],
+					"flags": {}
+				}
+			]/*end of category setting*/
+		},/*end of entertainment channel*/
+         {
+			"channel": "phone",
+			"category": [{
+					"id": 0,
+					"category": ["手机","数码","通信"],
+					"count": 5,
+					"max_count": 10,
+					"source": ["baidu_news"],
+					"flags": {}
+				},
+                   {
+					"id": 1,
+					"category": ["手机","IT","互联网","耳机","相机"],
+					"count": 3,
+					"max_count": 10,
+					"source": ["baidu_news"],
+					"flags": {}
+				},
+                   {
+					"id": 2,
+					"category": ["手机","数码","通信"],
+					"count": 2,
+					"max_count": 10,
+					"source": ["baidu_video","baidu_news"],
+					"flags": {}
+				}
+			]/*end of category setting*/
+		},/*end of phone channel*/
+         {
+			"channel": "car",
+			"category": [{
+					"id": 0,
+					"category": ["汽车"],
+					"count": 8,
+					"max_count": 10,
+					"source": ["baidu_news"],
+					"flags": {}
+				},
+                   {
+					"id": 1,
+					"category": ["汽车"],
+					"count": 2,
+					"max_count": 10,
+					"source": ["baidu_video","baidu_news"],
+					"flags": {}
+				}
+			]/*end of category setting*/
+		},/*end of car channel*/
+         {
+			"channel": "technology",
+			"category": [{
+					"id": 0,
+					"category": ["科学","科技"],
+					"count": 5,
+					"max_count": 10,
+					"source": ["baidu_news"],
+					"flags": {}
+				},
+                   {
+					"id": 1,
+					"category": ["科技","科学","新能源","航空航天","IT","互联网","无人机","机器人"],
+					"count": 3,
+					"max_count": 10,
+					"source": ["baidu_news"],
+					"flags": {}
+				},
+                   {
+					"id": 2,
+					"category": ["科技","科学","航空航天","IT","互联网","无人机","机器人"],
+					"count": 2,
+					"max_count": 10,
+					"source": ["baidu_video","baidu_news"],
+					"flags": {}
+				}
+			]/*end of category setting*/
+		},/*end of technology channel*/
+         {
+			"channel": "finance",
+			"category": [{
+					"id": 0,
+					"category": ["财经","投资","金融"],
+					"count": 5,
+					"max_count": 10,
+					"source": ["baidu_news"],
+					"flags": {}
+				},
+                   {
+					"id": 1,
+					"category": ["财经","银行业","宏观经济"],
+					"count": 3,
+					"max_count": 10,
+					"source": ["baidu_news"],
+					"flags": {}
+				},
+                   {
+					"id": 2,
+					"category": ["财经","投资","金融"],
+					"count": 2,
+					"max_count": 10,
+					"source": ["baidu_video","baidu_news"],
+					"flags": {}
+				}
+			]/*end of category setting*/
+		},/*end of finance channel*/
+         {
+			"channel": "sport",
+			"category": [{
+					"id": 0,
+					"category": ["体育"],
+					"count": 8,
+					"max_count": 10,
+					"source": ["baidu_news"],
+					"flags": {}
+				},
+                   {
+					"id": 1,
+					"category": ["体育"],
+					"count": 2,
+					"max_count": 10,
+					"source": ["baidu_video","baidu_news"],
+					"flags": {}
+				}
+			]/*end of category setting*/
+		},/*end of sport channel*/
+         {
+			"channel": "house",
+			"category": [{
+					"id": 0,
+					"category": ["房产","家居","建筑","房地产","自建房","购房","楼盘"],
+					"count": 5,
+					"max_count": 10,
+					"source": ["baidu_news"],
+					"flags": {}
+				},
+                {
+					"id": 1,
+					"category": ["二手房","房产","房地产","装修","租房","智能家居"],
+					"count": 3,
+					"max_count": 10,
+					"source": ["baidu_news"],
+					"flags": {}
+				},
+                   {
+					"id": 2,
+					"category": ["房产","家居","建筑","房地产"],
+					"count": 2,
+					"max_count": 10,
+					"source": ["baidu_video","baidu_news"],
+					"flags": {}
+				}
+			]/*end of category setting*/
+		}/*end of house channel*/
     ],
 	 "coldstart_strategy": [ ],
      "personalization": [/*个性化推荐配置*/
@@ -64,7 +404,7 @@
                     "author_max_count_per_slide": 1,/*每个作者每刷最多出多少条*/
                     "explore_expliot_weight": 0.5,/*让引擎更多地探索新兴趣(可能导致推送的内容不是用户喜欢的)还是曝光兴趣内容(可能导致用户很快厌倦),1是全explore, 0是全expliot*/ 
                     "restrict_category":false,/*为true则个性化限制在default_strategy所设置的category范围内,false为不限制*/
-                    "seats":6,/*所占槽位,个性化优先级高于default_setting,所以直接抢占它的槽位,在个性化内容质量较低时,才由他补充*/
+                    "seats":0,/*所占槽位,个性化优先级高于default_setting,所以直接抢占它的槽位,在个性化内容质量较低时,才由他补充*/
                     "engine":{/*个性化引擎设置*/
                         "ranking": {"algo": "w2v"},/*精排引擎设置*/
                         "proposing": {"algo": null},/*粗排设置设置*/
@@ -79,7 +419,7 @@
                     "author_max_count_per_slide": 1,/*每个作者每刷最多出多少条*/
                     "explore_expliot_weight": 0.5,/*让引擎更多地探索新兴趣(可能导致推送的内容不是用户喜欢的)还是曝光兴趣内容(可能导致用户很快厌倦),1是全explore, 0是全expliot*/ 
                     "restrict_category":false,/*为true则个性化限制在default_strategy所设置的category范围内,false为不限制*/
-                    "seats":2,/*所占槽位,个性化优先级高于default_setting,所以直接抢占它的槽位,在个性化内容质量较低时,才由他补充*/
+                    "seats":0,/*所占槽位,个性化优先级高于default_setting,所以直接抢占它的槽位,在个性化内容质量较低时,才由他补充*/
                     "engine":{/*个性化引擎设置*/
                         "ranking": {"algo": "w2v"},/*精排引擎设置*/
                         "proposing": {"algo": null},/*粗排设置设置*/
