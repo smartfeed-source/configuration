@@ -1,6 +1,6 @@
 {
 	"default_blending_strategy": [{
-			"channel": "rcmd",
+			"channel": "rcmd_video",
 			"category": [{
 					"id": 0,
 					"category": ["历史"],
