@@ -30,7 +30,7 @@
 					"category": ["财经", "投资","数码", "银行","娱乐","能源","运营商"],
 					"count": 1,
 					"max_count": 10,
-					"source": ["baidu_video"],
+					"source": ["baidu_news"],
 					"flags": {}
 				},
                  {
