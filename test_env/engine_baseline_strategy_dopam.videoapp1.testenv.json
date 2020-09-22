@@ -6,7 +6,7 @@
 					"category": ["历史"],
 					"count": 1,
 					"max_count": 5,
-					"source": ["baidu_news"],
+					"source": ["baidu_video"],
 					"flags": {}
 				},
 				{
@@ -14,7 +14,7 @@
 					"category": ["法制"],
 					"count": 1,
 					"max_count": 5,
-					"source": ["baidu_news"],
+					"source": ["baidu_video"],
 					"flags": {}
 				},
 				{
@@ -22,7 +22,7 @@
 					"category": ["国际"],
 					"count": 2,
 					"max_count": 5,
-					"source": ["sohu_news"],
+					"source": ["baidu_video"],
 					"flags": {}
 				},
 				{
@@ -30,7 +30,7 @@
 					"category": ["军事"],
 					"count": 2,
 					"max_count": 5,
-					"source": ["baidu_news"],
+					"source": ["baidu_video"],
 					"flags": {}
 				},
 				{
@@ -38,7 +38,7 @@
 					"category": ["社会"],
 					"count": 1,
 					"max_count": 5,
-					"source": ["baidu_news"],
+					"source": ["baidu_video"],
 					"flags": {}
 				},
 				{
@@ -46,7 +46,7 @@
 					"category": ["健康"],
 					"count": 1,
 					"max_count": 5,
-					"source": ["baidu_news"],
+					"source": ["baidu_video"],
 					"flags": {}
 				},
 				{
@@ -123,7 +123,7 @@
 						"category": ["游戏", "漫画"],
 						"count": 3,
 						"max_count": 5,
-						"source": ["baidu_video", "baidu_news"],
+						"source": ["baidu_video", "baidu_video"],
 						"flags": {}
 					},
 					{
