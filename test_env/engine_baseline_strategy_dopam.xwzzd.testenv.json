@@ -216,7 +216,15 @@
 			"category": [{
 					"id": 0,
 					"category": ["娱乐"],
-					"count": 7,
+					"count": 5,
+					"max_count": 10,
+					"source": ["baidu_news"],
+					"flags": {}
+				},
+                {
+					"id": 3,
+					"category": ["娱乐"],
+					"count": 3,
 					"max_count": 10,
 					"source": ["baidu_news"],
 					"flags": {}
@@ -232,7 +240,7 @@
 				{
 					"id": 2,
 					"category": ["娱乐","影视周边","小品","相声","搞笑","综艺","影视"],
-					"count": 2,
+					"count": 1,
 					"max_count": 10,
 					"source": ["baidu_video"],
 					"flags": {}
@@ -272,7 +280,23 @@
 			"category": [{
 					"id": 0,
 					"category": ["汽车"],
-					"count": 8,
+					"count": 4,
+					"max_count": 10,
+					"source": ["baidu_news"],
+					"flags": {}
+				},
+                {
+					"id": 2,
+					"category": ["汽车","二手车"],
+					"count": 2,
+					"max_count": 10,
+					"source": ["baidu_news"],
+					"flags": {}
+				},
+                 {
+					"id": 3,
+					"category": ["汽车","二手车","电动汽车","豪华车","摩托车"],
+					"count": 2,
 					"max_count": 10,
 					"source": ["baidu_news"],
 					"flags": {}
