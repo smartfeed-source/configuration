@@ -96,7 +96,7 @@
 			]/*end of category setting*/
 		},/*end of health channel*/ 
          {
-			"channel": "video",
+			"channel": "video_news",
 			"category": [{
 					"id": 0,
 					"category": ["台海时事", "军事", "环球军事", "国外宏观","国际","历史"],
