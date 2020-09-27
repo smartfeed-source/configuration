@@ -1,12 +1,12 @@
 {
 	"default_blending_strategy": [{
-			"channel": "rcmd",
+			"channel": "rcmd_video",
 			"category": [{
 					"id": 0,
 					"category": ["历史"],
 					"count": 1,
 					"max_count": 5,
-					"source": ["baidu_news"],
+					"source": ["baidu_video"],
 					"flags": {}
 				},
 				{
@@ -14,7 +14,7 @@
 					"category": ["法制"],
 					"count": 1,
 					"max_count": 5,
-					"source": ["baidu_news"],
+					"source": ["baidu_video"],
 					"flags": {}
 				},
 				{
@@ -22,15 +22,15 @@
 					"category": ["国际"],
 					"count": 2,
 					"max_count": 5,
-					"source": ["sohu_news"],
+					"source": ["baidu_video"],
 					"flags": {}
 				},
 				{
 					"id": 3,
-					"category": ["军事"],
+					"category": ["财经", "投资","数码", "银行","娱乐","能源","运营商"],
 					"count": 2,
 					"max_count": 5,
-					"source": ["baidu_news"],
+					"source": ["baidu_video"],
 					"flags": {}
 				},
 				{
@@ -38,7 +38,7 @@
 					"category": ["社会"],
 					"count": 1,
 					"max_count": 5,
-					"source": ["baidu_news"],
+					"source": ["baidu_video"],
 					"flags": {}
 				},
 				{
@@ -46,7 +46,7 @@
 					"category": ["健康"],
 					"count": 1,
 					"max_count": 5,
-					"source": ["baidu_news"],
+					"source": ["baidu_video"],
 					"flags": {}
 				},
 				{
@@ -96,62 +96,6 @@
 			]/*end of category setting*/
 		}/*end of rcmd channel*/
 	],
-	"coldstart_strategy": [{
-		"name": "coldstart_test",
-		"condition": {
-			"apps": {
-				"include": ["com.tencent.tmgp.pubgmhd", "com.tencent.tmgp.sgame"],
-				"exclude": []
-			},
-			"location": {
-				"include": [],
-				"exclude": []
-			},
-			"device":{
-				"include": [],
-				"exclude": []
-			},
-			"hour":{
-				"include": [],
-				"exclude": []
-			}
-		},/*end of condition*/
-		"override_blending_strategy": [{
-				"channel": "rcmd",
-				"category": [{
-						"id": 5,
-						"category": ["游戏", "漫画"],
-						"count": 3,
-						"max_count": 5,
-						"source": ["baidu_video", "baidu_news"],
-						"flags": {}
-					},
-					{
-						"id": 4,
-						"delete": true
-					}
-				]/*end of category*/
-			},/*end of rcmd channel*/
-			{
-				"channel": "video",
-				"category": [{
-						"id": 0,
-						"category": ["游戏"],
-						"count": 1,
-						"max_count": 5,
-						"source": ["baidu_video"],
-						"flags": {}
-					},
-					{
-						"id": 1,
-						"category": ["漫画"],
-						"count": 1,
-						"max_count": 5,
-						"source": ["baidu_video"],
-						"flags": {}
-					}
-				]/*end of category*/
-			}/*end of video channel*/
-		]/*end of override blending */
-	}]
+	"coldstart_strategy": [],
+    "personalization":[]
 }
