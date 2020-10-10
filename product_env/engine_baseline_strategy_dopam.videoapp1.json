@@ -1,17 +1,18 @@
 {
-	"default_blending_strategy": [{
+	"default_blending_strategy": [
+		{
 			"channel": "rcmd_video",
 			"category": [{
 					"id": 0,
 					"category": ["历史"],
-					"count": 1,
+					"count": 2,
 					"max_count": 5,
 					"source": ["baidu_video"],
 					"flags": {}
 				},
 				{
 					"id": 1,
-					"category": ["法制"],
+					"category": ["旅游"],
 					"count": 1,
 					"max_count": 5,
 					"source": ["baidu_video"],
@@ -19,7 +20,7 @@
 				},
 				{
 					"id": 2,
-					"category": ["国际"],
+					"category": ["健康"],
 					"count": 2,
 					"max_count": 5,
 					"source": ["baidu_video"],
@@ -27,7 +28,7 @@
 				},
 				{
 					"id": 3,
-					"category": ["财经", "投资","数码", "银行","娱乐","能源","运营商"],
+					"category": ["搞笑","相声小品"],
 					"count": 2,
 					"max_count": 5,
 					"source": ["baidu_video"],
@@ -35,7 +36,7 @@
 				},
 				{
 					"id": 4,
-					"category": ["社会"],
+					"category": ["生活","大自然"],
 					"count": 1,
 					"max_count": 5,
 					"source": ["baidu_video"],
@@ -43,58 +44,197 @@
 				},
 				{
 					"id": 5,
-					"category": ["健康"],
+					"category": ["美食"],
 					"count": 1,
-					"max_count": 5,
+					"max_count": 10,
 					"source": ["baidu_video"],
 					"flags": {}
 				},
 				{
 					"id": 6,
-					"category": ["国际", "军事", "历史"],
-					"count": 2,
-					"max_count": 5,
+					"category": ["体育"],
+					"count": 1,
+					"max_count": 10,
 					"source": ["baidu_video"],
 					"flags": {}
 				}
 			]/*end of category setting*/
-		},/*end of rcmd channel*/
+		},/*end of rcmd_video channel*/
 		{
-			"channel": "video",
-			"category": [{
+			"channel": "international",
+			"category": [
+				{
 					"id": 0,
-					"category": ["历史"],
-					"count": 1,
-					"max_count": 5,
+					"category": ["国际"],
+					"count": 10,
+					"max_count": 10,
+					"source": ["baidu_video"],
+					"flags": {}
+				}
+			]/*end of category setting*/
+		},/*end of international channel*/
+		{
+			"channel": "current_politics",
+			"category": [
+				{
+					"id": 0,
+					"category": ["时政"],
+					"count": 10,
+					"max_count": 10,
+					"source": ["baidu_video"],
+					"flags": {}
+				}
+			]/*end of category setting*/
+		},/*end of current_politics channel*/
+		{
+			"channel": "military",
+			"category": [
+				{
+					"id": 0,
+					"category": ["军事"],
+					"count": 10,
+					"max_count": 10,
+					"source": ["baidu_video"],
+					"flags": {}
+				}
+			]/*end of category setting*/
+		},/*end of military channel*/
+		{
+			"channel": "music",
+			"category": [
+				{
+					"id": 0,
+					"category": ["音乐"],
+					"count": 10,
+					"max_count": 10,
+					"source": ["baidu_video"],
+					"flags": {}
+				}
+			]/*end of category setting*/
+		},/*end of music channel*/
+		{
+			"channel": "film_review",
+			"category": [
+				{
+					"id": 0,
+					"category": ["影视周边"],
+					"count": 10,
+					"max_count": 10,
+					"source": ["baidu_video"],
+					"flags": {}
+				}
+			]/*end of category setting*/
+		},/*end of film_review channel*/
+		{
+			"channel": "socity",
+			"category": [
+				{
+					"id": 0,
+					"category": ["社会"],
+					"count": 10,
+					"max_count": 10,
+					"source": ["baidu_video"],
+					"flags": {}
+				}
+			]/*end of category setting*/
+		},/*end of socity channel*/
+		{
+			"channel": "entertainment",
+			"category": [
+				{
+					"id": 0,
+					"category": ["娱乐"],
+					"count": 7,
+					"max_count": 10,
 					"source": ["baidu_video"],
 					"flags": {}
 				},
 				{
 					"id": 1,
-					"category": ["法制"],
-					"count": 1,
-					"max_count": 5,
-					"source": ["baidu_video"],
-					"flags": {}
-				},
-				{
-					"id": 2,
-					"category": ["国际"],
-					"count": 2,
-					"max_count": 5,
-					"source": ["baidu_video"],
-					"flags": {}
-				},
-				{
-					"id": 3,
-					"category": ["军事"],
-					"count": 2,
+					"category": ["游戏"],
+					"count": 3,
 					"max_count": 5,
 					"source": ["baidu_video"],
 					"flags": {}
 				}
 			]/*end of category setting*/
-		}/*end of rcmd channel*/
+		},/*end of entertainment channel*/
+		{
+			"channel": "science",
+			"category": [
+				{
+					"id": 0,
+					"category": ["科学"],
+					"count": 7,
+					"max_count": 10,
+					"source": ["baidu_video"],
+					"flags": {}
+				},
+				{
+					"id": 1,
+					"category": ["IT"],
+					"count": 1,
+					"max_count": 2,
+					"source": ["baidu_video"],
+					"flags": {}
+				},
+				{
+					"id": 2,
+					"category": ["汽车"],
+					"count": 1,
+					"max_count": 2,
+					"source": ["baidu_video"],
+					"flags": {}
+				},
+				{
+					"id": 3,
+					"category": ["科技"],
+					"count": 1,
+					"max_count": 2,
+					"source": ["baidu_video"],
+					"flags": {}
+				}
+			]/*end of category setting*/
+		},/*end of science channel*/
+		{
+			"channel": "culture",
+			"category": [
+				{
+					"id": 0,
+					"category": ["文化"],
+					"count": 10,
+					"max_count": 10,
+					"source": ["baidu_video"],
+					"flags": {}
+				}
+			]/*end of category setting*/
+		},/*end of culture channel*/
+		{
+			"channel": "life",
+			"category": [
+				{
+					"id": 0,
+					"category": ["安全出行","时尚"],
+					"count": 10,
+					"max_count": 10,
+					"source": ["baidu_video"],
+					"flags": {}
+				}
+			]/*end of category setting*/
+		},/*end of life channel*/
+		{
+			"channel": "funny",
+			"category": [
+				{
+					"id": 0,
+					"category": ["搞笑","相声小品"],
+					"count": 10,
+					"max_count": 10,
+					"source": ["baidu_video"],
+					"flags": {}
+				}
+			]/*end of category setting*/
+		}/*end of funny channel*/
 	],
 	"coldstart_strategy": [],
     "personalization":[]
