@@ -428,7 +428,7 @@
                     "author_max_count_per_slide": 1,/*每个作者每刷最多出多少条*/
                     "explore_expliot_weight": 0.5,/*让引擎更多地探索新兴趣(可能导致推送的内容不是用户喜欢的)还是曝光兴趣内容(可能导致用户很快厌倦),1是全explore, 0是全expliot*/ 
                     "restrict_category":false,/*为true则个性化限制在default_strategy所设置的category范围内,false为不限制*/
-                    "seats":0,/*所占槽位,个性化优先级高于default_setting,所以直接抢占它的槽位,在个性化内容质量较低时,才由他补充*/
+                    "seats":6,/*所占槽位,个性化优先级高于default_setting,所以直接抢占它的槽位,在个性化内容质量较低时,才由他补充*/
                     "engine":{/*个性化引擎设置*/
                         "ranking": {"algo": "w2v"},/*精排引擎设置*/
                         "proposing": {"algo": null},/*粗排设置设置*/
