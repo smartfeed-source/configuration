@@ -6,7 +6,7 @@
 					"category": [ "热点", "国际"],
 					"count": 2,
 					"max_count": 10,
-					"source": ["tencent_news"],
+					"source": ["tencent_news", "baidu_news"],
 					"flags": {}
 				},
                 {
@@ -14,7 +14,7 @@
 					"category": ["社会"],
 					"count": 1,
 					"max_count": 10,
-					"source": ["tencent_news"],
+					"source": ["tencent_news", "baidu_news"],
 					"flags": {}
 				},
                 {
@@ -22,7 +22,7 @@
 					"category": ["健康", "历史", "三农", "法制", "时政", "旅游","社会","养生"],
 					"count": 2,
 					"max_count": 10,
-					"source": ["tencent_news"],
+					"source": ["tencent_news", "baidu_news"],
 					"flags": {}
 				},
                 {
@@ -30,7 +30,7 @@
 					"category": ["生活", "美食", "国际社会", "水果", "科学", "科技"],
 					"count": 1,
 					"max_count": 10,
-					"source": ["tencent_news"],
+					"source": ["tencent_news", "baidu_news"],
 					"flags": {}
 				},
 				{
