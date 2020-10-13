@@ -434,7 +434,7 @@
                         "proposing": {"algo": null},/*粗排设置设置*/
                         "recall": {"keyword":{},"category":{},"oceanus":{}}/*召回路由配置*/
                     },
-                    "source":["baidu_news","tencent_news"]/*个性化数据源范围,当前只支持baidu_news和baidu_video*/
+                    "source":["tencent_news"]/*个性化数据源范围,当前只支持baidu_news和baidu_video*/
                 },
                 {
                     "name": "video_personalization",
