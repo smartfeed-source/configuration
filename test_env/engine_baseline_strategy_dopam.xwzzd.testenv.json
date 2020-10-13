@@ -3,12 +3,20 @@
 			"channel": "rcmd",
 			"category": [{
 					"id": 0,
-					"category": [ "热点", "社会","国际"],
-					"count": 3,
+					"category": [ "热点", "国际"],
+					"count": 2,
 					"max_count": 10,
 					"source": ["tencent_news"],
 					"flags": {}
-				},	
+				},
+                {
+					"id": 6,
+					"category": ["社会"],
+					"count": 1,
+					"max_count": 10,
+					"source": ["tencent_news"],
+					"flags": {}
+				},
                 {
 					"id": 1,
 					"category": ["健康", "历史", "三农", "法制", "时政", "旅游","社会","养生"],
