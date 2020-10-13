@@ -6,7 +6,7 @@
 					"category": [ "台海时事", "军事", "环球军事", "国外宏观","国际"],
 					"count": 3,
 					"max_count": 10,
-					"source": ["baidu_news"],
+					"source": ["baidu_news","tencent_news"],
 					"flags": {}
 				},	
                 {
@@ -14,7 +14,7 @@
 					"category": ["健康", "历史", "三农", "法制", "时政", "旅游","社会","养生"],
 					"count": 2,
 					"max_count": 10,
-					"source": ["baidu_news"],
+					"source": ["baidu_news","tencent_news"],
 					"flags": {}
 				},
                 {
@@ -22,7 +22,7 @@
 					"category": ["生活", "美食", "国际社会", "水果", "通讯", "科技"],
 					"count": 1,
 					"max_count": 10,
-					"source": ["baidu_news"],
+					"source": ["baidu_news","tencent_news"],
 					"flags": {}
 				},
 				{
@@ -30,7 +30,7 @@
 					"category": ["财经", "投资","数码", "银行","娱乐","能源","运营商"],
 					"count": 1,
 					"max_count": 10,
-					"source": ["baidu_news"],
+					"source": ["baidu_news","tencent_news"],
 					"flags": {}
 				},
                  {
@@ -38,7 +38,7 @@
 					"category": ["热点", "社会"],
 					"count": 1,
 					"max_count": 10,
-					"source": ["baidu_news"],
+					"source": ["baidu_news","tencent_news"],
 					"flags": {}
 				},
 				{
