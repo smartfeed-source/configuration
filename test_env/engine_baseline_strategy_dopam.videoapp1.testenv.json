@@ -24,6 +24,7 @@
 					"count": 2,
 					"max_count": 5,
 					"source": ["baidu_video"],
+                    "exclude_words":["新冠", "疫"],
 					"flags": {}
 				},
 				{
