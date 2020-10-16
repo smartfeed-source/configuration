@@ -1,10 +1,22 @@
 [
     {
         "app": "xwzzd",
+        "use_baidu_appid": "c951374c",
         "config": "https://gitee.com/hotpush/configuration/raw/master/test_env/engine_baseline_strategy_dopam.xwzzd.testenv.json"
     },
     {
         "app": "videoapp1",/*名字确定了改下*/
+        "use_baidu_appid": "dcad7fa9",
+        "config": "https://gitee.com/hotpush/configuration/raw/master/test_env/engine_baseline_strategy_dopam.videoapp1.testenv.json"
+    },
+    {
+        "app": "daxiguavideo",
+        "use_baidu_appid": "dcad7fa9",
+        "config": "https://gitee.com/hotpush/configuration/raw/master/test_env/engine_baseline_strategy_dopam.videoapp1.testenv.json"
+    },
+    {
+        "app": "caomeivideo",
+        "use_baidu_appid": "dcad7fa9",
         "config": "https://gitee.com/hotpush/configuration/raw/master/test_env/engine_baseline_strategy_dopam.videoapp1.testenv.json"
     }
 ]
