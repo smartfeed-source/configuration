@@ -24,6 +24,7 @@
 					"count": 2,
 					"max_count": 5,
 					"source": ["baidu_video"],
+                    "exclude_words":["新冠", "疫","医"],
 					"flags": {}
 				},
 				{
@@ -40,6 +41,7 @@
 					"count": 1,
 					"max_count": 5,
 					"source": ["baidu_video"],
+                    "exclude_words":["新冠", "疫","医"],
 					"flags": {}
 				},
 				{
@@ -69,6 +71,7 @@
 					"count": 10,
 					"max_count": 10,
 					"source": ["baidu_video"],
+                    "exclude_words":["新冠", "疫","医"],
 					"flags": {}
 				}
 			]/*end of category setting*/
@@ -82,6 +85,7 @@
 					"count": 10,
 					"max_count": 10,
 					"source": ["baidu_video"],
+                    "exclude_words":["新冠", "疫","医"],
 					"flags": {}
 				}
 			]/*end of category setting*/
@@ -134,6 +138,7 @@
 					"count": 10,
 					"max_count": 10,
 					"source": ["baidu_video"],
+                    "exclude_words":["新冠", "疫","医"],
 					"flags": {}
 				}
 			]/*end of category setting*/
@@ -147,6 +152,7 @@
 					"count": 7,
 					"max_count": 10,
 					"source": ["baidu_video"],
+                    "exclude_words":["新冠", "疫","医"],
 					"flags": {}
 				},
 				{
@@ -168,6 +174,7 @@
 					"count": 7,
 					"max_count": 10,
 					"source": ["baidu_video"],
+                    "exclude_words":["新冠", "疫","医"],
 					"flags": {}
 				},
 				{
@@ -192,6 +199,7 @@
 					"count": 1,
 					"max_count": 2,
 					"source": ["baidu_video"],
+                    "exclude_words":["新冠", "疫","医"],
 					"flags": {}
 				}
 			]/*end of category setting*/
@@ -205,6 +213,7 @@
 					"count": 10,
 					"max_count": 10,
 					"source": ["baidu_video"],
+                    "exclude_words":["新冠", "疫","医"],
 					"flags": {}
 				}
 			]/*end of category setting*/
@@ -218,6 +227,7 @@
 					"count": 10,
 					"max_count": 10,
 					"source": ["baidu_video"],
+                    "exclude_words":["新冠", "疫","医"],
 					"flags": {}
 				}
 			]/*end of category setting*/
