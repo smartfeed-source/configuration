@@ -14,7 +14,7 @@
 					"category": ["社会"],
 					"count": 1,
 					"max_count": 10,
-					"source": ["baidu_news", "tencent_news"],
+					"source": ["tencent_news"],
 					"flags": {}
 				},
                 {
@@ -38,7 +38,7 @@
 					"category": ["财经", "投资","数码", "银行","娱乐","能源","运营商"],
 					"count": 1,
 					"max_count": 10,
-					"source": ["baidu_news", "tencent_news"],
+					"source": ["tencent_news"],
 					"flags": {}
 				},
                  {
@@ -46,7 +46,7 @@
 					"category": ["台海时事", "军事", "环球军事", "国外宏观"],
 					"count": 1,
 					"max_count": 10,
-					"source": ["baidu_news", "tencent_news"],
+					"source": ["tencent_news"],
 					"flags": {}
 				},
 				{
@@ -445,7 +445,7 @@
                         "proposing": {"algo": null},/*粗排设置设置*/
                         "recall": {"keyword":{},"category":{},"oceanus":{}}/*召回路由配置*/
                     },
-                    "source":["baidu_news", "tencent_news"]/*个性化数据源范围,当前只支持baidu_news和baidu_video*/
+                    "source":["tencent_news"]/*个性化数据源范围,当前只支持baidu_news和baidu_video*/
                 },
                 {
                     "name": "video_personalization",
