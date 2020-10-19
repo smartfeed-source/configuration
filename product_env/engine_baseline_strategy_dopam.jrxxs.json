@@ -67,7 +67,6 @@
 					"count": 5,
 					"max_count": 10,
 					"source": ["baidu_news"],
-                    "exclude_words":["新冠", "疫","医","政府","特朗普"],
 					"flags": {}
 				},
                    {
@@ -76,7 +75,6 @@
 					"count": 3,
 					"max_count": 10,
 					"source": ["baidu_news"],
-                    "exclude_words":["新冠", "疫","医","政府","特朗普"],
 					"flags": {}
 				},
                    {
@@ -85,7 +83,6 @@
 					"count": 1,
 					"max_count": 10,
 					"source": ["baidu_news"],
-                    "exclude_words":["新冠", "疫","医","政府","特朗普"],
 					"flags": {}
 				},
 				{
@@ -94,7 +91,6 @@
 					"count": 2,
 					"max_count": 10,
 					"source": ["baidu_video"],
-                    "exclude_words":["新冠", "疫","医","政府","特朗普"],
 					"flags": {}
 				}
 			]/*end of category setting*/
@@ -223,7 +219,6 @@
 					"count": 7,
 					"max_count": 10,
 					"source": ["baidu_news"],
-                    "exclude_words":["新冠", "疫","医","政府","特朗普"],
 					"flags": {}
 				},
                    {
@@ -232,7 +227,6 @@
 					"count": 1,
 					"max_count": 10,
 					"source": ["baidu_video","baidu_news"],
-                    "exclude_words":["新冠", "疫","医","政府","特朗普"],
 					"flags": {}
 				},
 				{
@@ -241,7 +235,6 @@
 					"count": 2,
 					"max_count": 10,
 					"source": ["baidu_video"],
-                    "exclude_words":["新冠", "疫","医","政府","特朗普"],
 					"flags": {}
 				}
 			]/*end of category setting*/
@@ -254,7 +247,6 @@
 					"count": 5,
 					"max_count": 10,
 					"source": ["baidu_news"],
-                    "exclude_words":["新冠", "疫","医","政府","特朗普"],
 					"flags": {}
 				},
                    {
@@ -263,7 +255,6 @@
 					"count": 3,
 					"max_count": 10,
 					"source": ["baidu_news"],
-                    "exclude_words":["新冠", "疫","医","政府","特朗普"],
 					"flags": {}
 				},
                    {
@@ -272,7 +263,6 @@
 					"count": 2,
 					"max_count": 10,
 					"source": ["baidu_video","baidu_news"],
-                    "exclude_words":["新冠", "疫","医","政府","特朗普"],
 					"flags": {}
 				}
 			]/*end of category setting*/
@@ -285,7 +275,6 @@
 					"count": 8,
 					"max_count": 10,
 					"source": ["baidu_news"],
-                    "exclude_words":["新冠", "疫","医","政府","特朗普"],
 					"flags": {}
 				},
                    {
@@ -294,7 +283,6 @@
 					"count": 2,
 					"max_count": 10,
 					"source": ["baidu_video","baidu_news"],
-                    "exclude_words":["新冠", "疫","医","政府","特朗普"],
 					"flags": {}
 				}
 			]/*end of category setting*/
@@ -363,7 +351,6 @@
 					"count": 8,
 					"max_count": 10,
 					"source": ["baidu_news"],
-                    "exclude_words":["新冠", "疫","医","政府","特朗普"],
 					"flags": {}
 				},
                    {
@@ -372,7 +359,6 @@
 					"count": 2,
 					"max_count": 10,
 					"source": ["baidu_video","baidu_news"],
-                    "exclude_words":["新冠", "疫","医","政府","特朗普"],
 					"flags": {}
 				}
 			]/*end of category setting*/
@@ -385,7 +371,6 @@
 					"count": 5,
 					"max_count": 10,
 					"source": ["baidu_news"],
-                    "exclude_words":["新冠", "疫","医","政府","特朗普"],
 					"flags": {}
 				},
                 {
@@ -394,7 +379,6 @@
 					"count": 3,
 					"max_count": 10,
 					"source": ["baidu_news"],
-                    "exclude_words":["新冠", "疫","医","政府","特朗普"],
 					"flags": {}
 				},
                    {
@@ -403,7 +387,6 @@
 					"count": 2,
 					"max_count": 10,
 					"source": ["baidu_video","baidu_news"],
-                    "exclude_words":["新冠", "疫","医","政府","特朗普"],
 					"flags": {}
 				}
 			]/*end of category setting*/
