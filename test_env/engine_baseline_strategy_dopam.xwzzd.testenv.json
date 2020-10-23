@@ -445,7 +445,19 @@
                         "proposing": {"algo": null},/*粗排设置设置*/
                         "recall": {"category":{},"oceanus":{}}/*召回路由配置*/
                     },
-                    "source":["baidu_news"]/*个性化数据源范围,当前只支持baidu_news和baidu_video*/
+                    "source":["baidu_news"],/*个性化数据源范围,当前只支持baidu_news和baidu_video*/
+                    "branches":[/*配置分支,可以根据condition设置的条件命中用户，对命中的用户以配置覆盖个性化配置*/
+                        {
+                            "name": "腾讯源测试",
+                            "condition": {
+                                "location":{
+                                    "include":["深圳"],
+                                    "exclude":[]
+                                }
+                            },
+                            "source":["tencent_news"]
+                        }
+                    ]
                 },
                 {
                     "name": "video_personalization",
