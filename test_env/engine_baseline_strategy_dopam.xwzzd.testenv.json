@@ -497,8 +497,8 @@
                         {
                             "name": "腾讯源测试",
                             "condition": {
-                                "location":{
-                                    "include":["深圳"],
+                                "device":{
+                                    "include":["HUAWEI"],
                                     "exclude":[]
                                 }
                             },
