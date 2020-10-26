@@ -440,7 +440,7 @@
 				{
 					"id": 2,
 					"category": ["财经","旅游","要闻", "眼界"],
-					"count": 1,
+					"count": 2,
 					"max_count": 10,
 					"source": ["tencent_news"],
 					"flags": {}
@@ -448,14 +448,14 @@
                 {
 					"id": 0,
 					"category": ["军事","国际社会","国际","历史","抗疫"],
-					"count": 4,
+					"count": 3,
 					"max_count": 10,
 					"source": ["tencent_news"],
 					"flags": {}
 				},
                 {
 					"id": 6,
-					"category": ["健康","情感","法制","时政"],
+					"category": ["健康","情感","法制","时政","电影"],
 					"count": 2,
 					"max_count": 10,
 					"source": ["tencent_news"],
