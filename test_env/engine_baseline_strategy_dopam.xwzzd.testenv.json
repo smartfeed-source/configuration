@@ -439,7 +439,7 @@
 			    "category": [
 				{
 					"id": 2,
-					"category": ["财经","旅游","要闻"],
+					"category": ["财经","旅游","要闻", "眼界"],
 					"count": 1,
 					"max_count": 10,
 					"source": ["tencent_news"],
@@ -447,7 +447,7 @@
 				},
                 {
 					"id": 0,
-					"category": ["军事","国际社会","国际","历史"],
+					"category": ["军事","国际社会","国际","历史","抗疫"],
 					"count": 4,
 					"max_count": 10,
 					"source": ["tencent_news"],
@@ -455,7 +455,7 @@
 				},
                 {
 					"id": 6,
-					"category": ["健康","农村见闻","法制","时政"],
+					"category": ["健康","情感","法制","时政"],
 					"count": 2,
 					"max_count": 10,
 					"source": ["tencent_news"],
@@ -463,7 +463,7 @@
 				},
                 {
 					"id": 1,
-					"category": ["科技", "社会", "娱乐"],
+					"category": ["科技", "社会", "娱乐", "育儿"],
 					"count": 1,
 					"max_count": 10,
 					"source": ["tencent_news"],
