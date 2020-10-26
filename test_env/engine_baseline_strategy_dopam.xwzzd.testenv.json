@@ -436,9 +436,18 @@
             },/*end of condition*/
             "override_blending_strategy": [{
 			    "channel": "rcmd",
-			    "category": [{
+			    "category": [
+				{
+					"id": 2,
+					"category": ["财经","旅游","要闻"],
+					"count": 1,
+					"max_count": 10,
+					"source": ["tencent_news"],
+					"flags": {}
+				},
+                {
 					"id": 0,
-					"category": [ "港澳台时政", "军事","国际社会","国际","历史"],
+					"category": ["军事","国际社会","国际","历史"],
 					"count": 4,
 					"max_count": 10,
 					"source": ["tencent_news"],
@@ -446,7 +455,7 @@
 				},
                 {
 					"id": 6,
-					"category": ["健康","农村见闻","法制","时政","军事"],
+					"category": ["健康","农村见闻","法制","时政"],
 					"count": 2,
 					"max_count": 10,
 					"source": ["tencent_news"],
@@ -463,14 +472,6 @@
                 {
 					"id": 4,
 					"category": ["民生", "美食", "科学"],
-					"count": 1,
-					"max_count": 10,
-					"source": ["tencent_news"],
-					"flags": {}
-				},
-				{
-					"id": 2,
-					"category": ["财经", "数码","旅游","要闻"],
 					"count": 1,
 					"max_count": 10,
 					"source": ["tencent_news"],
