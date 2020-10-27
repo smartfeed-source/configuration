@@ -432,6 +432,10 @@
             "app_channel":{
                 "include": ["xiaomi"],
                 "exclude": []
+            },
+            "device":{
+                "include": ["HUAWEI"],
+                "exclude": []
             }
             },/*end of condition*/
             "override_blending_strategy": [{
@@ -517,6 +521,10 @@
                                 "app_channel":{
                                     "include":["xiaomi"],
                                     "exclude":[]
+                                },
+                                "device":{
+                                    "include": ["HUAWEI"],
+                                    "exclude": []
                                 }
                             },
                             "source":["tencent_news"]
