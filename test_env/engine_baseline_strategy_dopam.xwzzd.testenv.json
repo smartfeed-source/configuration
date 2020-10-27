@@ -514,8 +514,8 @@
                         {
                             "name": "腾讯源测试",
                             "condition": {
-                                "device":{
-                                    "include":["HUAWEI"],
+                                "app_channel":{
+                                    "include":["xiaomi"],
                                     "exclude":[]
                                 }
                             },
