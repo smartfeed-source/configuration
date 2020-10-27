@@ -439,7 +439,7 @@
 			    "category": [
 				{
 					"id": 2,
-					"category": ["财经","旅游","要闻", "眼界"],
+					"category": ["财经","要闻", "深度"],
 					"count": 2,
 					"max_count": 10,
 					"source": ["tencent_news"],
@@ -455,8 +455,16 @@
 				},
                 {
 					"id": 6,
-					"category": ["健康","情感","法制","时政","电影"],
-					"count": 2,
+					"category": ["健康","法制","时政"],
+					"count": 1,
+					"max_count": 10,
+					"source": ["tencent_news"],
+					"flags": {}
+				},
+                {
+					"id": 8,
+					"category": ["情感","旅游","电影"],
+					"count": 1,
 					"max_count": 10,
 					"source": ["tencent_news"],
 					"flags": {}
