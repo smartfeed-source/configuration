@@ -401,7 +401,70 @@
 			]/*end of category setting*/
 		}/*end of house channel*/
     ],
-	 "coldstart_strategy": [ ],
+	 "coldstart_strategy": [ 
+         {
+            "name": "腾讯源冷启动测试",
+            "condition": {
+            "app_channel":{
+                "include": ["xiaomi", "dev"],
+                "exclude": []
+            }
+            },/*end of condition*/
+            "override_blending_strategy": [{
+			    "channel": "rcmd",
+			    "category": [
+				{
+					"id": 2,
+					"category": ["军事", "要闻", "深度"],
+					"count": 2,
+					"max_count": 10,
+					"source": ["tencent_news"],
+					"flags": {}
+				},
+                {
+					"id": 0,
+					"category": ["国际社会","国际","历史","抗疫"],
+					"count": 3,
+					"max_count": 10,
+					"source": ["tencent_news"],
+					"flags": {}
+				},
+                {
+					"id": 6,
+					"category": ["财经", "健康","法制","时政"],
+					"count": 1,
+					"max_count": 10,
+					"source": ["tencent_news"],
+					"flags": {}
+				},
+                {
+					"id": 8,
+					"category": ["情感","旅游","电影"],
+					"count": 1,
+					"max_count": 10,
+					"source": ["tencent_news"],
+					"flags": {}
+				},
+                {
+					"id": 1,
+					"category": ["科技", "社会", "娱乐", "育儿"],
+					"count": 1,
+					"max_count": 10,
+					"source": ["tencent_news"],
+					"flags": {}
+				},
+                {
+					"id": 4,
+					"category": ["民生", "美食", "科学"],
+					"count": 1,
+					"max_count": 10,
+					"source": ["tencent_news"],
+					"flags": {}
+				}] /*end of category setting*/
+		        }/*end of rcmd channel*/ 
+            ]
+         }
+     ],
      "personalization": [/*个性化推荐配置*/
          {
             "channel": "rcmd",/*频道*/
@@ -419,7 +482,19 @@
                         "proposing": {"algo": null},/*粗排设置设置*/
                         "recall": {"category":{}}/*召回路由配置*/
                     },
-                    "source":["baidu_news"]/*个性化数据源范围,当前只支持baidu_news和baidu_video*/
+                    "source":["baidu_news"],/*个性化数据源范围,当前只支持baidu_news和baidu_video*/
+                    "branches":[/*配置分支,可以根据condition设置的条件命中用户，对命中的用户以配置覆盖个性化配置*/
+                        {
+                            "name": "腾讯源个性化测试",
+                            "condition": {
+                                "app_channel":{
+                                    "include":["xiaomi","dev"],
+                                    "exclude":[]
+                                }
+                            },
+                            "source":["tencent_news"]
+                        }
+                    ]
                 },
                 {
                     "name": "video_personalization",
