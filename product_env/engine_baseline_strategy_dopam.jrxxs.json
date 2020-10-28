@@ -66,7 +66,7 @@
 					"category": ["健康","养生","癌症","传染病","高血压","睡眠"],
 					"count": 5,
 					"max_count": 10,
-					"source": ["baidu_news"],
+					"source": ["baidu_news","baidu_video"],
                     "exclude_words":["新冠", "疫","医","特朗普","政府"],
 					"flags": {}
 				},
@@ -75,7 +75,7 @@
 					"category": ["健康","中医","护肤","糖尿病","健身","食品安全"],
 					"count": 3,
 					"max_count": 10,
-					"source": ["baidu_news"],
+					"source": ["baidu_news","baidu_video"],
                     "exclude_words":["新冠", "疫","医","特朗普","政府"],
 					"flags": {}
 				},
@@ -84,7 +84,7 @@
 					"category": ["健康","不孕不育","保健品","呼吸道疾病","心血管病"],
 					"count": 1,
 					"max_count": 10,
-					"source": ["baidu_news"],
+					"source": ["baidu_news","baidu_video"],
                     "exclude_words":["新冠", "疫","医","特朗普","政府"],
 					"flags": {}
 				},
@@ -222,7 +222,7 @@
 					"category": ["娱乐"],
 					"count": 7,
 					"max_count": 10,
-					"source": ["baidu_news"],
+					"source": ["baidu_news","baidu_video"],
                     "exclude_words":["新冠", "疫","医","特朗普","政府"],
 					"flags": {}
 				},
@@ -253,7 +253,7 @@
 					"category": ["手机","数码","通信"],
 					"count": 5,
 					"max_count": 10,
-					"source": ["baidu_news"],
+					"source": ["baidu_news","baidu_video"],
                     "exclude_words":["新冠", "疫","医","特朗普","政府"],
 					"flags": {}
 				},
@@ -262,7 +262,7 @@
 					"category": ["手机","IT","互联网","耳机","相机"],
 					"count": 3,
 					"max_count": 10,
-					"source": ["baidu_news"],
+					"source": ["baidu_news","baidu_video"],
                     "exclude_words":["新冠", "疫","医","特朗普","政府"],
 					"flags": {}
 				},
@@ -284,7 +284,7 @@
 					"category": ["汽车"],
 					"count": 8,
 					"max_count": 10,
-					"source": ["baidu_news"],
+					"source": ["baidu_news","baidu_video"],
                     "exclude_words":["新冠", "疫","医","特朗普","政府"],
 					"flags": {}
 				},
@@ -362,7 +362,7 @@
 					"category": ["体育"],
 					"count": 8,
 					"max_count": 10,
-					"source": ["baidu_news"],
+					"source": ["baidu_news","baidu_video"],
                     "exclude_words":["新冠", "疫","医","特朗普","政府"],
 					"flags": {}
 				},
