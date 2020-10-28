@@ -1,63 +1,65 @@
 {
 	"default_blending_strategy": [{
 			"channel": "rcmd",
-			"category": [{
+		"category": [{
 					"id": 0,
-					"category": [ "台海时事", "军事", "环球军事", "国外宏观","国际"],
-					"count": 3,
-					"max_count": 10,
-					"source": ["baidu_news"],
-					"flags": {}
-				},	
-                {
-					"id": 1,
-					"category": ["健康", "历史", "三农", "法制", "时政", "旅游","社会","养生"],
+					"category": ["历史"],
 					"count": 2,
-					"max_count": 10,
-					"source": ["baidu_news"],
+					"max_count": 5,
+					"source": ["baidu_video"],
 					"flags": {}
 				},
-                {
-					"id": 4,
-					"category": ["生活", "美食", "国际社会", "水果", "通讯", "科技"],
+				{
+					"id": 1,
+					"category": ["旅游"],
 					"count": 1,
-					"max_count": 10,
-					"source": ["baidu_news"],
+					"max_count": 5,
+					"source": ["baidu_video"],
 					"flags": {}
 				},
 				{
 					"id": 2,
-					"category": ["财经", "投资","数码", "银行","娱乐","能源","运营商"],
-					"count": 1,
-					"max_count": 10,
-					"source": ["baidu_news"],
+					"category": ["健康"],
+					"count": 2,
+					"max_count": 5,
+					"source": ["baidu_video"],
+                    "exclude_words":["新冠", "疫","医"],
 					"flags": {}
 				},
-                 {
+				{
 					"id": 3,
-					"category": ["热点", "社会"],
-					"count": 1,
-					"max_count": 10,
-					"source": ["baidu_news"],
+					"category": ["搞笑","相声小品"],
+					"count": 2,
+					"max_count": 5,
+					"source": ["baidu_video"],
 					"flags": {}
 				},
 				{
 					"id": 4,
-					"category": ["军事","时政", "历史","国际","旅游"],
+					"category": ["生活","大自然"],
+					"count": 1,
+					"max_count": 5,
+					"source": ["baidu_video"],
+                    "exclude_words":["新冠", "疫","医"],
+					"flags": {}
+				},
+				{
+					"id": 5,
+					"category": ["美食"],
 					"count": 1,
 					"max_count": 10,
 					"source": ["baidu_video"],
 					"flags": {}
 				},
-                {
-					"id": 5,
-					"category": ["娱乐", "影视周边","财经","文化","国际"],
+				{
+					"id": 6,
+					"category": ["体育"],
 					"count": 1,
 					"max_count": 10,
 					"source": ["baidu_video"],
 					"flags": {}
 				}
-			] /*end of category setting*/
+			]/*end of category setting*/
 		},/*end of rcmd channel*/ 
        {
 			"channel": "health",
