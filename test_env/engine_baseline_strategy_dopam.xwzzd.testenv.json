@@ -442,7 +442,7 @@
 					"category": ["要闻", "热点"],
 					"count": 3,
 					"max_count": 10,
-					"source": ["tencent_news"],
+					"source": ["tencent_news","tencent_video"],
 					"flags": {}
 				},
                 {
@@ -450,7 +450,7 @@
 					"category": ["国际社会","国际"],
 					"count": 2,
 					"max_count": 10,
-					"source": ["tencent_news"],
+					"source": ["tencent_news","tencent_video"],
 					"flags": {}
 				},
                 {
@@ -458,7 +458,7 @@
 					"category": ["军事", "历史"],
 					"count": 2,
 					"max_count": 10,
-					"source": ["tencent_news"],
+					"source": ["tencent_news","tencent_video"],
 					"flags": {}
 				},
                 {
@@ -466,7 +466,7 @@
 					"category": ["财经", "社会", "法制"],
 					"count": 1,
 					"max_count": 10,
-					"source": ["tencent_news"],
+					"source": ["tencent_news","tencent_video"],
 					"flags": {}
 				},
                 {
@@ -474,7 +474,7 @@
 					"category": ["科技", "社会", "娱乐", "育儿"],
 					"count": 1,
 					"max_count": 10,
-					"source": ["tencent_news"],
+					"source": ["tencent_news","tencent_video"],
 					"flags": {}
 				},
                 {
@@ -520,7 +520,7 @@
                                     "exclude":[]
                                 }
                             },
-                            "source":["tencent_news"]
+                            "source":["tencent_news","tencent_video"]
                         }
                     ]
                 },
