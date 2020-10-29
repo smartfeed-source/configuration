@@ -439,7 +439,7 @@
 			    "category": [
 				{
 					"id": 0,
-					"category": ["要闻", "热点"],
+					"category": ["要闻", "热点","新闻"],
 					"count": 3,
 					"max_count": 10,
 					"source": ["tencent_news","tencent_video"],
