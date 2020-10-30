@@ -183,7 +183,7 @@
 					"category": ["军事","中国军情","国际","台海时事"],
 					"count": 3,
 					"max_count": 10,
-					"source": ["baidu_news"],
+					"source": ["baidu_news","tencent_news"],
 					"flags": {}
 				},
                    {
@@ -191,7 +191,7 @@
 					"category": ["军事","军事历史","海军","战斗机","空军","武器装备","军情"],
 					"count": 2,
 					"max_count": 10,
-					"source": ["baidu_news"],
+					"source": ["baidu_news","tencent_news"],
 					"flags": {}
 				},
                         {
@@ -199,7 +199,7 @@
 					"category": ["军事","中国军情","国际","台海时事","时政","历史"],
 					"count": 2,
 					"max_count": 10,
-					"source": ["baidu_news"],
+					"source": ["baidu_news","tencent_news"],
 					"flags": {}
 				},
                    {
@@ -207,7 +207,7 @@
 					"category": ["环球军事","导弹","航母","陆军","军事历史","中东局势","军舰"],
 					"count": 1,
 					"max_count": 10,
-					"source": ["baidu_news"],
+					"source": ["baidu_news","tencent_news"],
 					"flags": {}
 				},
 				{
@@ -215,7 +215,7 @@
 					"category": ["军事"],
 					"count": 2,
 					"max_count": 10,
-					"source": ["baidu_video","baidu_news"],
+					"source": ["baidu_video","baidu_news","tencent_news"],
 					"flags": {}
 				}
 			]/*end of category setting*/
