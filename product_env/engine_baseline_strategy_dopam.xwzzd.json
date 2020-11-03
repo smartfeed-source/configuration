@@ -414,52 +414,48 @@
 			    "channel": "rcmd",
 			    "category": [
 				{
-					"id": 2,
-					"category": ["军事", "要闻", "深度"],
-					"count": 2,
-					"max_count": 10,
-					"source": ["tencent_news"],
-					"flags": {}
-				},
-                {
 					"id": 0,
-					"category": ["国际社会","国际","历史","抗疫"],
+					"category": ["要闻", "热点","新闻"],
 					"count": 3,
 					"max_count": 10,
-					"source": ["tencent_news"],
-					"flags": {}
-				},
-                {
-					"id": 6,
-					"category": ["财经", "健康","法制","时政"],
-					"count": 1,
-					"max_count": 10,
-					"source": ["tencent_news"],
-					"flags": {}
-				},
-                {
-					"id": 8,
-					"category": ["情感","旅游","电影"],
-					"count": 1,
-					"max_count": 10,
-					"source": ["tencent_news"],
+					"source": ["tencent_news","tencent_video"],
 					"flags": {}
 				},
                 {
 					"id": 1,
-					"category": ["科技", "社会", "娱乐", "育儿"],
+					"category": ["国际社会","国际"],
+					"count": 2,
+					"max_count": 10,
+					"source": ["tencent_news","tencent_video"],
+					"flags": {}
+				},
+                {
+					"id": 2,
+					"category": ["军事", "历史"],
+					"count": 2,
+					"max_count": 10,
+					"source": ["tencent_news","tencent_video"],
+					"flags": {}
+				},
+                {
+					"id": 3,
+					"category": ["财经", "社会", "法制"],
 					"count": 1,
 					"max_count": 10,
-					"source": ["tencent_news"],
+					"source": ["tencent_news","tencent_video"],
 					"flags": {}
 				},
                 {
 					"id": 4,
-					"category": ["民生", "美食", "科学"],
+					"category": ["科技", "社会", "娱乐", "育儿"],
 					"count": 1,
 					"max_count": 10,
-					"source": ["tencent_news"],
+					"source": ["tencent_news","tencent_video"],
 					"flags": {}
+				},
+                {
+					"id": 5,
+                    "delete": true
 				}] /*end of category setting*/
 		        }/*end of rcmd channel*/ 
             ]
@@ -492,7 +488,7 @@
                                     "exclude":[]
                                 }
                             },
-                            "source":["tencent_news"]
+                            "source":["tencent_news","tencent_video"]
                         }
                     ]
                 },
