@@ -4,8 +4,8 @@
 	},
 	"restrict_media": {
 		"国际": ["official_media", 2],
-		"时政": ["official_media", 4],
-		"军事": ["official_media", 4],
+		"时政": ["official_media", 2],
+		"军事": ["official_media", 2],
 		"社会": [4, 3],
 		"财经": [4, 3]
 	},
