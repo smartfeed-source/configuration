@@ -3,7 +3,7 @@
 		"category": ["国际", "军事", "时政", "科技", "科学", "财经", "时尚", "娱乐", "台海"]
 	},
 	"restrict_media": {
-		"国际": ["official_media", 3],
+		"国际": ["official_media", 2],
 		"时政": ["official_media", 4],
 		"军事": ["official_media", 4],
 		"社会": [4, 3],
