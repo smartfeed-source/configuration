@@ -406,7 +406,7 @@
             "name": "腾讯源冷启动测试",
             "condition": {
             "app_channel":{
-                "include": ["xiaomi", "dev"],
+                "include": ["xiaomi", "dev","huawei_f","tencent_m","kusai"],
                 "exclude": []
             }
             },/*end of condition*/
@@ -484,7 +484,7 @@
                             "name": "腾讯源个性化测试",
                             "condition": {
                                 "app_channel":{
-                                    "include":["xiaomi","dev"],
+                                    "include":["xiaomi","dev","huawei_f","tencent_m","kusai"],
                                     "exclude":[]
                                 }
                             },
