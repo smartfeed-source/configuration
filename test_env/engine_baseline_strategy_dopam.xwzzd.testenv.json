@@ -471,18 +471,18 @@
 				},
                 {
 					"id": 4,
-					"category": ["科技", "社会", "娱乐", "育儿"],
+					"category": ["科技", "社会", "娱乐", "育儿", "电影"],
 					"count": 1,
 					"max_count": 10,
 					"source": ["tencent_news","tencent_video"],
 					"flags": {}
 				},
                 {
-					"id": 4,
+					"id": 5,
                     "delete": true
 				},
                 {
-					"id": 5,
+					"id": 6,
                     "delete": true
 				}
                 ] /*end of category setting*/
