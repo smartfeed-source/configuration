@@ -439,7 +439,7 @@
 				},
                 {
 					"id": 3,
-					"category": ["财经", "社会", "法制"],
+					"category": ["搞笑", "社会百态", "法制"],
 					"count": 1,
 					"max_count": 10,
 					"source": ["tencent_news","tencent_video"],
@@ -447,7 +447,7 @@
 				},
                 {
 					"id": 4,
-					"category": ["科技", "社会", "娱乐", "育儿"],
+					"category": ["科技", "理财", "社会", "娱乐", "育儿", "旅行", "婚姻", "日常保健", "女性", "男性健康", "老人健康", "奇闻趣事", "文化", "情感","照片"],
 					"count": 1,
 					"max_count": 10,
 					"source": ["tencent_news","tencent_video"],
@@ -456,8 +456,13 @@
                 {
 					"id": 5,
                     "delete": true
-				}] /*end of category setting*/
-		        }/*end of rcmd channel*/ 
+				},
+                {
+					"id": 6,
+                    "delete": true
+				}
+                ] /*end of category setting*/
+		    }/*end of rcmd channel*/ 
             ]
          }
      ],
@@ -474,7 +479,10 @@
                     "restrict_category":false,/*为true则个性化限制在default_strategy所设置的category范围内,false为不限制*/
                     "seats":6,/*所占槽位,个性化优先级高于default_setting,所以直接抢占它的槽位,在个性化内容质量较低时,才由他补充*/
                     "engine":{/*个性化引擎设置*/
-                        "ranking": {"algo": "w2v"},/*精排引擎设置*/
+                        "ranking": {
+                            "algo": "w2v",
+                            "hot_preferred_categorys": ["国际", "军事", "社会", "时政", "科技", "财经", "娱乐", "要闻", "新闻", "热点"]/*排序时需要考虑时间热度的分类*/
+                        },/*精排引擎设置*/
                         "proposing": {"algo": null},/*粗排设置设置*/
                         "recall": {"category":{},"oceanus":{}}/*召回路由配置*/
                     },
