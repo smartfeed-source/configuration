@@ -463,7 +463,7 @@
 				},
                 {
 					"id": 3,
-					"category": ["财经", "社会", "法制"],
+					"category": ["财经", "社会百态", "法制"],
 					"count": 1,
 					"max_count": 10,
 					"source": ["tencent_news","tencent_video"],
@@ -471,7 +471,7 @@
 				},
                 {
 					"id": 4,
-					"category": ["科技", "社会", "娱乐", "育儿", "健康", "科学", "情感","照片"],
+					"category": ["科技", "社会", "娱乐", "育儿", "旅行", "健康", "奇闻趣事", "文化", "情感","照片"],
 					"count": 1,
 					"max_count": 10,
 					"source": ["tencent_news","tencent_video"],
