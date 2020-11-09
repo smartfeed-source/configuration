@@ -471,7 +471,7 @@
 				},
                 {
 					"id": 4,
-					"category": ["科技", "社会", "娱乐", "育儿", "电影"],
+					"category": ["科技", "社会", "娱乐", "育儿", "电影", "科普"],
 					"count": 1,
 					"max_count": 10,
 					"source": ["tencent_news","tencent_video"],
