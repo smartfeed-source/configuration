@@ -43,7 +43,7 @@
 				},
 				{
 					"id": 5,
-					"category": ["国际", "热点","体育","房产","互联网"],
+					"category": ["国际", "热点","房产","互联网"],
 					"count": 1,
 					"max_count": 10,
 					"source": ["baidu_news"],
