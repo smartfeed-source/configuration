@@ -430,7 +430,7 @@
             "name": "腾讯源冷启动测试",
             "condition": {
             "app_channel":{
-                "include": ["xiaomi","dev"],
+                "include": ["xiaomi"],
                 "exclude": []
             }
             },/*end of condition*/
@@ -495,6 +495,33 @@
             "channel": "rcmd",/*频道*/
             "plans":[
                 {
+                    "name": "cf",
+                    "keyword_max_count_per_slide": 0,/*每刷最多出多少条包含同一个关键词的内容,协同过滤关闭该选项*/
+                    "category_max_count_per_slide": 0,/*同一个分类每刷最多出多少条,协同过滤关闭该选项*/
+                    "author_max_count_per_slide": 0,/*每个作者每刷最多出多少条,协同过滤关闭该选项*/
+                    "explore_expliot_weight": 0.5,/*让引擎更多地探索新兴趣(可能导致推送的内容不是用户喜欢的)还是曝光兴趣内容(可能导致用户很快厌倦),1是全explore, 0是全expliot*/ 
+                    "restrict_category":false,/*为true则个性化限制在default_strategy所设置的category范围内,false为不限制*/
+                    "seats":0,/*所占槽位,个性化优先级高于default_setting,所以直接抢占它的槽位,在个性化内容质量较低时,才由他补充*/
+                    "engine":{/*个性化引擎设置*/
+                        "ranking": {"algo": "cf"},/*精排引擎设置*/
+                        "proposing": {"algo": null},/*粗排设置设置*/
+                        "recall": {"cf":{}}/*召回路由配置*/
+                    },
+                    "source":["baidu_news"],/*个性化数据源范围,当前支持baidu_news,baidu_video,baidu_image,tencent_news,tencent_video,tencent_image*/
+                    "branches":[/*配置分支,可以根据condition设置的条件命中用户，对命中的用户以配置覆盖个性化配置*/
+                        {
+                            "name": "协同过滤测试",/*暂时设置对dev渠道的用户启动*/
+                            "condition": {
+                                "app_channel":{
+                                    "include":["dev"],
+                                    "exclude":[]
+                                }
+                            },
+                            "seats": 7
+                        }
+                    ]
+                },
+                {
                     "name": "article_personalization",
                     "keyword_max_count_per_slide": 2,/*每刷最多出多少条包含同一个关键词的内容*/
                     "category_max_count_per_slide": 2,/*同一个分类每刷最多出多少条*/
@@ -519,11 +546,12 @@
                             "name": "腾讯源测试",
                             "condition": {
                                 "app_channel":{
-                                    "include":["xiaomi","dev"],
+                                    "include":["xiaomi"],
                                     "exclude":[]
                                 }
                             },
-                            "source":["tencent_news","tencent_video"]
+                            "source":["tencent_news","tencent_video"],
+                            "seats":0
                         }
                     ]
                 },
