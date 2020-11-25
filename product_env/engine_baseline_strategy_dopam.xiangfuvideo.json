@@ -5,61 +5,27 @@
 			"category": [{
 					"id": 0,
 					"category": ["历史"],
-					"count": 2,
+					"count": 3,
 					"max_count": 5,
 					"source": ["baidu_video"],
 					"flags": {}
 				},
 				{
 					"id": 1,
-					"category": ["旅游"],
-					"count": 1,
+					"category": ["搞笑","相声小品"],
+					"count": 3,
 					"max_count": 5,
 					"source": ["baidu_video"],
 					"flags": {}
 				},
 				{
 					"id": 2,
-					"category": ["健康"],
-					"count": 2,
-					"max_count": 5,
-					"source": ["baidu_video"],
-                    "exclude_words":["新冠", "疫","医"],
-					"flags": {}
-				},
-				{
-					"id": 3,
-					"category": ["搞笑","相声小品"],
-					"count": 2,
-					"max_count": 5,
-					"source": ["baidu_video"],
-					"flags": {}
-				},
-				{
-					"id": 4,
-					"category": ["生活","大自然"],
-					"count": 1,
-					"max_count": 5,
-					"source": ["baidu_video"],
-                    "exclude_words":["新冠", "疫","医"],
-					"flags": {}
-				},
-				{
-					"id": 5,
 					"category": ["美食"],
-					"count": 1,
+					"count": 4,
 					"max_count": 10,
 					"source": ["baidu_video"],
 					"flags": {}
 				},
-				{
-					"id": 6,
-					"category": ["体育"],
-					"count": 1,
-					"max_count": 10,
-					"source": ["baidu_video"],
-					"flags": {}
-				}
 			]/*end of category setting*/
 		},/*end of rcmd_video channel*/
 		{
