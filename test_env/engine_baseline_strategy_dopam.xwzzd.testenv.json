@@ -550,7 +550,7 @@
                                     "exclude":[]
                                 }
                             },
-                            "source":["tencent_news","tencent_video"],
+                            "source":["baidu_news","baidu_video"],
                             "seats":2
                         }
                     ]
