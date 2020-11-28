@@ -517,7 +517,7 @@
                                     "exclude":[]
                                 }
                             },
-                            "seats": 5
+                            "seats": 6
                         }
                     ]
                 },
@@ -551,7 +551,7 @@
                                 }
                             },
                             "source":["baidu_news","baidu_video"],
-                            "seats":2
+                            "seats": 0 
                         }
                     ]
                 },
