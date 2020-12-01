@@ -11,7 +11,7 @@
 	},
 	"local_filter_for_non_local_news": {
 		"exposure_threshold": 500,
-		"ctr_threshold": 0.4
+		"ctr_threshold": 0.05
 	},
 	"subcategory_filter": {
 		"社会": ["法制", "正能量", "奇闻轶事", "奇葩", "历史", "婚姻", "传染病", "时政"]
