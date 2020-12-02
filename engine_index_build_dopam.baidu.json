@@ -3,15 +3,15 @@
 		"category": ["国际", "军事", "时政", "科技", "科学", "财经", "时尚", "娱乐", "台海"]
 	},
 	"restrict_media": {
-		"国际": ["official_media", 4],
-		"时政": ["official_media", 4],
-		"军事": ["official_media", 4],
-		"社会": [4, 3],
+		"国际": ["official_media", 4, 3, 2, 1, 0],
+		"时政": ["official_media", 4, 3],
+		"军事": ["official_media", 4, 3, 2, 1, 0],
+		"社会": [4, 3, 2, 1],
 		"财经": [4, 3]
 	},
 	"local_filter_for_non_local_news": {
 		"exposure_threshold": 500,
-		"ctr_threshold": 0.4
+		"ctr_threshold": 0.06
 	},
 	"subcategory_filter": {
 		"社会": ["法制", "正能量", "奇闻轶事", "奇葩", "历史", "婚姻", "传染病", "时政"]
