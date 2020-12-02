@@ -551,7 +551,7 @@
                                 }
                             },
                             "source":["baidu_news","baidu_video"],
-                            "seats": 0 
+                            "seats": 6 
                         }
                     ]
                 },
