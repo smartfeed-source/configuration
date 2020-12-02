@@ -6,7 +6,7 @@
 					"category": ["历史"],
 					"count": 2,
 					"max_count": 5,
-					"source": ["baidu_video"],
+					"source": ["baidu_news"],
 					"flags": {}
 				},
 				{
@@ -14,7 +14,7 @@
 					"category": ["旅游"],
 					"count": 1,
 					"max_count": 5,
-					"source": ["baidu_video"],
+					"source": ["baidu_news"],
 					"flags": {}
 				},
 				{
@@ -22,7 +22,7 @@
 					"category": ["健康"],
 					"count": 2,
 					"max_count": 5,
-					"source": ["baidu_video"],
+					"source": ["baidu_news"],
                     "exclude_words":["新冠", "疫","医"],
 					"flags": {}
 				},
@@ -39,7 +39,7 @@
 					"category": ["生活","大自然"],
 					"count": 1,
 					"max_count": 5,
-					"source": ["baidu_video"],
+					"source": ["baidu_news"],
                     "exclude_words":["新冠", "疫","医"],
 					"flags": {}
 				},
@@ -48,7 +48,7 @@
 					"category": ["美食"],
 					"count": 1,
 					"max_count": 10,
-					"source": ["baidu_video"],
+					"source": ["baidu_news"],
 					"flags": {}
 				},
 				{
@@ -56,7 +56,7 @@
 					"category": ["体育"],
 					"count": 1,
 					"max_count": 10,
-					"source": ["baidu_video"],
+					"source": ["baidu_news"],
 					"flags": {}
 				}
 			]/*end of category setting*/
