@@ -539,7 +539,6 @@
                                     "exclude":[]
                                 }
                             },
-                            "source":["baidu_news","baidu_video"],
                             "seats": 3
                         }
                     ]
