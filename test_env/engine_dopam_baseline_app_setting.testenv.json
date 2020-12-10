@@ -28,5 +28,10 @@
         "app": "xiangfuvideo",
         "use_baidu_appid": "dcad7fa9",
         "config": "https://gitee.com/hotpush/configuration/raw/master/test_env/engine_baseline_strategy_dopam.xiangfuvideo.testenv.json"
+    },
+    {
+        "app": "baixingvideo",
+        "use_baidu_appid": "dcad7fa9",
+        "config": "https://gitee.com/hotpush/configuration/raw/master/test_env/engine_baseline_strategy_dopam.videoapp1.testenv.json"
     }
 ]
