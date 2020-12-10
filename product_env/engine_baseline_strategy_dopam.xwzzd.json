@@ -483,7 +483,7 @@
                         "proposing": {"algo": null},/*粗排设置设置*/
                         "recall": {"cf":{}}/*召回路由配置*/
                     },
-                    "source":["baidu_news"],/*协同过滤这里的source目前统一生成为baidu_news，没有区分视频图文等*/
+                    "source":["baidu_news","baidu_video"],/*协同过滤这里的source目前统一生成为baidu_news，没有区分视频图文等*/
                     "branches":[/*配置分支,可以根据condition设置的条件命中用户，对命中的用户以配置覆盖个性化配置*/
                         {
                             "name": "协同过滤AB测试_协同过滤槽位配置",/*对abtest的实验变量"cf"生效, 协同过滤ABTEST如果开启，则给协同过滤5个槽位*/
@@ -492,7 +492,7 @@
                                     "cf": "1"
                                 }
                             },
-                            "seats": 0
+                            "seats": 5
                         },
                         {
                             "name": "dev渠道默认协同过滤_协同过滤槽位配置",/*为dev渠道时, 协同过滤ABTEST如果开启，则给协同过滤5个槽位*/
