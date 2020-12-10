@@ -33,5 +33,20 @@
         "app": "baixingvideo",
         "use_baidu_appid": "dcad7fa9",
         "config": "https://gitee.com/hotpush/configuration/raw/master/test_env/engine_baseline_strategy_dopam.baixingvideo.testenv.json"
+    },
+    {
+        "app": "qitanvideo",
+        "use_baidu_appid": "dcad7fa9",
+        "config": "https://gitee.com/hotpush/configuration/raw/master/test_env/engine_baseline_strategy_dopam.qitanvideo.testenv.json"
+    },
+    {
+        "app": "jiemenvideo",
+        "use_baidu_appid": "dcad7fa9",
+        "config": "https://gitee.com/hotpush/configuration/raw/master/test_env/engine_baseline_strategy_dopam.jiemenvideo.testenv.json"
+    },
+    {
+        "app": "changlevideo",
+        "use_baidu_appid": "dcad7fa9",
+        "config": "https://gitee.com/hotpush/configuration/raw/master/test_env/engine_baseline_strategy_dopam.changlevideo.testenv.json"
     }
 ]
