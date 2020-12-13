@@ -430,7 +430,7 @@
             "name": "腾讯源冷启动测试",
             "condition": {
             "app_channel":{
-                "include": ["xiaomi"],
+                "include": ["dev"],
                 "exclude": []
             }
             },/*end of condition*/
