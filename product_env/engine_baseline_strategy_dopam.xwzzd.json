@@ -489,7 +489,7 @@
                             "name": "协同过滤AB测试_协同过滤槽位配置",/*对abtest的实验变量"cf"生效, 协同过滤ABTEST如果开启，则给协同过滤5个槽位*/
                             "condition": {
                                 "abtests":{
-                                    "cf": "1"
+                                    "cf": "shutdown"
                                 }
                             },
                             "seats": 5
@@ -538,7 +538,7 @@
                             "name": "协同过滤AB测试_短期兴趣槽位配置",/*对abtest的实验变量"cf"生效,协同过滤ABTEST如果开启，则给短期兴趣仅保留3个槽位*/
                             "condition": {
                                 "abtests":{
-                                    "cf": "1"
+                                    "cf": "shutdown"
                                 }
                             },
                             "seats": 1
