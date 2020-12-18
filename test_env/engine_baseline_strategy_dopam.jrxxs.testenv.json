@@ -3,62 +3,62 @@
 			"channel": "rcmd",
 			"category": [{
 					"id": 0,
-					"category": [ "农业", "农村","养老金","社保"],
+					"category": [ "台海时事", "军事","国外宏观","国际","历史"],
 					"count": 2,
-					"max_count": 10,
-					"source": ["baidu_news"],
-					"flags": {}
-				},
-                {
-					"id": 6,
-					"category": ["社会"],
-					"count": 1,
 					"max_count": 10,
 					"source": ["baidu_news"],
 					"flags": {}
 				},
                 {
 					"id": 1,
-					"category": [ "三农", "养生"],
+					"category": ["国际","军事"],
+					"count": 1,
+					"max_count": 10,
+					"source": ["baidu_news"],
+					"flags": {}
+				},
+                {
+					"id": 2,
+					"category": [ "健康","三农","法制","军事"],
 					"count": 3,
 					"max_count": 10,
 					"source": ["baidu_news"],
 					"flags": {}
 				},
                 {
-					"id": 4,
-					"category": ["生活", "美食", "国际社会", "水果", "科学", "科技"],
+					"id": 3,
+					"category": ["国际", "美食", "养生", "婚姻","文化"],
 					"count": 1,
 					"max_count": 10,
 					"source": ["baidu_news"],
 					"flags": {}
 				},
 				{
-					"id": 2,
-					"category": ["健康","养生"],
+					"id": 4,
+					"category": ["军事", "旅游", "通信", "科技", "社会", "娱乐"],
 					"count": 1,
 					"max_count": 10,
 					"source": ["baidu_news"],
 					"flags": {}
 				},
                  {
-					"id": 3,
-					"category": ["健康","养生"],
+					"id": 5,
+					"category": ["健康","养生","养老","农村","农民","三农","社保"],
 					"count": 2,
 					"max_count": 10,
 					"source": ["baidu_news"],
 					"flags": {}
 				},
 				{
-					"id": 4,
-					"category": ["三农","农村","养老"],
+					"id": 6,
+					"category": ["养生","养老","农村","农民","三农","社保"],
 					"count": 1,
 					"max_count": 10,
 					"source": ["baidu_video"],
 					"flags": {}
 				},
                 {
-					"id": 5,
+					"id": 7,
 					"category": ["娱乐", "影视周边","财经","文化","国际"],
 					"count": 1,
 					"max_count": 10,
@@ -444,7 +444,79 @@
 			]/*end of category setting*/
 		}/*end of house channel*/
     ],
-	 "coldstart_strategy": [ ],
+	 "coldstart_strategy": [ 
+         {
+            "name": "头条素材投放测试",
+            "condition": {
+            "app_channel":{
+                "include": ["xiaomi_1"],
+                "exclude": []
+            }
+            },/*end of condition*/
+            "override_blending_strategy": [{
+			    "channel": "rcmd",
+			    "category": [
+				{
+					"id": 0,
+					"category": ["台海时事", "军事","国外宏观","国际","历史"],
+					"count": 3,
+					"max_count": 10,
+					"source": ["baidu_news"],
+					"flags": {}
+				},
+                {
+					"id": 1,
+					"category": ["国际","军事"],
+					"count": 2,
+					"max_count": 10,
+					"source": ["baidu_news"],
+					"flags": {}
+				},
+                {
+					"id": 2,
+					"category": ["健康","养生","养老","农村","农民","三农","社保"],
+					"count": 2,
+					"max_count": 10,
+					"source": ["baidu_news"],
+					"flags": {}
+				},
+                {
+					"id": 3,
+					"category": ["健康","养生","养老","农村","农民","三农","社保"],
+					"count": 1,
+					"max_count": 10,
+					"source": ["baidu_news"],
+					"flags": {}
+				},
+                {
+					"id": 4,
+					"category": ["热点", "农村", "农民", "养老", "社保", "三农",  "老人健康", "奇闻趣事"],
+					"count": 1,
+					"max_count": 10,
+					"source": ["baidu_news"],
+					"flags": {}
+				},
+                {
+                    "id": 5,
+					"category": ["健康","养生","养老","农村","农民","三农","社保"],
+					"count": 2,
+					"max_count": 10,
+					"source": ["baidu_video"],
+					"flags": {}
+				},
+                {
+					"id": 6,
+                    "delete": true
+				},
+                 {
+					"id": 7,
+                    "delete": true
+				}
+                ] /*end of category setting*/
+		        }/*end of rcmd channel*/ 
+            ]
+         }
+     ],
      "personalization": [/*个性化推荐配置*/
          {
             "channel": "rcmd",/*频道*/
