@@ -458,7 +458,7 @@
 			    "category": [
 				{
 					"id": 0,
-					"category": ["台海时事", "军事","国外宏观","国际","历史"],
+					"category": ["健康","养生","养老","农村","农民","三农","社保"],
 					"count": 3,
 					"max_count": 10,
 					"source": ["baidu_news"],
@@ -466,7 +466,7 @@
 				},
                 {
 					"id": 1,
-					"category": ["国际","军事"],
+					"category": ["健康","养生","养老","农村","农民","三农","社保"],
 					"count": 2,
 					"max_count": 10,
 					"source": ["baidu_news"],
