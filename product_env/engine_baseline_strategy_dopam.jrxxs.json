@@ -19,7 +19,7 @@
 				},
 				{
 					"id": 2,
-					"category": ["健康"],
+					"category": ["体育"],
 					"count": 2,
 					"max_count": 5,
 					"source": ["baidu_news"],
@@ -28,15 +28,15 @@
 				},
 				{
 					"id": 3,
-					"category": ["搞笑","相声小品"],
+					"category": ["搞笑","相声小品","娱乐"],
 					"count": 2,
 					"max_count": 5,
-					"source": ["baidu_video"],
+					"source": ["baidu_news"],
 					"flags": {}
 				},
 				{
 					"id": 4,
-					"category": ["生活","大自然"],
+					"category": ["体育"],
 					"count": 1,
 					"max_count": 5,
 					"source": ["baidu_news"],
