@@ -3,7 +3,7 @@
 			"channel": "rcmd",
 		"category": [{
 					"id": 0,
-					"category": ["历史"],
+					"category": ["房产"],
 					"count": 2,
 					"max_count": 5,
 					"source": ["baidu_news"],
