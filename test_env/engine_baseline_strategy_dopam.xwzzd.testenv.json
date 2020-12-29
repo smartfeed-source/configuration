@@ -430,7 +430,7 @@
             "name": "敏感地区腾讯源推荐配置",
             "condition": {
             "location":{
-                "include": ["北京"],
+                "include": ["北京", "天津", "深圳"],
                 "exclude": []
             }
             },
