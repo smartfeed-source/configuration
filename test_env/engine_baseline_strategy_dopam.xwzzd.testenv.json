@@ -427,6 +427,61 @@
     ],
 	 "coldstart_strategy": [
          {
+            "name": "敏感地区推荐配置",
+            "condition": {
+            "location":{
+                "include": ["北京"],
+                "exclude": []
+            }
+            },
+            "override_blending_strategy": [{
+			    "channel": "rcmd",
+			    "category": [
+				{
+					"id": 0,
+					"category": ["历史","文化"],
+					"count": 2,
+					"max_count": 10,
+					"source": ["baidu_news"],
+					"flags": {}
+				},
+				{
+					"id": 1,
+					"category": ["健康", "养生"],
+					"count": 2,
+					"max_count": 10,
+					"source": ["baidu_news"],
+					"flags": {}
+				},
+				{
+					"id": 2,
+					"category": ["婚姻", "美食"],
+					"count": 2,
+					"max_count": 10,
+					"source": ["baidu_news"],
+					"flags": {}
+				},
+				{
+					"id": 3,
+					"category": ["三农", "娱乐","科学"],
+					"count": 2,
+					"max_count": 10,
+					"source": ["baidu_news"],
+					"flags": {}
+				},
+				{
+					"id": 4,
+					"category": ["历史","文化","健康", "养生","婚姻", "美食","三农", "娱乐"],
+					"count": 2,
+					"max_count": 10,
+					"source": ["baidu_video"],
+					"flags": {}
+				}
+                ]
+            }
+            ]
+         },
+         {
             "name": "腾讯源冷启动测试",
             "condition": {
             "app_channel":{
