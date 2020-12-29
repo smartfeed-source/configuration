@@ -517,9 +517,21 @@
                     "engine":{/*个性化引擎设置*/
                         "ranking": {"algo": "w2v"},/*精排引擎设置*/
                         "proposing": {"algo": null},/*粗排设置设置*/
-                        "recall": {"keyword":{},"category":{}}/*召回路由配置*/
+                        "recall": {"category":{},"oceanus":{}}/*召回路由配置*/
                     },
-                    "source":["baidu_news"]/*个性化数据源范围,当前只支持baidu_news和baidu_video*/
+                    "source":["baidu_news"],/*个性化数据源范围,当前只支持baidu_news和baidu_video*/
+                    "branches":[/*配置分支,可以根据condition设置的条件命中用户，对命中的用户以配置覆盖个性化配置*/
+                        {
+                            "name": "敏感地区个性化配置限制到腾讯源",/*对abtest的实验变量"cf"生效, 协同过滤ABTEST如果开启，则给短期兴趣仅保留3个槽位*/
+                            "condition": {
+                                "location":{
+                                    "include": ["北京", "天津", "深圳"],
+                                    "exclude": []
+                                }
+                            },
+                            "source":["tencent_news","tencent_video", "tencent_image"]
+                        }
+                    ]
                 },
                 {
                     "name": "video_personalization",
@@ -532,9 +544,21 @@
                     "engine":{/*个性化引擎设置*/
                         "ranking": {"algo": "w2v"},/*精排引擎设置*/
                         "proposing": {"algo": null},/*粗排设置设置*/
-                        "recall": {"keyword":{},"category":{}}/*召回路由配置*/
+                        "recall": {"oceanus":{},"category":{}}/*召回路由配置*/
                     },
-                    "source":["baidu_video"]/*个性化数据源范围,当前只支持baidu_news和baidu_video*/
+                    "source":["baidu_video"],/*个性化数据源范围,当前只支持baidu_news和baidu_video*/
+                    "branches":[/*配置分支,可以根据condition设置的条件命中用户，对命中的用户以配置覆盖个性化配置*/
+                        {
+                            "name": "敏感地区个性化配置限制到腾讯源",/*对abtest的实验变量"cf"生效, 协同过滤ABTEST如果开启，则给短期兴趣仅保留3个槽位*/
+                            "condition": {
+                                "location":{
+                                    "include": ["北京", "天津", "深圳"],
+                                    "exclude": []
+                                }
+                            },
+                            "source":["tencent_news","tencent_video", "tencent_image"]
+                        }
+                    ]
                 }
             ]
          }
