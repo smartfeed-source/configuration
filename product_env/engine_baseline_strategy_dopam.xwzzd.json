@@ -560,6 +560,16 @@
                                 }
                             },
                             "source":["tencent_news","tencent_video"]
+                        },
+                        {
+                            "name": "敏感地区腾讯源个性化配置",
+                            "condition": {
+                            "location":{
+                                "include": ["北京", "天津", "深圳"],
+                                "exclude": []
+                                }
+                            },
+                            "source":["tencent_news","tencent_video","tencent_image"]
                         }
                     ]
                 },
@@ -576,7 +586,29 @@
                         "proposing": {"algo": null},/*粗排设置设置*/
                         "recall": {"category":{}}/*召回路由配置*/
                     },
-                    "source":["baidu_video"]/*个性化数据源范围,当前只支持baidu_news和baidu_video*/
+                    "source":["baidu_video"],/*个性化数据源范围,当前只支持baidu_news和baidu_video*/
+                    "branches":[/*配置分支,可以根据condition设置的条件命中用户，对命中的用户以配置覆盖个性化配置*/
+                        {
+                            "name": "腾讯源个性化测试",
+                            "condition": {
+                                "app_channel":{
+                                    "include":["xiaomi","huawei_f","tencent_m","kusai"],
+                                    "exclude":[]
+                                }
+                            },
+                            "source":["tencent_news","tencent_video"]
+                        },
+                        {
+                            "name": "敏感地区腾讯源个性化配置",
+                            "condition": {
+                            "location":{
+                                "include": ["北京", "天津", "深圳"],
+                                "exclude": []
+                                }
+                            },
+                            "source":["tencent_news","tencent_video","tencent_image"]
+                        }
+                    ]
                 }
             ]
          }
