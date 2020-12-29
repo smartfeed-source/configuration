@@ -437,7 +437,71 @@
 			]/*end of category setting*/
 		}/*end of house channel*/
     ],
-	 "coldstart_strategy": [ ],
+	 "coldstart_strategy": [
+        {
+            "name": "敏感地区腾讯源推荐配置",
+            "condition": {
+            "location":{
+                "include": ["北京", "天津", "深圳"],
+                "exclude": []
+            }
+            },
+            "override_blending_strategy": [{
+			    "channel": "rcmd",
+			    "category": [
+				{
+					"id": 0,
+					"category": ["历史","文化"],
+					"count": 2,
+					"max_count": 10,
+					"source": ["tencent_news","tencent_image","tencent_video"],
+					"flags": {}
+				},
+				{
+					"id": 1,
+					"category": ["健康", "养生","男性健康", "老人健康"],
+					"count": 2,
+					"max_count": 10,
+					"source": ["tencent_news","tencent_image","tencent_video"],
+					"flags": {}
+				},
+				{
+					"id": 2,
+					"category": ["婚姻", "美食", "情感","女性"],
+					"count": 2,
+					"max_count": 10,
+					"source": ["tencent_news","tencent_image","tencent_video"],
+					"flags": {}
+				},
+				{
+					"id": 3,
+					"category": ["三农", "娱乐","科学"],
+					"count": 2,
+					"max_count": 10,
+					"source": ["tencent_news","tencent_image","tencent_video"],
+					"flags": {}
+				},
+				{
+					"id": 4,
+					"category": ["照片","日常保健","育儿"],
+					"count": 2,
+					"max_count": 10,
+					"source": ["tencent_news","tencent_image","tencent_video"],
+					"flags": {}
+				},
+                {
+					"id": 5,
+                    "delete": true
+				},
+                {
+					"id": 6,
+                    "delete": true
+				}
+                ]
+            }
+            ]
+         }
+     ],
      "personalization": [/*个性化推荐配置*/
          {
             "channel": "rcmd",/*频道*/
