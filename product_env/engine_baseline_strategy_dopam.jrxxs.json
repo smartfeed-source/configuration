@@ -533,6 +533,7 @@
                                     "exclude": []
                                 }
                             },
+                            "seats":0,
                             "source":["tencent_news","tencent_video", "tencent_image"]
                         }
                     ]
@@ -560,6 +561,7 @@
                                     "exclude": []
                                 }
                             },
+                            "seats":0,
                             "source":["tencent_news","tencent_video", "tencent_image"]
                         }
                     ]
