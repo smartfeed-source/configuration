@@ -436,6 +436,9 @@
             },
             "override_blending_strategy": [{
 			    "channel": "rcmd",
+                "flags": {
+                    "refresh_publish_time": 1
+                },
 			    "category": [
 				{
 					"id": 0,
@@ -503,6 +506,9 @@
             },/*end of condition*/
             "override_blending_strategy": [{
 			    "channel": "rcmd",
+                "flags": {
+                    "refresh_publish_time": 1
+                },
 			    "category": [
 				{
 					"id": 0,
