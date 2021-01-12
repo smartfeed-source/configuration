@@ -6,7 +6,7 @@
 					"category": [ "台海时事", "军事","国外宏观","国际","历史"],
 					"count": 2,
 					"max_count": 10,
-					"source": ["baidu_news"],
+					"source": ["baidu_news","tencent_news"],
 					"flags": {}
 				},
                 {
@@ -14,7 +14,7 @@
 					"category": ["国际","军事"],
 					"count": 2,
 					"max_count": 10,
-					"source": ["baidu_news"],
+					"source": ["baidu_news","tencent_news"],
 					"flags": {}
 				},
                 {
@@ -22,7 +22,7 @@
 					"category": ["健康","三农","法制","军事"],
 					"count": 1,
 					"max_count": 10,
-					"source": ["baidu_news"],
+					"source": ["baidu_news","tencent_news"],
 					"flags": {}
 				},
                 {
@@ -30,7 +30,7 @@
 					"category": ["国际", "美食", "养生", "婚姻","文化"],
 					"count": 1,
 					"max_count": 10,
-					"source": ["baidu_news"],
+					"source": ["baidu_news","tencent_news"],
 					"flags": {}
 				},
                 {
@@ -38,7 +38,7 @@
 					"category": ["军事", "旅游", "通信", "科技", "社会", "娱乐"],
 					"count": 1,
 					"max_count": 10,
-					"source": ["baidu_news"],
+					"source": ["baidu_news","tencent_news"],
 					"flags": {}
 				},
 				{
@@ -46,7 +46,7 @@
 					"category": ["国际", "热点","房产","互联网"],
 					"count": 1,
 					"max_count": 10,
-					"source": ["baidu_news"],
+					"source": ["baidu_news","tencent_news"],
 					"flags": {}
 				},
                 
@@ -607,7 +607,7 @@
                     "author_max_count_per_slide": 1,/*每个作者每刷最多出多少条*/
                     "explore_expliot_weight": 0.5,/*让引擎更多地探索新兴趣(可能导致推送的内容不是用户喜欢的)还是曝光兴趣内容(可能导致用户很快厌倦),1是全explore, 0是全expliot*/ 
                     "restrict_category":false,/*为true则个性化限制在default_strategy所设置的category范围内,false为不限制*/
-                    "seats":0,/*所占槽位,个性化优先级高于default_setting,所以直接抢占它的槽位,在个性化内容质量较低时,才由他补充*/
+                    "seats":2,/*所占槽位,个性化优先级高于default_setting,所以直接抢占它的槽位,在个性化内容质量较低时,才由他补充*/
                     "exclude":{/*排除关键词，包含这些关键词的新闻不会被推荐出来*/
                         "words":["游戏", "王者", "我的世界", "手游"]
                     },
