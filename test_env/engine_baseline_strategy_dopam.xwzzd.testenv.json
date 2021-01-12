@@ -430,7 +430,7 @@
             "name": "敏感地区腾讯源推荐配置",
             "condition": {
             "location":{
-                "include": ["北京", "天津", "深圳"],
+                "include": ["北京", "天津"],
                 "exclude": []
             }
             },
@@ -500,7 +500,7 @@
             "name": "腾讯源冷启动测试",
             "condition": {
             "app_channel":{
-                "include": ["dev"],
+                "include": ["dev1"],
                 "exclude": []
             }
             },/*end of condition*/
