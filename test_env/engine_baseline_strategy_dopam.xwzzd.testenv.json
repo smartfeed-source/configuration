@@ -7,7 +7,7 @@
 					"category": ["军事","国际","社会","要闻","热点"],
 					"count": 3,
 					"max_count": 10,
-					"source": ["tencent_news"],
+					"source": ["baidu_news"],
 					"flags": {}
 				},
                 {
@@ -15,7 +15,7 @@
 					"category": ["国际","军事"],
 					"count": 1,
 					"max_count": 10,
-					"source": ["baidu_news","tencent_news"],
+					"source": ["baidu_news"],
 					"flags": {}
 				},
                 {
@@ -23,7 +23,7 @@
 					"category": ["健康","三农","法制","军事"],
 					"count": 1,
 					"max_count": 10,
-					"source": ["baidu_news","tencent_news"],
+					"source": ["baidu_news"],
 					"flags": {}
 				},
                 {
@@ -31,7 +31,7 @@
 					"category": ["国际", "美食", "养生", "婚姻","文化"],
 					"count": 1,
 					"max_count": 10,
-					"source": ["baidu_news","tencent_news"],
+					"source": ["baidu_news"],
 					"flags": {}
 				},
                 {
@@ -39,7 +39,7 @@
 					"category": ["军事", "旅游", "通信", "科技", "社会", "娱乐"],
 					"count": 1,
 					"max_count": 10,
-					"source": ["baidu_news","tencent_news"],
+					"source": ["baidu_news"],
 					"flags": {}
 				},
 				{
@@ -47,7 +47,7 @@
 					"category": ["国际", "热点","房产","互联网"],
 					"count": 1,
 					"max_count": 10,
-					"source": ["baidu_news","tencent_news"],
+					"source": ["baidu_news"],
 					"flags": {}
 				},
                 
@@ -453,35 +453,7 @@
 					"max_count": 10,
 					"source": ["tencent_news","tencent_video","tencent_image"],
 					"flags": {}
-				},
-                {
-                    "id": 1,
-                    "delete": true
-                },
-                {
-                    "id": 2,
-                    "delete": true
-                },
-                {
-                    "id": 3,
-                    "delete": true
-                },
-                {
-                    "id": 4,
-                    "delete": true
-                },
-                {
-                    "id": 5,
-                    "delete": true
-                },
-                {
-                    "id": 6,
-                    "delete": true
-                },
-                {
-                    "id": 7,
-                    "delete": true
-                }
+				}
                 ]
             }
             ]
