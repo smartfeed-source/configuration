@@ -446,13 +446,41 @@
                 },
 			    "category": [
                 {
-					"id": 9,
+					"id": 0,
 					"category": ["#热门新闻"],
 					"count": 10,
 					"max_count": 10,
 					"source": ["tencent_news"],
 					"flags": {}
-				}
+				},
+                {
+                    "id": 1,
+                    "delete": true
+                },
+                {
+                    "id": 2,
+                    "delete": true
+                },
+                {
+                    "id": 3,
+                    "delete": true
+                },
+                {
+                    "id": 4,
+                    "delete": true
+                },
+                {
+                    "id": 5,
+                    "delete": true
+                },
+                {
+                    "id": 6,
+                    "delete": true
+                },
+                {
+                    "id": 7,
+                    "delete": true
+                }
                 ]
             }
             ]
