@@ -1,10 +1,19 @@
 {
 	"default_blending_strategy": [{
 			"channel": "rcmd",
-			"category": [{
+			"category": [
+                {
+					"id": 9,
+					"category": ["#热门新闻"],
+					"count": 10,
+					"max_count": 10,
+					"source": ["tencent_news"],
+					"flags": {}
+				},
+                {
 					"id": 0,
 					"category": ["军事","国际","社会","要闻","热点"],
-					"count": 3,
+					"count": 0,
 					"max_count": 10,
 					"source": ["tencent_news"],
 					"flags": {}
@@ -12,7 +21,7 @@
                 {
 					"id": 1,
 					"category": ["国际","军事"],
-					"count": 1,
+					"count": 0,
 					"max_count": 10,
 					"source": ["baidu_news","tencent_news"],
 					"flags": {}
@@ -20,7 +29,7 @@
                 {
 					"id": 2,
 					"category": ["健康","三农","法制","军事"],
-					"count": 1,
+					"count": 0,
 					"max_count": 10,
 					"source": ["baidu_news","tencent_news"],
 					"flags": {}
@@ -28,7 +37,7 @@
                 {
 					"id": 3,
 					"category": ["国际", "美食", "养生", "婚姻","文化"],
-					"count": 1,
+					"count": 0,
 					"max_count": 10,
 					"source": ["baidu_news","tencent_news"],
 					"flags": {}
@@ -36,7 +45,7 @@
                 {
 					"id": 4,
 					"category": ["军事", "旅游", "通信", "科技", "社会", "娱乐"],
-					"count": 1,
+					"count": 0,
 					"max_count": 10,
 					"source": ["baidu_news","tencent_news"],
 					"flags": {}
@@ -44,7 +53,7 @@
 				{
 					"id": 5,
 					"category": ["国际", "热点","房产","互联网"],
-					"count": 1,
+					"count": 0,
 					"max_count": 10,
 					"source": ["baidu_news","tencent_news"],
 					"flags": {}
@@ -53,7 +62,7 @@
 				{
 					"id": 6,
 					"category": ["军事", "历史"],
-					"count": 1,
+					"count": 0,
 					"max_count": 10,
 					"source": ["baidu_video"],
 					"flags": {}
@@ -61,7 +70,7 @@
                 {
 					"id": 7,
 					"category": ["娱乐", "搞笑","旅游"],
-					"count": 1,
+					"count": 0,
 					"max_count": 10,
 					"source": ["baidu_video"],
 					"flags": {}
@@ -495,72 +504,6 @@
                 ]
             }
             ]
-         },
-         {
-            "name": "腾讯源冷启动测试",
-            "condition": {
-            "app_channel":{
-                "include": ["dev1"],
-                "exclude": []
-            }
-            },/*end of condition*/
-            "override_blending_strategy": [{
-			    "channel": "rcmd",
-                "flags": {
-                    "refresh_publish_time": 1
-                },
-			    "category": [
-				{
-					"id": 0,
-					"category": ["要闻", "热点","新闻"],
-					"count": 3,
-					"max_count": 10,
-					"source": ["tencent_news","tencent_video"],
-					"flags": {}
-				},
-                {
-					"id": 1,
-					"category": ["国际社会","国际"],
-					"count": 2,
-					"max_count": 10,
-					"source": ["tencent_news","tencent_video"],
-					"flags": {}
-				},
-                {
-					"id": 2,
-					"category": ["军事", "历史"],
-					"count": 2,
-					"max_count": 10,
-					"source": ["tencent_news","tencent_video"],
-					"flags": {}
-				},
-                {
-					"id": 3,
-					"category": ["搞笑", "社会百态", "法制"],
-					"count": 1,
-					"max_count": 10,
-					"source": ["tencent_news","tencent_video"],
-					"flags": {}
-				},
-                {
-					"id": 4,
-					"category": ["科技", "理财", "社会", "娱乐", "育儿", "旅行", "婚姻", "日常保健", "女性", "男性健康", "老人健康", "奇闻趣事", "文化", "情感","照片"],
-					"count": 1,
-					"max_count": 10,
-					"source": ["tencent_news","tencent_video"],
-					"flags": {}
-				},
-                {
-					"id": 5,
-                    "delete": true
-				},
-                {
-					"id": 6,
-                    "delete": true
-				}
-                ] /*end of category setting*/
-		        }/*end of rcmd channel*/ 
-            ]
          }
      ],
      "personalization": [/*个性化推荐配置*/
@@ -574,7 +517,7 @@
                     "author_max_count_per_slide": 1,/*每个作者每刷最多出多少条*/
                     "explore_expliot_weight": 0.5,/*让引擎更多地探索新兴趣(可能导致推送的内容不是用户喜欢的)还是曝光兴趣内容(可能导致用户很快厌倦),1是全explore, 0是全expliot*/ 
                     "restrict_category":false,/*为true则个性化限制在default_strategy所设置的category范围内,false为不限制*/
-                    "seats":5,/*所占槽位,个性化优先级高于default_setting,所以直接抢占它的槽位,在个性化内容质量较低时,才由他补充*/
+                    "seats":0,/*所占槽位,个性化优先级高于default_setting,所以直接抢占它的槽位,在个性化内容质量较低时,才由他补充*/
                     "exclude":{/*排除词，标题里包含这些词语新闻不会被推荐出来*/
                         "words":["游戏", "王者", "我的世界", "手游"]
                     },
@@ -607,7 +550,7 @@
                     "author_max_count_per_slide": 1,/*每个作者每刷最多出多少条*/
                     "explore_expliot_weight": 0.5,/*让引擎更多地探索新兴趣(可能导致推送的内容不是用户喜欢的)还是曝光兴趣内容(可能导致用户很快厌倦),1是全explore, 0是全expliot*/ 
                     "restrict_category":false,/*为true则个性化限制在default_strategy所设置的category范围内,false为不限制*/
-                    "seats":2,/*所占槽位,个性化优先级高于default_setting,所以直接抢占它的槽位,在个性化内容质量较低时,才由他补充*/
+                    "seats":0,/*所占槽位,个性化优先级高于default_setting,所以直接抢占它的槽位,在个性化内容质量较低时,才由他补充*/
                     "exclude":{/*排除关键词，包含这些关键词的新闻不会被推荐出来*/
                         "words":["游戏", "王者", "我的世界", "手游"]
                     },
