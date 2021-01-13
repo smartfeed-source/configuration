@@ -446,10 +446,10 @@
     ],
 	 "coldstart_strategy": [ 
          {
-            "name": "头条素材投放测试",
+            "name": "魅族素材投放测试",
             "condition": {
             "app_channel":{
-                "include": ["xiaomi_1"],
+                "include": ["meizu_feed"],
                 "exclude": []
             }
             },/*end of condition*/
