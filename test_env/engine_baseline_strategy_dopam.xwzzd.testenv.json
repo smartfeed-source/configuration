@@ -451,7 +451,7 @@
 					"category": ["#热门新闻"],
 					"count": 10,
 					"max_count": 10,
-					"source": ["tencent_news"],
+					"source": ["tencent_news","tencent_video","tencent_image"],
 					"flags": {}
 				},
                 {
