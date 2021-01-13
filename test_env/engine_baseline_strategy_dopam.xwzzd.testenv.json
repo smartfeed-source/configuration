@@ -3,17 +3,9 @@
 			"channel": "rcmd",
 			"category": [
                 {
-					"id": 9,
-					"category": ["#热门新闻"],
-					"count": 10,
-					"max_count": 10,
-					"source": ["tencent_news"],
-					"flags": {}
-				},
-                {
 					"id": 0,
 					"category": ["军事","国际","社会","要闻","热点"],
-					"count": 0,
+					"count": 3,
 					"max_count": 10,
 					"source": ["tencent_news"],
 					"flags": {}
@@ -21,7 +13,7 @@
                 {
 					"id": 1,
 					"category": ["国际","军事"],
-					"count": 0,
+					"count": 1,
 					"max_count": 10,
 					"source": ["baidu_news","tencent_news"],
 					"flags": {}
@@ -29,7 +21,7 @@
                 {
 					"id": 2,
 					"category": ["健康","三农","法制","军事"],
-					"count": 0,
+					"count": 1,
 					"max_count": 10,
 					"source": ["baidu_news","tencent_news"],
 					"flags": {}
@@ -37,7 +29,7 @@
                 {
 					"id": 3,
 					"category": ["国际", "美食", "养生", "婚姻","文化"],
-					"count": 0,
+					"count": 1,
 					"max_count": 10,
 					"source": ["baidu_news","tencent_news"],
 					"flags": {}
@@ -45,7 +37,7 @@
                 {
 					"id": 4,
 					"category": ["军事", "旅游", "通信", "科技", "社会", "娱乐"],
-					"count": 0,
+					"count": 1,
 					"max_count": 10,
 					"source": ["baidu_news","tencent_news"],
 					"flags": {}
@@ -53,7 +45,7 @@
 				{
 					"id": 5,
 					"category": ["国际", "热点","房产","互联网"],
-					"count": 0,
+					"count": 1,
 					"max_count": 10,
 					"source": ["baidu_news","tencent_news"],
 					"flags": {}
@@ -62,7 +54,7 @@
 				{
 					"id": 6,
 					"category": ["军事", "历史"],
-					"count": 0,
+					"count": 1,
 					"max_count": 10,
 					"source": ["baidu_video"],
 					"flags": {}
@@ -70,7 +62,7 @@
                 {
 					"id": 7,
 					"category": ["娱乐", "搞笑","旅游"],
-					"count": 0,
+					"count": 1,
 					"max_count": 10,
 					"source": ["baidu_video"],
 					"flags": {}
@@ -439,9 +431,13 @@
             "name": "敏感地区腾讯源推荐配置",
             "condition": {
             "location":{
-                "include": ["北京", "天津"],
+                "include": ["北京", "天津", "深圳"],
                 "exclude": []
-            }
+            },
+            "app_channel":
+            {   
+                "include": ["dev"],
+                "exclude": []
             },
             "override_blending_strategy": [{
 			    "channel": "rcmd",
@@ -449,61 +445,18 @@
                     "refresh_publish_time": 1
                 },
 			    "category": [
-				{
-					"id": 0,
-					"category": ["历史","文化"],
-					"count": 2,
-					"max_count": 10,
-					"source": ["tencent_news","tencent_image","tencent_video"],
-					"flags": {}
-				},
-				{
-					"id": 1,
-					"category": ["健康", "养生","男性健康", "老人健康"],
-					"count": 2,
-					"max_count": 10,
-					"source": ["tencent_news","tencent_image","tencent_video"],
-					"flags": {}
-				},
-				{
-					"id": 2,
-					"category": ["婚姻", "美食"],
-					"count": 2,
-					"max_count": 10,
-					"source": ["tencent_news","tencent_image","tencent_video"],
-					"flags": {}
-				},
-				{
-					"id": 3,
-					"category": ["三农", "娱乐","科学"],
-					"count": 2,
-					"max_count": 10,
-					"source": ["tencent_news","tencent_image","tencent_video"],
-					"flags": {}
-				},
-				{
-					"id": 4,
-					"category": ["照片","日常保健","育儿"],
-					"count": 2,
-					"max_count": 10,
-					"source": ["tencent_news","tencent_image","tencent_video"],
-					"flags": {}
-				},
                 {
-					"id": 5,
-                    "delete": true
-				},
-                {
-					"id": 6,
-                    "delete": true
-				},
-                {
-					"id": 7,
-                    "delete": true
+					"id": 9,
+					"category": ["#热门新闻"],
+					"count": 10,
+					"max_count": 10,
+					"source": ["tencent_news"],
+					"flags": {}
 				}
                 ]
             }
             ]
+         }
          }
      ],
      "personalization": [/*个性化推荐配置*/
