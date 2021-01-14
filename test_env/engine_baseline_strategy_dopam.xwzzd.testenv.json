@@ -448,7 +448,7 @@
 			    "category": [
                 {
 					"id": 0,
-					"category": ["军事","国际","国际社会","要闻","热点"],
+					"category": ["国际","国际社会","要闻","热点","新闻"],
 					"count": 10,
 					"max_count": 10,
 					"source": ["tencent_news","tencent_video","tencent_image"],
