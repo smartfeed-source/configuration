@@ -446,13 +446,57 @@
                     "refresh_publish_time": 1
                 },
 			    "category": [
-                {
+				{
 					"id": 0,
-					"category": ["国际","国际社会","要闻","热点","新闻"],
-					"count": 10,
+					"category": ["军事","国际","国际社会","要闻","热门","新闻"],
+					"count": 3,
 					"max_count": 10,
-					"source": ["tencent_news","tencent_video","tencent_image"],
+					"source": ["tencent_news","tencent_image","tencent_video"],
 					"flags": {}
+				},
+				{
+					"id": 1,
+					"category": ["健康", "养生","男性健康", "老人健康"],
+					"count": 2,
+					"max_count": 10,
+					"source": ["tencent_news","tencent_image","tencent_video"],
+					"flags": {}
+				},
+				{
+					"id": 2,
+					"category": ["婚姻", "美食", "情感","女性"],
+					"count": 1,
+					"max_count": 10,
+					"source": ["tencent_news","tencent_image","tencent_video"],
+					"flags": {}
+				},
+				{
+					"id": 3,
+					"category": ["历史","文化"],
+					"count": 2,
+					"max_count": 10,
+					"source": ["tencent_news","tencent_image","tencent_video"],
+					"flags": {}
+				},
+				{
+					"id": 4,
+					"category": ["照片","电影","旅游"],
+					"count": 2,
+					"max_count": 10,
+					"source": ["tencent_news","tencent_image","tencent_video"],
+					"flags": {}
+				},
+                {
+					"id": 5,
+                    "delete": true
+				},
+                {
+					"id": 6,
+                    "delete": true
+				},
+                {
+					"id": 7,
+                    "delete": true
 				}
                 ]
             }
@@ -482,7 +526,7 @@
                         "proposing": {"algo": null},/*粗排设置设置*/
                         "recall": {"category":{},"oceanus":{}}/*召回路由配置*/
                     },
-                    "source":["baidu_news","baidu_video"],/*个性化数据源范围,当前只支持baidu_news和baidu_video*/
+                    "source":["baidu_news"],/*个性化数据源范围,当前只支持baidu_news和baidu_video*/
                     "branches":[/*配置分支,可以根据condition设置的条件命中用户，对命中的用户以配置覆盖个性化配置*/
                         {
                             "name": "协同过滤AB测试_短期兴趣槽位配置",/*对abtest的实验变量"cf"生效, 协同过滤ABTEST如果开启，则给短期兴趣仅保留3个槽位*/
