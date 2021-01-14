@@ -476,7 +476,7 @@
             "name": "腾讯源冷启动测试",
             "condition": {
             "app_channel":{
-                "include": ["xiaomi","huawei_f","tencent_m","kusai"],
+                "include": ["xiaomi","huawei_f","tencent_m","kusai","huawei_zao","tencent2_m"],
                 "exclude": []
             }
             },/*end of condition*/
@@ -488,42 +488,42 @@
 			    "category": [
 				{
 					"id": 0,
-					"category": ["要闻", "热点","新闻"],
+					"category": ["军事","国际","国际社会","要闻","热门","新闻"],
 					"count": 3,
 					"max_count": 10,
-					"source": ["tencent_news","tencent_video"],
+					"source": ["tencent_news","tencent_image","tencent_video"],
 					"flags": {}
 				},
-                {
+				{
 					"id": 1,
-					"category": ["国际社会","国际"],
+					"category": ["健康", "养生","男性健康", "老人健康"],
 					"count": 2,
 					"max_count": 10,
-					"source": ["tencent_news","tencent_video"],
+					"source": ["tencent_news","tencent_image","tencent_video"],
 					"flags": {}
 				},
-                {
+				{
 					"id": 2,
-					"category": ["军事", "历史"],
+					"category": ["婚姻", "美食", "情感","女性"],
+					"count": 1,
+					"max_count": 10,
+					"source": ["tencent_news","tencent_image","tencent_video"],
+					"flags": {}
+				},
+				{
+					"id": 3,
+					"category": ["历史","文化","社会"],
 					"count": 2,
 					"max_count": 10,
-					"source": ["tencent_news","tencent_video"],
+					"source": ["tencent_news","tencent_image","tencent_video"],
 					"flags": {}
 				},
-                {
-					"id": 3,
-					"category": ["奇闻趣事", "社会百态", "法制"],
-					"count": 1,
-					"max_count": 10,
-					"source": ["tencent_news","tencent_video"],
-					"flags": {}
-				},
-                {
+				{
 					"id": 4,
-					"category": ["科技", "理财", "社会", "娱乐", "育儿", "旅行", "婚姻", "日常保健", "女性", "男性健康", "老人健康", "文化", "情感","照片"],
-					"count": 1,
+					"category": ["照片","电影","旅游"],
+					"count": 2,
 					"max_count": 10,
-					"source": ["tencent_news","tencent_video"],
+					"source": ["tencent_news","tencent_image","tencent_video"],
 					"flags": {}
 				},
                 {
@@ -532,6 +532,10 @@
 				},
                 {
 					"id": 6,
+                    "delete": true
+				},
+                {
+					"id": 7,
                     "delete": true
 				}
                 ] /*end of category setting*/
