@@ -476,7 +476,7 @@
             "name": "腾讯源冷启动测试",
             "condition": {
             "app_channel":{
-                "include": ["xiaomi","huawei_f","tencent_m","kusai"],
+                "include": ["xiaomi","huawei_f","tencent_m","kusai","tencent2_m","huawei_zao"],
                 "exclude": []
             }
             },/*end of condition*/
@@ -496,7 +496,7 @@
 				},
 				{
 					"id": 1,
-					"category": ["健康", "养生","男性健康", "老人健康"],
+					"category": ["健康", "养生","男性健康", "抗疫"],
 					"count": 2,
 					"max_count": 10,
 					"source": ["tencent_news","tencent_image","tencent_video"],
