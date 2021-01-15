@@ -1,21 +1,10 @@
 {
 	"default_blending_strategy": [{
 			"channel": "rcmd",
-            "hotspot":[
-                {
+			"category": [{
 					"id": 0,
-					"seats": 2,
-					"repo": "static_coldstart",
-					"iindex": "top_click",
-					"list": "dcp",
-					"source": ["baidu_news"]
-                }
-            ],
-			"category": [
-                {
-					"id": 0,
-					"category": ["军事","国际","社会","要闻","热点"],
-					"count": 3,
+					"category": [ "台海时事", "军事","国外宏观","国际","历史"],
+					"count": 2,
 					"max_count": 10,
 					"source": ["baidu_news"],
 					"flags": {}
@@ -23,7 +12,7 @@
                 {
 					"id": 1,
 					"category": ["国际","军事"],
-					"count": 1,
+					"count": 2,
 					"max_count": 10,
 					"source": ["baidu_news"],
 					"flags": {}
@@ -54,7 +43,7 @@
 				},
 				{
 					"id": 5,
-					"category": ["国际", "热点","房产","互联网"],
+					"category": ["国际", "热点","体育","房产","互联网"],
 					"count": 1,
 					"max_count": 10,
 					"source": ["baidu_news"],
@@ -194,7 +183,7 @@
 					"category": ["军事","中国军情","国际","台海时事"],
 					"count": 3,
 					"max_count": 10,
-					"source": ["baidu_news","tencent_news"],
+					"source": ["baidu_news"],
 					"flags": {}
 				},
                    {
@@ -202,7 +191,7 @@
 					"category": ["军事","军事历史","海军","战斗机","空军","武器装备","军情"],
 					"count": 2,
 					"max_count": 10,
-					"source": ["baidu_news","tencent_news"],
+					"source": ["baidu_news"],
 					"flags": {}
 				},
                         {
@@ -210,7 +199,7 @@
 					"category": ["军事","中国军情","国际","台海时事","时政","历史"],
 					"count": 2,
 					"max_count": 10,
-					"source": ["baidu_news","tencent_news"],
+					"source": ["baidu_news"],
 					"flags": {}
 				},
                    {
@@ -218,7 +207,7 @@
 					"category": ["环球军事","导弹","航母","陆军","军事历史","中东局势","军舰"],
 					"count": 1,
 					"max_count": 10,
-					"source": ["baidu_news","tencent_news"],
+					"source": ["baidu_news"],
 					"flags": {}
 				},
 				{
@@ -226,7 +215,7 @@
 					"category": ["军事"],
 					"count": 2,
 					"max_count": 10,
-					"source": ["baidu_video","baidu_news","tencent_news"],
+					"source": ["baidu_video","baidu_news"],
 					"flags": {}
 				}
 			]/*end of category setting*/
@@ -236,15 +225,7 @@
 			"category": [{
 					"id": 0,
 					"category": ["娱乐"],
-					"count": 5,
-					"max_count": 10,
-					"source": ["baidu_news"],
-					"flags": {}
-				},
-                {
-					"id": 3,
-					"category": ["娱乐"],
-					"count": 3,
+					"count": 7,
 					"max_count": 10,
 					"source": ["baidu_news"],
 					"flags": {}
@@ -260,7 +241,7 @@
 				{
 					"id": 2,
 					"category": ["娱乐","影视周边","小品","相声","搞笑","综艺","影视"],
-					"count": 1,
+					"count": 2,
 					"max_count": 10,
 					"source": ["baidu_video"],
 					"flags": {}
@@ -300,23 +281,7 @@
 			"category": [{
 					"id": 0,
 					"category": ["汽车"],
-					"count": 4,
-					"max_count": 10,
-					"source": ["baidu_news"],
-					"flags": {}
-				},
-                {
-					"id": 2,
-					"category": ["汽车","二手车"],
-					"count": 2,
-					"max_count": 10,
-					"source": ["baidu_news"],
-					"flags": {}
-				},
-                 {
-					"id": 3,
-					"category": ["汽车","二手车","电动汽车","豪华车","摩托车"],
-					"count": 2,
+					"count": 8,
 					"max_count": 10,
 					"source": ["baidu_news"],
 					"flags": {}
@@ -437,14 +402,13 @@
 		}/*end of house channel*/
     ],
 	 "coldstart_strategy": [
-         {
+        {
             "name": "敏感地区腾讯源推荐配置",
             "condition": {
-                "app_channel":
-                { 
-                    "include": ["xiaomi","huawei_f","tencent_m","kusai","tencent2_m","huawei_zao","dev"],
-                    "exclude": []
-                }
+            "location":{
+                "include": ["北京", "天津", "深圳"],
+                "exclude": []
+            }
             },
             "override_blending_strategy": [{
 			    "channel": "rcmd",
@@ -454,7 +418,7 @@
 			    "category": [
 				{
 					"id": 0,
-					"category": ["军事","国际","国际社会","要闻","热门","新闻"],
+					"category": ["军事","国际","国际社会"],
 					"count": 3,
 					"max_count": 10,
 					"source": ["tencent_news","tencent_image","tencent_video"],
@@ -507,6 +471,76 @@
                 ]
             }
             ]
+         }, 
+         {
+            "name": "腾讯源冷启动测试",
+            "condition": {
+            "app_channel":{
+                "include": ["xiaomi","huawei_f","tencent_m","kusai","tencent2_m","huawei_zao","dev"],
+                "exclude": []
+            }
+            },/*end of condition*/
+            "override_blending_strategy": [{
+			    "channel": "rcmd",
+                "flags": {
+                    "refresh_publish_time": 1
+                },
+			    "category": [
+				{
+					"id": 0,
+					"category": ["军事","国际","国际社会","要闻","热门","新闻"],
+					"count": 3,
+					"max_count": 10,
+					"source": ["tencent_news","tencent_image","tencent_video"],
+					"flags": {}
+				},
+				{
+					"id": 1,
+					"category": ["健康", "养生","男性健康", "抗疫"],
+					"count": 2,
+					"max_count": 10,
+					"source": ["tencent_news","tencent_image","tencent_video"],
+					"flags": {}
+				},
+				{
+					"id": 2,
+					"category": ["婚姻", "美食", "情感","女性"],
+					"count": 1,
+					"max_count": 10,
+					"source": ["tencent_news","tencent_image","tencent_video"],
+					"flags": {}
+				},
+				{
+					"id": 3,
+					"category": ["历史","文化","社会"],
+					"count": 2,
+					"max_count": 10,
+					"source": ["tencent_news","tencent_image","tencent_video"],
+					"flags": {}
+				},
+				{
+					"id": 4,
+					"category": ["照片","电影","旅游"],
+					"count": 2,
+					"max_count": 10,
+					"source": ["tencent_news","tencent_image","tencent_video"],
+					"flags": {}
+				},
+                {
+					"id": 5,
+                    "delete": true
+				},
+                {
+					"id": 6,
+                    "delete": true
+				},
+                {
+					"id": 7,
+                    "delete": true
+				}
+                ] /*end of category setting*/
+		    }/*end of rcmd channel*/ 
+            ]
          }
      ],
      "personalization": [/*个性化推荐配置*/
@@ -521,14 +555,11 @@
                     "explore_expliot_weight": 0.5,/*让引擎更多地探索新兴趣(可能导致推送的内容不是用户喜欢的)还是曝光兴趣内容(可能导致用户很快厌倦),1是全explore, 0是全expliot*/ 
                     "restrict_category":false,/*为true则个性化限制在default_strategy所设置的category范围内,false为不限制*/
                     "seats":8,/*所占槽位,个性化优先级高于default_setting,所以直接抢占它的槽位,在个性化内容质量较低时,才由他补充*/
-                    "exclude":{/*排除词，标题里包含这些词语新闻不会被推荐出来*/
-                        "words":["游戏", "王者", "我的世界", "手游"]
-                    },
                     "engine":{/*个性化引擎设置*/
                         "ranking": {
-                            "algo": "w2v", 
+                            "algo": "w2v",
                             "hot_preferred_categorys": ["国际", "军事", "社会", "时政", "科技", "财经", "娱乐", "要闻", "新闻", "热点"]/*排序时需要考虑时间热度的分类*/
-                            },/*精排引擎设置*/
+                        },/*精排引擎设置*/
                         "proposing": {"algo": null},/*粗排设置设置*/
                         "recall": {"category":{},"oceanus":{}}/*召回路由配置*/
                     },
@@ -565,15 +596,35 @@
                     "explore_expliot_weight": 0.5,/*让引擎更多地探索新兴趣(可能导致推送的内容不是用户喜欢的)还是曝光兴趣内容(可能导致用户很快厌倦),1是全explore, 0是全expliot*/ 
                     "restrict_category":false,/*为true则个性化限制在default_strategy所设置的category范围内,false为不限制*/
                     "seats":2,/*所占槽位,个性化优先级高于default_setting,所以直接抢占它的槽位,在个性化内容质量较低时,才由他补充*/
-                    "exclude":{/*排除关键词，包含这些关键词的新闻不会被推荐出来*/
-                        "words":["游戏", "王者", "我的世界", "手游"]
-                    },
                     "engine":{/*个性化引擎设置*/
                         "ranking": {"algo": "w2v"},/*精排引擎设置*/
                         "proposing": {"algo": null},/*粗排设置设置*/
-                        "recall": {"category":{},"oceanus":{}}/*召回路由配置*/
+                        "recall": {"category":{}}/*召回路由配置*/
                     },
-                    "source":["baidu_video","tencent_video"]/*个性化数据源范围,当前只支持baidu_news和baidu_video*/
+                    "source":["baidu_video"],/*个性化数据源范围,当前只支持baidu_news和baidu_video*/
+                    "branches":[/*配置分支,可以根据condition设置的条件命中用户，对命中的用户以配置覆盖个性化配置*/
+                        {
+                            "name": "腾讯源个性化测试",
+                            "condition": {
+                                "app_channel":{
+                                    "include":["xiaomi","huawei_f","tencent_m","kusai"],
+                                    "exclude":[]
+                                }
+                            },
+                            "source":["tencent_news","tencent_video"]
+                        },
+                        {
+                            "name": "敏感地区腾讯源个性化配置",
+                            "condition": {
+                            "location":{
+                                "include": ["北京", "天津", "深圳"],
+                                "exclude": []
+                                }
+                            },
+                            "seats": 0,
+                            "source":["tencent_news","tencent_video","tencent_image"]
+                        }
+                    ]
                 }
             ]
          }
