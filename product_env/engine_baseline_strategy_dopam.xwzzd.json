@@ -476,7 +476,7 @@
             "name": "腾讯源冷启动测试",
             "condition": {
             "app_channel":{
-                "include": ["xiaomi","huawei_f","tencent_m","kusai"],
+                "include": ["xiaomi","huawei_f","tencent_m","kusai","tencent2_m","huawei_zao"],
                 "exclude": []
             }
             },/*end of condition*/
