@@ -442,10 +442,10 @@
 					"flags": {}
 				}
 			]/*end of category setting*/
-		}/*end of house channel*/
-    ],
+		}/*end of house channel*/ 
+        ],
 	 "coldstart_strategy": [ 
-         {
+        {
             "name": "魅族素材投放测试",
             "condition": {
             "app_channel":{
@@ -455,6 +455,9 @@
             },/*end of condition*/
             "override_blending_strategy": [{
 			    "channel": "rcmd",
+                "flags": {
+                    "refresh_publish_time": 1
+                },
 			    "category": [
 				{
 					"id": 0,
@@ -511,7 +514,11 @@
                  {
 					"id": 7,
                     "delete": true
-				}
+				} ,
+                {
+					"id": 8,
+                    "delete": true
+				} 
                 ] /*end of category setting*/
 		        }/*end of rcmd channel*/ 
             ]
