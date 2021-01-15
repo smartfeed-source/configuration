@@ -442,7 +442,7 @@
             "condition": {
                 "app_channel":
                 { 
-                    "include": ["dev"],
+                    "include": ["xiaomi","huawei_f","tencent_m","kusai","tencent2_m","huawei_zao","dev"],
                     "exclude": []
                 }
             },
@@ -530,19 +530,30 @@
                             "hot_preferred_categorys": ["国际", "军事", "社会", "时政", "科技", "财经", "娱乐", "要闻", "新闻", "热点"]/*排序时需要考虑时间热度的分类*/
                             },/*精排引擎设置*/
                         "proposing": {"algo": null},/*粗排设置设置*/
-                        "recall": {"category":{}}/*召回路由配置*/
+                        "recall": {"category":{},"oceanus":{}}/*召回路由配置*/
                     },
                     "source":["baidu_news"],/*个性化数据源范围,当前只支持baidu_news和baidu_video*/
                     "branches":[/*配置分支,可以根据condition设置的条件命中用户，对命中的用户以配置覆盖个性化配置*/
                         {
-                            "name": "协同过滤AB测试_短期兴趣槽位配置",/*对abtest的实验变量"cf"生效, 协同过滤ABTEST如果开启，则给短期兴趣仅保留3个槽位*/
+                            "name": "腾讯源个性化测试",
                             "condition": {
-                                "abtests":{
-                                    "cf": "shutdown"
+                                "app_channel":{
+                                    "include":["xiaomi","huawei_f","tencent_m","kusai"],
+                                    "exclude":[]
                                 }
                             },
-                            "source":["baidu_news","baidu_video"],
-                            "seats": 3
+                            "source":["tencent_news","tencent_video"]
+                        },
+                        {
+                            "name": "敏感地区腾讯源个性化配置",
+                            "condition": {
+                            "location":{
+                                "include": ["北京", "天津", "深圳"],
+                                "exclude": []
+                                }
+                            },
+                            "seats": 0,
+                            "source":["tencent_news","tencent_video","tencent_image"]
                         }
                     ]
                 },
