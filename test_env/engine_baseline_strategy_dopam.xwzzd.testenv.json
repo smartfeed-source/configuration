@@ -530,7 +530,7 @@
                             "hot_preferred_categorys": ["国际", "军事", "社会", "时政", "科技", "财经", "娱乐", "要闻", "新闻", "热点"]/*排序时需要考虑时间热度的分类*/
                             },/*精排引擎设置*/
                         "proposing": {"algo": null},/*粗排设置设置*/
-                        "recall": {"category":{},"oceanus":{}}/*召回路由配置*/
+                        "recall": {"category":{}}/*召回路由配置*/
                     },
                     "source":["baidu_news"],/*个性化数据源范围,当前只支持baidu_news和baidu_video*/
                     "branches":[/*配置分支,可以根据condition设置的条件命中用户，对命中的用户以配置覆盖个性化配置*/
