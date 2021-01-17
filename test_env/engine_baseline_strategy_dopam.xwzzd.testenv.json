@@ -419,7 +419,7 @@
 				{
 					"id": 0,
 					"category": ["军事","国际","国际社会"],
-					"count": 4,
+					"count": 8,
 					"max_count": 10,
 					"source": ["tencent_news","tencent_image","tencent_video"],
 					"flags": {}
@@ -427,7 +427,7 @@
 				{
 					"id": 5,
 					"category": ["#本地"],
-					"count": 4,
+					"count": 2,
 					"max_count": 10,
 					"source": ["tencent_news","tencent_image","tencent_video"],
 					"flags": {}
@@ -435,7 +435,7 @@
 				{
 					"id": 1,
 					"category": ["健康", "养生","男性健康", "老人健康"],
-					"count": 4,
+					"count": 3,
 					"max_count": 10,
 					"source": ["tencent_news","tencent_image","tencent_video"],
 					"flags": {}
@@ -459,7 +459,7 @@
 				{
 					"id": 4,
 					"category": ["照片","电影","旅游"],
-					"count": 2,
+					"count": 1,
 					"max_count": 10,
 					"source": ["tencent_news","tencent_image","tencent_video"],
 					"flags": {}
