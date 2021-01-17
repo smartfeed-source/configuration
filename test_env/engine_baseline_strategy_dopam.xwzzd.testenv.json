@@ -415,7 +415,7 @@
                 "flags": {
                     "refresh_publish_time": 1
                 },
-                "location": [
+                "local_news": [
                     {
                         "id": 0,
                         "seats": 3,
