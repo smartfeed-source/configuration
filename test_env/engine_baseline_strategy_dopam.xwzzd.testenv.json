@@ -427,15 +427,15 @@
 				{
 					"id": 5,
 					"category": ["#本地"],
-					"count": 2,
+					"count": 3,
 					"max_count": 10,
 					"source": ["tencent_news","tencent_image","tencent_video"],
 					"flags": {}
 				},
 				{
 					"id": 1,
-					"category": ["健康", "养生","男性健康", "老人健康"],
-					"count": 3,
+					"category": ["健康", "抗疫","男性健康", "老人健康"],
+					"count": 2,
 					"max_count": 10,
 					"source": ["tencent_news","tencent_image","tencent_video"],
 					"flags": {}
