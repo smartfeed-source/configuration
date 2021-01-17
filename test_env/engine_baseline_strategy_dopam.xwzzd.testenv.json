@@ -415,6 +415,17 @@
                 "flags": {
                     "refresh_publish_time": 1
                 },
+                "location": [
+                    {
+                        "id": 0,
+                        "seats": 3,
+                        "source": ["tencent_news","tencent_image","tencent_video"],
+                        "flags": {}
+                    }
+                ],
+                "breaking_news":[
+                    
+                ],
 			    "category": [
 				{
 					"id": 0,
