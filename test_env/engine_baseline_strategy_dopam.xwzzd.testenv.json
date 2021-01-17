@@ -419,7 +419,7 @@
 				{
 					"id": 0,
 					"category": ["军事","国际","国际社会"],
-					"count": 2,
+					"count": 4,
 					"max_count": 10,
 					"source": ["tencent_news","tencent_image","tencent_video"],
 					"flags": {}
@@ -427,7 +427,7 @@
 				{
 					"id": 5,
 					"category": ["#本地"],
-					"count": 2,
+					"count": 4,
 					"max_count": 10,
 					"source": ["tencent_news","tencent_image","tencent_video"],
 					"flags": {}
@@ -435,7 +435,7 @@
 				{
 					"id": 1,
 					"category": ["健康", "养生","男性健康", "老人健康"],
-					"count": 2,
+					"count": 4,
 					"max_count": 10,
 					"source": ["tencent_news","tencent_image","tencent_video"],
 					"flags": {}
@@ -443,7 +443,7 @@
 				{
 					"id": 2,
 					"category": ["婚姻", "美食", "情感","女性"],
-					"count": 1,
+					"count": 2,
 					"max_count": 10,
 					"source": ["tencent_news","tencent_image","tencent_video"],
 					"flags": {}
@@ -451,7 +451,7 @@
 				{
 					"id": 3,
 					"category": ["历史","文化"],
-					"count": 2,
+					"count": 4,
 					"max_count": 10,
 					"source": ["tencent_news","tencent_image","tencent_video"],
 					"flags": {}
@@ -459,7 +459,7 @@
 				{
 					"id": 4,
 					"category": ["照片","电影","旅游"],
-					"count": 1,
+					"count": 2,
 					"max_count": 10,
 					"source": ["tencent_news","tencent_image","tencent_video"],
 					"flags": {}
