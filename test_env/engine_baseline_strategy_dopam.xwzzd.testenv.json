@@ -419,7 +419,15 @@
 				{
 					"id": 0,
 					"category": ["军事","国际","国际社会"],
-					"count": 3,
+					"count": 2,
+					"max_count": 10,
+					"source": ["tencent_news","tencent_image","tencent_video"],
+					"flags": {}
+				},
+				{
+					"id": 5,
+					"category": ["#本地"],
+					"count": 2,
 					"max_count": 10,
 					"source": ["tencent_news","tencent_image","tencent_video"],
 					"flags": {}
@@ -451,14 +459,10 @@
 				{
 					"id": 4,
 					"category": ["照片","电影","旅游"],
-					"count": 2,
+					"count": 1,
 					"max_count": 10,
 					"source": ["tencent_news","tencent_image","tencent_video"],
 					"flags": {}
-				},
-                {
-					"id": 5,
-                    "delete": true
 				},
                 {
 					"id": 6,
