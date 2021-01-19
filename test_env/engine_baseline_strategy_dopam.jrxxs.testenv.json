@@ -458,7 +458,7 @@
 			    "category": [
 				{
 					"id": 0,
-					"category": ["体育","财经","科技","娱乐","手机"],
+					"category": ["国际","世界","国家","政治","军事"],
 					"count": 3,
 					"max_count": 10,
 					"source": ["baidu_news"],
@@ -466,7 +466,7 @@
 				},
                 {
 					"id": 1,
-					"category": ["体育","财经","科技","娱乐","手机"],
+					"category": ["国际","世界","国家","政治","军事"],
 					"count": 2,
 					"max_count": 10,
 					"source": ["baidu_news"],
@@ -474,31 +474,31 @@
 				},
                 {
 					"id": 2,
-					"category": ["体育","财经","科技","娱乐","手机"],
-					"count": 2,
+					"category": ["健康","养生","三农","农业"],
+					"count": 3,
 					"max_count": 10,
 					"source": ["baidu_news"],
 					"flags": {}
 				},
                 {
 					"id": 3,
-					"category": ["体育","财经","科技","娱乐","手机"],
-					"count": 1,
+					"category": ["健康","养生","三农","农业"],
+					"count": 3,
 					"max_count": 10,
 					"source": ["baidu_news"],
 					"flags": {}
 				},
                 {
 					"id": 4,
-					"category": ["体育","财经","科技","娱乐","手机"],
-					"count": 1,
+					"category": ["社会","养老金","社保","保险","公积金"],
+					"count": 3,
 					"max_count": 10,
 					"source": ["baidu_news"],
 					"flags": {}
 				},
                 {
                     "id": 5,
-					"category": ["体育","财经","科技","娱乐","手机"],
+					"category": ["文化","娱乐","房产","历史"],
 					"count": 2,
 					"max_count": 10,
 					"source": ["baidu_video"],
