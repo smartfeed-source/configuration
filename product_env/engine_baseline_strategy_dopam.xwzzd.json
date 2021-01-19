@@ -496,7 +496,7 @@
 			    "category": [
 				{
 					"id": 0,
-					"category": ["军事","国际","国际社会","要闻","热门","新闻"],
+					"category": ["科技","娱乐","美食","手机"],
 					"count": 3,
 					"max_count": 10,
 					"source": ["tencent_news","tencent_image","tencent_video"],
@@ -504,7 +504,7 @@
 				},
 				{
 					"id": 1,
-					"category": ["健康", "养生","男性健康", "抗疫"],
+					"category": ["财经", "体育","健康", "娱乐"],
 					"count": 2,
 					"max_count": 10,
 					"source": ["tencent_news","tencent_image","tencent_video"],
@@ -512,7 +512,7 @@
 				},
 				{
 					"id": 2,
-					"category": ["婚姻", "美食", "情感","女性"],
+					"category": ["科技","娱乐","美食","手机"],
 					"count": 1,
 					"max_count": 10,
 					"source": ["tencent_news","tencent_image","tencent_video"],
@@ -520,7 +520,7 @@
 				},
 				{
 					"id": 3,
-					"category": ["历史","文化","社会"],
+					"category": ["财经", "体育","健康", "娱乐"],
 					"count": 2,
 					"max_count": 10,
 					"source": ["tencent_news","tencent_image","tencent_video"],
@@ -528,7 +528,7 @@
 				},
 				{
 					"id": 4,
-					"category": ["照片","电影","旅游"],
+					"category": ["科技","娱乐","美食","手机"],
 					"count": 2,
 					"max_count": 10,
 					"source": ["tencent_news","tencent_image","tencent_video"],
