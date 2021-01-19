@@ -5,7 +5,7 @@
 				 {
 					 "id": 0,
 					 "seats": 10,
-					 "repo": "coldstart_strategy",
+					 "repo": "static_coldstart",
 					 "iindex": "top_click",
 					 "list": "dcp",
 					 "source": ["baidu_news", "baidu_video"]
