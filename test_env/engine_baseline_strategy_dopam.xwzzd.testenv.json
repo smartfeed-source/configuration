@@ -1,6 +1,16 @@
 {
 	"default_blending_strategy": [{
 			"channel": "rcmd",
+            "hotspot":[
+				 {
+					 "id": 0,
+					 "seats": 2,
+					 "repo": "static_coldstart",
+					 "iindex": "top_click",
+					 "list": "dcp",
+					 "source": ["baidu_news"]
+				 }
+			],
 			"category": [{
 					"id": 0,
 					"category": [ "台海时事", "军事","国外宏观","国际","历史"],
