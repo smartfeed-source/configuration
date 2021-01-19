@@ -5,10 +5,10 @@
 				 {
 					 "id": 0,
 					 "seats": 10,
-					 "repo": "dopam_news",
-					 "iindex": "tops",
+					 "repo": "coldstart_strategy",
+					 "iindex": "top_click",
 					 "list": "dcp",
-					 "source": ["baidu_news", "baidu_video", "ynet_news"]
+					 "source": ["baidu_news", "baidu_video"]
 				 }
 			],
 			"category": [{
