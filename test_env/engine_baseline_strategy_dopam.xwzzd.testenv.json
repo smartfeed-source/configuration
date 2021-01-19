@@ -8,7 +8,7 @@
 					 "repo": "static_coldstart",
 					 "iindex": "top_click",
 					 "list": "dcp",
-					 "source": ["baidu_news"]
+					 "source": ["baidu_news", "baidu_video"]
 				 }
 			],
 			"category": [{
