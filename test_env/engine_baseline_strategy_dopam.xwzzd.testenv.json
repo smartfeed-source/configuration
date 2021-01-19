@@ -4,11 +4,11 @@
             "hotspot":[
 				 {
 					 "id": 0,
-					 "seats": 2,
-					 "repo": "static_coldstart",
-					 "iindex": "top_click",
-					 "list": "dcp",
-					 "source": ["baidu_news", "baidu_video"]
+					 "seats": 10,
+					 "repo": "dopam_news",
+					 "iindex": "tops",
+					 "list": "timeline",
+					 "source": ["ynet_news"]
 				 }
 			],
 			"category": [{
