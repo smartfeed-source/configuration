@@ -4,17 +4,25 @@
             "hotspot":[
 				 {
 					 "id": 0,
-					 "seats": 10,
+					 "seats": 5,
 					 "repo": "static_coldstart",
 					 "iindex": "top_click",
 					 "list": "dcp",
 					 "source": ["baidu_news", "baidu_video"]
-				 }
+				 },
+				 {
+					 "id": 1,
+					 "seats": 5,
+					 "repo": "dopam_news",
+					 "iindex": "tops",
+					 "list": "timeline",
+					 "source": ["ynet_news"]
+				 }                
 			],
 			"category": [{
 					"id": 0,
 					"category": [ "台海时事", "军事","国外宏观","国际","历史"],
-					"count": 3,
+					"count": 0,
 					"max_count": 10,
 					"source": ["baidu_news"],
 					"flags": {}
@@ -22,7 +30,7 @@
                 {
 					"id": 1,
 					"category": ["国际","军事"],
-					"count": 3,
+					"count": 0,
 					"max_count": 10,
 					"source": ["baidu_news"],
 					"flags": {}
@@ -30,7 +38,7 @@
                 {
 					"id": 2,
 					"category": ["健康","三农","法制","军事"],
-					"count": 1,
+					"count": 0,
 					"max_count": 10,
 					"source": ["baidu_news"],
 					"flags": {}
@@ -38,7 +46,7 @@
                 {
 					"id": 3,
 					"category": ["国际", "美食", "养生", "婚姻","文化"],
-					"count": 1,
+					"count": 0,
 					"max_count": 10,
 					"source": ["baidu_news"],
 					"flags": {}
@@ -46,7 +54,7 @@
                 {
 					"id": 4,
 					"category": ["军事", "旅游", "通信", "科技", "社会", "娱乐"],
-					"count": 1,
+					"count": 0,
 					"max_count": 10,
 					"source": ["baidu_news"],
 					"flags": {}
@@ -54,7 +62,7 @@
 				{
 					"id": 5,
 					"category": ["国际", "热点","体育","房产","互联网"],
-					"count": 1,
+					"count": 0,
 					"max_count": 10,
 					"source": ["baidu_news"],
 					"flags": {}
@@ -63,7 +71,7 @@
 				{
 					"id": 6,
 					"category": ["军事", "历史"],
-					"count": 1,
+					"count": 0,
 					"max_count": 10,
 					"source": ["baidu_video"],
 					"flags": {}
@@ -71,7 +79,7 @@
                 {
 					"id": 7,
 					"category": ["娱乐", "搞笑","旅游"],
-					"count": 1,
+					"count": 0,
 					"max_count": 10,
 					"source": ["baidu_video"],
 					"flags": {}
@@ -416,7 +424,7 @@
             "name": "敏感地区腾讯源推荐配置",
             "condition": {
             "location":{
-                "include": ["北京", "天津", "深圳"],
+                "include": ["这个条件先置为无效"],
                 "exclude": []
             }
             },
