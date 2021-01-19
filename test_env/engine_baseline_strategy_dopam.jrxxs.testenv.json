@@ -451,11 +451,7 @@
             "app_channel":{
                 "include": ["xiaomi_2","xiaomi_3"],
                 "exclude": []
-            },
-           "location":{
-                "include": ["北京", "天津","广东","上海","江苏","山东","浙江"],
-                "exclude": []
-            }
+            }         
             },/*end of condition*/
             "override_blending_strategy": [{
 			    "channel": "rcmd",
