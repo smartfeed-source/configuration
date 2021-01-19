@@ -7,8 +7,8 @@
 					 "seats": 10,
 					 "repo": "dopam_news",
 					 "iindex": "tops",
-					 "list": "timeline",
-					 "source": ["ynet_news"]
+					 "list": "dcp",
+					 "source": ["baidu_news", "baidu_video", "ynet_news"]
 				 }
 			],
 			"category": [{
