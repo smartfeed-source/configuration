@@ -454,7 +454,7 @@
                 "local_news": [
                     {
                         "id": 0,
-                        "seats": 3,
+                        "seats": 0,
                         "source": ["tencent_news","tencent_image","tencent_video"],
                         "flags": {}
                     }
@@ -470,7 +470,7 @@
 				},
 				{
 					"id": 1,
-					"category": ["健康","男性健康", "老人健康"],
+					"category": ["娱乐","体育,","财经"],
 					"count": 2,
 					"max_count": 10,
 					"source": ["tencent_news","tencent_image","tencent_video"],
