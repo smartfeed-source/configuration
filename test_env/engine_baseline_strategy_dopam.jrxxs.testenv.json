@@ -449,7 +449,7 @@
             "name": "小米上线配置",
             "condition": {
             "app_channel":{
-                "include": ["xiaomi_3"],
+                "include": ["xiaomi_2","xiaomi_3"],
                 "exclude": []
             }
             },/*end of condition*/
