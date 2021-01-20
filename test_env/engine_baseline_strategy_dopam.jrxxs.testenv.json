@@ -584,7 +584,7 @@
 				},
                 {
                     "id": 7,
-					"category": ["房产","房价"],
+					"category": ["房产"],
 					"count": 1,
 					"max_count": 5,
 					"source": ["baidu_video"],
