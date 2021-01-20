@@ -528,23 +528,23 @@
 			    "category": [
 				{
 					"id": 0,
-					"category": ["国际","世界","国家","政治","军事"],
-					"count": 3,
-					"max_count": 10,
-					"source": ["baidu_news"],
-					"flags": {}
-				},
-                {
-					"id": 1,
-					"category": ["国际","世界","国家","政治","军事"],
+					"category": ["政治","军事"],
 					"count": 2,
 					"max_count": 10,
 					"source": ["baidu_news"],
 					"flags": {}
 				},
                 {
+					"id": 1,
+					"category": ["国际","世界","国家"],
+					"count": 3,
+					"max_count": 10,
+					"source": ["baidu_news"],
+					"flags": {}
+				},
+                {
 					"id": 2,
-					"category": ["健康","养生","三农","农业"],
+					"category": ["健康","养生","保健品"],
 					"count": 3,
 					"max_count": 10,
 					"source": ["baidu_news"],
@@ -552,8 +552,8 @@
 				},
                 {
 					"id": 3,
-					"category": ["健康","养生","三农","农业"],
-					"count": 3,
+					"category": ["三农","农业"],
+					"count": 2,
 					"max_count": 10,
 					"source": ["baidu_news"],
 					"flags": {}
@@ -568,18 +568,34 @@
 				},
                 {
                     "id": 5,
-					"category": ["文化","娱乐","房产","历史"],
-					"count": 2,
-					"max_count": 10,
+					"category": ["文化","娱乐"],
+					"count": 1,
+					"max_count": 5,
 					"source": ["baidu_video"],
 					"flags": {}
 				},
                 {
-					"id": 6,
+                    "id": 6,
+					"category": ["历史"],
+					"count": 1,
+					"max_count": 5,
+					"source": ["baidu_video"],
+					"flags": {}
+				},
+                {
+                    "id": 7,
+					"category": ["房产","房价"],
+					"count": 1,
+					"max_count": 5,
+					"source": ["baidu_video"],
+					"flags": {}
+				},
+                {
+					"id": 8,
                     "delete": true
 				},
-                 {
-					"id": 7,
+                {
+					"id": 9,
                     "delete": true
 				}
                 ] /*end of category setting*/
