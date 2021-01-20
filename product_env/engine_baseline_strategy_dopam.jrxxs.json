@@ -449,56 +449,38 @@
             "override_blending_strategy": [{
 			    "channel": "rcmd",
                 "flags": {
-                    "refresh_publish_time": 1
+                    "refresh_publish_time": 0
                 },
-                "local_news": [
-                    {
-                        "id": 0,
-                        "seats": 0,
-                        "source": ["tencent_news","tencent_image","tencent_video"],
-                        "flags": {}
-                    }
-                ],
+                "hotspot":[
+				    {
+					    "id": 0,
+					    "seats": 20,
+					    "repo": "dopam_news",
+					    "iindex": "tops",
+					    "list": "timeline",
+					    "source": ["ynet_news"]
+				    }                
+			    ],
 			    "category": [
                 {
 					"id": 0,
-					"category": ["娱乐","财经","科技"],
-					"count": 8,
-					"max_count": 10,
-					"source": ["tencent_news","tencent_image","tencent_video"],
-					"flags": {}
+                    "delete": true
 				},
 				{
 					"id": 1,
-					"category": ["娱乐","体育,","财经"],
-					"count": 2,
-					"max_count": 10,
-					"source": ["tencent_news","tencent_image","tencent_video"],
-					"flags": {}
+                    "delete": true
 				},
 				{
 					"id": 2,
-					"category": ["婚姻", "美食", "情感","女性"],
-					"count": 2,
-					"max_count": 10,
-					"source": ["tencent_news","tencent_image","tencent_video"],
-					"flags": {}
+                    "category": true
 				},
 				{
 					"id": 3,
-					"category": ["娱乐","文化"],
-					"count": 4,
-					"max_count": 10,
-					"source": ["tencent_news","tencent_image","tencent_video"],
-					"flags": {}
+                    "category": true
 				},
 				{
 					"id": 4,
-					"category": ["照片","电影","旅游"],
-					"count": 1,
-					"max_count": 10,
-					"source": ["tencent_news","tencent_image","tencent_video"],
-					"flags": {}
+                    "delete": true
 				},
                 {
 					"id": 5,
