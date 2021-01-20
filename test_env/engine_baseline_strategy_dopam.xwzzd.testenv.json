@@ -7,7 +7,7 @@
 					 "seats": 5,
 					 "repo": "static_coldstart",
 					 "iindex": "top_click",
-					 "list": "dcp",
+					 "list": "top_click",
 					 "source": ["baidu_news", "baidu_video"]
 				 },
 				 {
