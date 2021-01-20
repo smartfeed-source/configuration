@@ -6,8 +6,8 @@
 					 "id": 0,
 					 "seats": 5,
 					 "repo": "static_coldstart",
-					 "iindex": "top_click",
-					 "list": "top_click",
+					 "iindex": "dcp",
+					 "list": "dcp",
 					 "source": ["baidu_news", "baidu_video"]
 				 },
 				 {
