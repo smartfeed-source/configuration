@@ -472,11 +472,11 @@
 				},
 				{
 					"id": 2,
-                    "category": true
+                    "delete": true
 				},
 				{
 					"id": 3,
-                    "category": true
+                    "delete": true
 				},
 				{
 					"id": 4,
