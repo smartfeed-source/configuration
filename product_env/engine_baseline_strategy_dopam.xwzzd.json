@@ -428,11 +428,112 @@
             }
             ]
          }, 
+        {
+            "name": "热门排序实验/对照组",
+            "condition": {
+                "abtests":{
+                    "coldstart_strategy": "tx_default"
+                }
+            },
+            "override_blending_strategy": [{
+			    "channel": "rcmd",
+                "flags": {
+                    "refresh_publish_time": 1
+                },
+                /*这里维持与当前正式环境相同的配置*/
+			    "category": [
+				{
+					"id": 0,
+					"category": ["军事","国际","国际社会","要闻","热门","新闻"],
+					"count": 3,
+					"max_count": 10,
+					"source": ["tencent_news","tencent_image","tencent_video"],
+					"flags": {}
+				},
+				{
+					"id": 1,
+					"category": ["健康", "养生","男性健康", "抗疫"],
+					"count": 2,
+					"max_count": 10,
+					"source": ["tencent_news","tencent_image","tencent_video"],
+					"flags": {}
+				},
+				{
+					"id": 2,
+					"category": ["婚姻", "美食", "情感","女性"],
+					"count": 1,
+					"max_count": 10,
+					"source": ["tencent_news","tencent_image","tencent_video"],
+					"flags": {}
+				},
+				{
+					"id": 3,
+					"category": ["历史","文化","社会"],
+					"count": 2,
+					"max_count": 10,
+					"source": ["tencent_news","tencent_image","tencent_video"],
+					"flags": {}
+				},
+				{
+					"id": 4,
+					"category": ["照片","电影","旅游"],
+					"count": 2,
+					"max_count": 10,
+					"source": ["tencent_news","tencent_image","tencent_video"],
+					"flags": {}
+				},
+                {
+					"id": 5,
+                    "delete": true
+				},
+                {
+					"id": 6,
+                    "delete": true
+				},
+                {
+					"id": 7,
+                    "delete": true
+				}
+                ] /*end of category setting*/
+            }
+            ]
+        },
+        {
+            "name": "热门排序实验/dcp算法组",
+            "condition": {
+                "abtests":{
+                    "coldstart_strategy": "bd_hotspot"
+                }
+            },
+            "override_blending_strategy": [{
+			    "channel": "rcmd",
+                "flags": {
+                    "refresh_publish_time": 0
+                },
+                "hotspot":[
+				    {
+					    "id": 0,
+					    "seats": 20,
+					    "repo": "static_coldstart",
+					    "iindex": "dcp",
+					    "list": "dcp",
+					    "source": ["baidu_news", "baidu_video"]
+				    }
+			    ]
+                /*
+                    这里不用对category这个recalltype的配置进行删除，这样可以保证万一dcp内容出完了，还有那个兜底。
+                    同时dcp的得分现在是>1的，而category哪些召回是<1的，所以在dcp用完之前不会混进来category的召回。
+                    *但是后续这里要考虑下，因为各种recall_type之间没有优先级之分，所以如果dcp的score跟普通的category的score
+                    都归一化到0~1区间的话，这里就有点问题了。后续这里也许需要一个显式的优先级配置。
+                */
+            }
+            ]
+         }, 
          {
             "name": "腾讯源冷启动测试",
             "condition": {
             "app_channel":{
-                "include": ["xiaomi","huawei_f","tencent_m","kusai","tencent2_m","huawei_zao"],
+                "include": ["xiaomi","huawei_f","tencent_m","kusai","tencent2_m"],
                 "exclude": []
             }
             },/*end of condition*/
