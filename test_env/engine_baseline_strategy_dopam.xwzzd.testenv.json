@@ -423,10 +423,6 @@
             "condition": {
                 "abtests":{
                     "coldstart_strategy": "bd_hotspot"
-                },
-                "app_channel":{
-                    "include": ["dev"],
-                    "exclude": []
                 }
             },
             "override_blending_strategy": [{
