@@ -631,7 +631,7 @@
 					"category": ["文化","娱乐","旅游","时尚"],
 					"count": 2,
 					"max_count": 10,
-					"source": ["baidu_video"],
+					"source": ["baidu_news"],
 					"flags": {}
 				},
                 {
@@ -639,7 +639,7 @@
 					"category": ["历史","史"],
 					"count": 2,
 					"max_count": 10,
-					"source": ["baidu_video"],
+					"source": ["baidu_news"],
 					"flags": {}
 				},
                 {
@@ -647,7 +647,7 @@
 					"category": ["房产","房地产"],
 					"count": 2,
 					"max_count": 5,
-					"source": ["baidu_video"],
+					"source": ["baidu_news"],
 					"flags": {}
 				},
                 {
