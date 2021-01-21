@@ -1,16 +1,6 @@
 {
 	"default_blending_strategy": [{
 			"channel": "rcmd",
-            "hotspot":[
-				 {
-					 "id": 1,
-					 "seats": 5,
-					 "repo": "dopam_news",
-					 "iindex": "tops",
-					 "list": "timeline",
-					 "source": ["ynet_news"]
-				 }                
-			],
 			"category": [{
 					"id": 0,
 					"category": [ "台海时事", "军事","国外宏观","国际","历史"],
