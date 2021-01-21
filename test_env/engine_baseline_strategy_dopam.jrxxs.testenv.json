@@ -588,7 +588,7 @@
 			    "category": [
 				{
 					"id": 0,
-					"category": ["政治","军事"],
+					"category": ["政治","军事","环球军事","时政"],
 					"count": 3,
 					"max_count": 10,
 					"source": ["baidu_news"],
@@ -604,7 +604,7 @@
 				},
                 {
 					"id": 2,
-					"category": ["健康","养生","保健品"],
+					"category": ["健康","养生","保健品","美食"],
 					"count": 3,
 					"max_count": 10,
 					"source": ["baidu_news"],
@@ -612,7 +612,7 @@
 				},
                 {
 					"id": 3,
-					"category": ["三农","农业"],
+					"category": ["三农","农业","农村"],
 					"count": 2,
 					"max_count": 10,
 					"source": ["baidu_news"],
@@ -620,7 +620,7 @@
 				},
                 {
 					"id": 4,
-					"category": ["社会","养老金","社保","保险","公积金"],
+					"category": ["社会","养老金","社保","保险","公积金","生活"],
 					"count": 3,
 					"max_count": 10,
 					"source": ["baidu_news"],
@@ -628,7 +628,7 @@
 				},
                 {
                     "id": 5,
-					"category": ["文化","娱乐"],
+					"category": ["文化","娱乐","旅游","时尚"],
 					"count": 2,
 					"max_count": 10,
 					"source": ["baidu_video"],
@@ -636,7 +636,7 @@
 				},
                 {
                     "id": 6,
-					"category": ["历史"],
+					"category": ["历史","史"],
 					"count": 2,
 					"max_count": 10,
 					"source": ["baidu_video"],
@@ -644,7 +644,7 @@
 				},
                 {
                     "id": 7,
-					"category": ["房产"],
+					"category": ["房产","房地产"],
 					"count": 2,
 					"max_count": 5,
 					"source": ["baidu_video"],
