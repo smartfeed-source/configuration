@@ -589,7 +589,7 @@
 				{
 					"id": 0,
 					"category": ["政治","军事"],
-					"count": 2,
+					"count": 3,
 					"max_count": 10,
 					"source": ["baidu_news"],
 					"flags": {}
@@ -629,23 +629,23 @@
                 {
                     "id": 5,
 					"category": ["文化","娱乐"],
-					"count": 1,
-					"max_count": 5,
+					"count": 2,
+					"max_count": 10,
 					"source": ["baidu_video"],
 					"flags": {}
 				},
                 {
                     "id": 6,
 					"category": ["历史"],
-					"count": 1,
-					"max_count": 5,
+					"count": 2,
+					"max_count": 10,
 					"source": ["baidu_video"],
 					"flags": {}
 				},
                 {
                     "id": 7,
 					"category": ["房产"],
-					"count": 1,
+					"count": 2,
 					"max_count": 5,
 					"source": ["baidu_video"],
 					"flags": {}
