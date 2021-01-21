@@ -403,7 +403,7 @@
     ],
 	 "coldstart_strategy": [
         {
-            "name": "热门排序实验/对照",
+            "name": "热门排序实验/对照组",
             "condition": {
                 "abtests":{
                     "coldstart_strategy": "tx_default"
@@ -419,7 +419,7 @@
             ]
         },
         {
-            "name": "热门排序实验/dcp算法",
+            "name": "热门排序实验/dcp算法组",
             "condition": {
                 "abtests":{
                     "coldstart_strategy": "bd_hotspot"
