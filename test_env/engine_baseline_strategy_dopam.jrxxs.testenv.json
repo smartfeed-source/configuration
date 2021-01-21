@@ -445,6 +445,66 @@
 		}/*end of house channel*/
     ],
 	 "coldstart_strategy": [ 
+        {
+            "name": "敏感地区腾讯源推荐配置",
+            "condition": {
+            "location":{
+                "include": ["北京", "天津", "深圳"],
+                "exclude": []
+            }
+            },
+            "override_blending_strategy": [{
+			    "channel": "rcmd",
+                "flags": {
+                    "refresh_publish_time": 0
+                },
+                "hotspot":[
+				    {
+					    "id": 0,
+					    "seats": 20,
+					    "repo": "dopam_news",
+					    "iindex": "tops",
+					    "list": "timeline",
+					    "source": ["ynet_news"]
+				    }                
+			    ],
+			    "category": [
+                {
+					"id": 0,
+                    "delete": true
+				},
+				{
+					"id": 1,
+                    "delete": true
+				},
+				{
+					"id": 2,
+                    "delete": true
+				},
+				{
+					"id": 3,
+                    "delete": true
+				},
+				{
+					"id": 4,
+                    "delete": true
+				},
+                {
+					"id": 5,
+                    "delete": true
+				},
+                {
+					"id": 6,
+                    "delete": true
+				},
+                {
+					"id": 7,
+                    "delete": true
+				}
+                ]
+            }
+            ]
+         },
          {
             "name": "小米上线配置",
             "condition": {
