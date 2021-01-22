@@ -415,16 +415,68 @@
                 "flags": {
                     "refresh_publish_time": 0
                 },
-                "hotspot":[
+                "local_news": [
+                    {
+                        "id": 0,
+                        "seats": 3,
+                        "source": ["tencent_news","tencent_image","tencent_video"],
+                        "flags": {}
+                    }
+                ],
+			    "category": [
+                {
+					"id": 0,
+					"category": ["军事","国际","国际社会", "抗疫"],
+					"count": 8,
+					"max_count": 10,
+					"source": ["tencent_news","tencent_image","tencent_video"],
+					"flags": {}
+				},
 				{
-				    "id": 0,
-					"seats": 20,
-					"repo": "dopam_news",
-					"iindex": "tops",
-					"list": "timeline",
-					"source": ["ynet_news"]
-				}                
-			]
+					"id": 1,
+					"category": ["健康","男性健康", "老人健康"],
+					"count": 2,
+					"max_count": 10,
+					"source": ["tencent_news","tencent_image","tencent_video"],
+					"flags": {}
+				},
+				{
+					"id": 2,
+					"category": ["婚姻", "美食", "情感","女性"],
+					"count": 2,
+					"max_count": 10,
+					"source": ["tencent_news","tencent_image","tencent_video"],
+					"flags": {}
+				},
+				{
+					"id": 3,
+					"category": ["历史","文化"],
+					"count": 4,
+					"max_count": 10,
+					"source": ["tencent_news","tencent_image","tencent_video"],
+					"flags": {}
+				},
+				{
+					"id": 4,
+					"category": ["照片","电影","旅游"],
+					"count": 1,
+					"max_count": 10,
+					"source": ["tencent_news","tencent_image","tencent_video"],
+					"flags": {}
+				},
+                {
+					"id": 5,
+                    "delete": true
+				},
+                {
+					"id": 6,
+                    "delete": true
+				},
+                {
+					"id": 7,
+                    "delete": true
+				}
+                ]
             }
             ]
          }, 
