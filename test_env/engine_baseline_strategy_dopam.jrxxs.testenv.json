@@ -604,7 +604,7 @@
 				},
                 {
 					"id": 2,
-					"category": ["健康","养生","保健品","美食"],
+					"category": ["健康","养生","保健品","疫情","防疫"],
 					"count": 3,
 					"max_count": 10,
 					"source": ["baidu_news"],
