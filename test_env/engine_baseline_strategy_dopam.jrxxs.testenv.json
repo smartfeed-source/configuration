@@ -449,7 +449,7 @@
             "name": "敏感地区腾讯源推荐配置",
             "condition": {
             "location":{
-                "include": ["北京", "天津", "深圳"],
+                "include": ["暂时关闭"],
                 "exclude": []
             }
             },
