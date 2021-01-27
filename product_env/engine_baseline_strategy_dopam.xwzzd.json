@@ -1,16 +1,6 @@
 {
 	"default_blending_strategy": [{
 			"channel": "rcmd",
-            "hotspot":[
-				{
-					"id": 0,
-					"seats": 20,
-					"repo": "static_coldstart",
-					"iindex": "dcp",
-					"list": "dcp",
-					"source": ["baidu_news", "baidu_video"]
-				}
-			],
 			"category": [{
 					"id": 0,
 					"category": [ "台海时事", "军事","国外宏观","国际","历史"],
@@ -548,6 +538,36 @@
                 "abtests":{
                     "coldstart_strategy": "关闭"
                 }
+            },
+            "override_blending_strategy": [{
+			    "channel": "rcmd",
+                "flags": {
+                    "refresh_publish_time": 0
+                },
+                "hotspot":[
+				    {
+					    "id": 0,
+					    "seats": 20,
+					    "repo": "static_coldstart",
+					    "iindex": "dcp",
+					    "list": "dcp",
+					    "source": ["baidu_news", "baidu_video"]
+				    }
+			    ]
+                /*
+                    这里不用对category这个recalltype的配置进行删除，这样可以保证万一dcp内容出完了，还有那个兜底。
+                    同时dcp的得分现在是>1的，而category哪些召回是<1的，所以在dcp用完之前不会混进来category的召回。
+                    *但是后续这里要考虑下，因为各种recall_type之间没有优先级之分，所以如果dcp的score跟普通的category的score
+                    都归一化到0~1区间的话，这里就有点问题了。后续这里也许需要一个显式的优先级配置。
+                */
+            }
+            ]
+         }, 
+,
+        {
+            "name": "热门排序曝光渠道",
+            "condition": {
+                "app_channel":["huawei_zao"]
             },
             "override_blending_strategy": [{
 			    "channel": "rcmd",
