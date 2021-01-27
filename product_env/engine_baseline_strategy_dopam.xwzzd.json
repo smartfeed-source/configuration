@@ -566,7 +566,10 @@
         {
             "name": "热门排序曝光渠道",
             "condition": {
-                "app_channel":["huawei_zao"]
+                "app_channel":{
+                    "include": ["huawei_zao"],
+                    "exclude": []
+                }
             },
             "override_blending_strategy": [{
 			    "channel": "rcmd",
