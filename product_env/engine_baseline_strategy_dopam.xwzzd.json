@@ -466,7 +466,7 @@
             "name": "热门排序实验/对照组",
             "condition": {
                 "abtests":{
-                    "coldstart_strategy": "tx_default"
+                    "coldstart_strategy": "关闭"
                 }
             },
             "override_blending_strategy": [{
