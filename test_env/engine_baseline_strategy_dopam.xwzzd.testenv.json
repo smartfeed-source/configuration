@@ -447,7 +447,7 @@
                 "hotspot":[
                     {
 					    "id": 0,
-					    "seats": 4,
+					    "seats": 0,
 					    "repo": "static_coldstart", 
 					    "iindex": "new",
 					    "list": "new",
@@ -455,11 +455,19 @@
 				    },
 				    {
 					    "id": 1,
-					    "seats": 16,
+					    "seats": 0,
 					    "repo": "static_coldstart", 
 					    "iindex": "dcp",
 					    "list": "dcp",
 					    "source": ["baidu_news", "baidu_video"]
+				    },
+				    {
+					    "id": 2,
+					    "seats": 20,
+					    "repo": "dopam_news", 
+					    "iindex": "tops",
+					    "list": "timeline_news",
+					    "source": ["yidian_news", "yidian_video"]
 				    }
 			    ]
                 /*
