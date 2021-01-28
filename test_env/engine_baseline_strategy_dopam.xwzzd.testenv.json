@@ -447,15 +447,15 @@
                 "hotspot":[
                     {
 					    "id": 0,
-					    "seats": 2,
-					    "repo": "new_coldstart", 
+					    "seats": 4,
+					    "repo": "static_coldstart", 
 					    "iindex": "new",
 					    "list": "new",
 					    "source": ["baidu_news", "baidu_video"]
 				    },
 				    {
 					    "id": 1,
-					    "seats": 18,
+					    "seats": 16,
 					    "repo": "static_coldstart", 
 					    "iindex": "dcp",
 					    "list": "dcp",
