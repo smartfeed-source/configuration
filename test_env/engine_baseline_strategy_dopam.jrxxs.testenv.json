@@ -604,22 +604,6 @@
 				},
                 {
 					"id": 2,
-					"category": ["健康","养生","保养","疫情","防疫"],
-					"count": 2,
-					"max_count": 10,
-					"source": ["baidu_news"],
-					"flags": {}
-				},
-                {
-					"id": 3,
-					"category": ["三农","农业","农村","农民"],
-					"count": 2,
-					"max_count": 5,
-					"source": ["baidu_news"],
-					"flags": {}
-				},
-                {
-					"id": 4,
 					"category": ["养老保险","养老金","退休","社保","退休金"],
 					"count": 5,
 					"max_count": 10,
@@ -627,10 +611,26 @@
 					"flags": {}
 				},
                 {
-                    "id": 5,
-					"category": ["社会","文化","娱乐","旅游","时尚","生活","奇闻","通讯","房产","房地产"],
+					"id": 3,
+					 "category": ["健康","养生","保养","疫情","防疫"],
 					"count": 2,
 					"max_count": 10,
+					"source": ["baidu_news"],
+					"flags": {}
+				},
+                {
+					"id": 4,
+                    "category": ["三农","农业","农村","农民"],
+					"count": 2,
+					"max_count": 5,
+					"source": ["baidu_news"],
+					"flags": {}
+				},
+                {
+                    "id": 5,
+					"category": ["科技"],
+					"count": 2,
+					"max_count": 5,
 					"source": ["baidu_news"],
 					"flags": {}
 				},
@@ -645,9 +645,9 @@
 				},
                 {
                     "id": 7,
-					"category": ["科技"],
+                    "category": ["社会","文化","娱乐","旅游","时尚","生活","奇闻","通讯","房产","房地产"],
 					"count": 2,
-					"max_count": 5,
+					"max_count": 10,
 					"source": ["baidu_news"],
 					"flags": {}
 				},
