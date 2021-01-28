@@ -588,7 +588,7 @@
 			    "category": [
 				{
 					"id": 0,
-					"category": ["政治","国际","世界","国家","时政","台海时事"],
+					"category": ["政治","国际","国家","时政","台海时事"],
 					"count": 3,
 					"max_count": 10,
 					"source": ["baidu_news"],
@@ -596,7 +596,7 @@
 				},
                 {
 					"id": 1,
-					"category": ["军事","环球军事","军情","军舰"],
+					"category": ["军事","环球军事","军情","军舰","海军","空军","陆军"],
 					"count": 3,
 					"max_count": 10,
 					"source": ["baidu_news"],
@@ -620,7 +620,7 @@
 				},
                 {
 					"id": 4,
-					"category": ["养老","养老金","退休","社保","保险","退休金"],
+					"category": ["养老保险","养老金","退休","社保","退休金"],
 					"count": 5,
 					"max_count": 10,
 					"source": ["baidu_news"],
@@ -636,7 +636,7 @@
 				},
                 {
                     "id": 6,
-					"category": ["历史","史"],
+					"category": ["历史"],
 					"count": 1,
 					"max_count": 5,
 					"source": ["baidu_news"],
