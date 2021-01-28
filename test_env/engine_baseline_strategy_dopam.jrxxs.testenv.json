@@ -589,7 +589,7 @@
 				{
 					"id": 0,
 					"category": ["政治","军事","环球军事","时政"],
-					"count": 2,
+					"count": 3,
 					"max_count": 10,
 					"source": ["baidu_news"],
 					"flags": {}
@@ -597,7 +597,7 @@
                 {
 					"id": 1,
 					"category": ["国际","世界","国家","台海时事"],
-					"count": 3,
+					"count": 2,
 					"max_count": 10,
 					"source": ["baidu_news"],
 					"flags": {}
@@ -620,7 +620,7 @@
 				},
                 {
 					"id": 4,
-					"category": ["养老","养老金","退休","社保","五险一金","保险","退休金"],
+					"category": ["养老","养老金","退休","社保","保险","退休金"],
 					"count": 4,
 					"max_count": 10,
 					"source": ["baidu_news"],
@@ -628,7 +628,7 @@
 				},
                 {
                     "id": 5,
-					"category": ["社会","文化","娱乐","旅游","时尚","生活","奇闻","通讯","科技"],
+					"category": ["社会","文化","娱乐","旅游","时尚","生活","奇闻","通讯","房产","房地产"],
 					"count": 2,
 					"max_count": 10,
 					"source": ["baidu_news"],
@@ -644,7 +644,7 @@
 				},
                 {
                     "id": 7,
-					"category": ["房产","房地产"],
+					"category": ["科技"],
 					"count": 2,
 					"max_count": 5,
 					"source": ["baidu_news"],
