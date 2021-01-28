@@ -651,11 +651,19 @@
 					"flags": {}
 				},
                 {
-					"id": 8,
+                    "id": 8,
+					"category": ["体育","篮球","排球","足球","乒乓球"],
+					"count": 0,
+					"max_count": 0,
+					"source": ["baidu_news"],
+					"flags": {}
+				},
+                {
+					"id": 9,
                     "delete": true
 				},
                  {
-					"id": 9,
+					"id": 10,
                     "delete": true
 				}
                 ] /*end of category setting*/
