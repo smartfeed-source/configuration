@@ -454,7 +454,7 @@
 					    "source": ["baidu_news", "baidu_video"]
 				    },
                     {
-					    "id": 0,
+					    "id": 1,
 					    "seats": 4,
 					    "repo": "new_coldstart", 
 					    "iindex": "new",
