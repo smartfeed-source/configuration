@@ -614,7 +614,7 @@
 					"id": 3,
 					"category": ["三农","农业","农村","农民"],
 					"count": 2,
-					"max_count": 10,
+					"max_count": 5,
 					"source": ["baidu_news"],
 					"flags": {}
 				},
@@ -638,7 +638,7 @@
                     "id": 6,
 					"category": ["历史","史"],
 					"count": 2,
-					"max_count": 10,
+					"max_count": 5,
 					"source": ["baidu_news"],
 					"flags": {}
 				},
