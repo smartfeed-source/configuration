@@ -448,9 +448,9 @@
 				    {
 					    "id": 0,
 					    "seats": 20,
-					    "repo": "new_coldstart", //"static_coldstart",
-					    "iindex": "dcp",
-					    "list": "dcp",
+					    "repo": "new_coldstart", 
+					    "iindex": "new",
+					    "list": "new",
 					    "source": ["baidu_news", "baidu_video"]
 				    }
 			    ]
