@@ -597,7 +597,7 @@
                 {
 					"id": 1,
 					"category": ["国际","世界","国家","台海时事"],
-					"count": 2,
+					"count": 3,
 					"max_count": 10,
 					"source": ["baidu_news"],
 					"flags": {}
@@ -605,7 +605,7 @@
                 {
 					"id": 2,
 					"category": ["健康","养生","保健品","保养","疫情","防疫"],
-					"count": 3,
+					"count": 2,
 					"max_count": 10,
 					"source": ["baidu_news"],
 					"flags": {}
@@ -621,7 +621,7 @@
                 {
 					"id": 4,
 					"category": ["养老","养老金","退休","社保","保险","退休金"],
-					"count": 4,
+					"count": 5,
 					"max_count": 10,
 					"source": ["baidu_news"],
 					"flags": {}
@@ -637,7 +637,7 @@
                 {
                     "id": 6,
 					"category": ["历史","史"],
-					"count": 2,
+					"count": 1,
 					"max_count": 5,
 					"source": ["baidu_news"],
 					"flags": {}
