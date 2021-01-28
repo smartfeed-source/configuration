@@ -596,16 +596,16 @@
 				},
                 {
 					"id": 1,
-					"category": ["军事","环球军事","军情","军舰","海军","空军","陆军"],
-					"count": 3,
+                    "category": ["养老保险","民生","社会保险","养老金","退休金","社保"],
+					"count": 5,
 					"max_count": 10,
 					"source": ["baidu_news"],
 					"flags": {}
 				},
                 {
 					"id": 2,
-					"category": ["养老保险","民生","社会保险"],
-					"count": 5,
+						"category": ["军事","环球军事","军情","军舰","海军","空军","陆军"],
+					"count": 3,
 					"max_count": 10,
 					"source": ["baidu_news"],
 					"flags": {}
