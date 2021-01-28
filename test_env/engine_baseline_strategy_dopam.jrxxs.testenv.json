@@ -588,7 +588,7 @@
 			    "category": [
 				{
 					"id": 0,
-					"category": ["政治","军事","环球军事","时政"],
+					"category": ["政治","军事","环球军事","时政","台海时事"],
 					"count": 3,
 					"max_count": 10,
 					"source": ["baidu_news"],
@@ -596,7 +596,7 @@
 				},
                 {
 					"id": 1,
-					"category": ["国际","世界","国家","台海时事"],
+					"category": ["国际","世界","国家"],
 					"count": 3,
 					"max_count": 10,
 					"source": ["baidu_news"],
@@ -652,7 +652,7 @@
 				},
                 {
                     "id": 8,
-					"category": ["体育","篮球","排球","足球","乒乓球"],
+					"category": ["体育","篮球","排球","足球","乒乓球","球"],
 					"count": 0,
 					"max_count": 0,
 					"source": ["baidu_news"],
