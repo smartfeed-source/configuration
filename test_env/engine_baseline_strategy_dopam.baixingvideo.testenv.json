@@ -1,3 +1,7 @@
+
+//2021.01.29利用dopam做实验，线上用dopam配置
+
+
 {
 	"default_blending_strategy": [
 		{
@@ -99,6 +103,14 @@
 					"max_count": 5,
 					"source": ["baidu_video"],
 					"flags": {}
+				},
+				{
+					"id": 2,
+					"category": ["相声小品"],
+					"count": 5,
+					"max_count": 5,
+					"source": ["baidu_video"],
+					"flags": {}
 				}
 			]/*end of category setting*/
 		},/*end of entertainment channel*/
@@ -142,7 +154,7 @@
 			]/*end of category setting*/
 		},/*end of history channel*/
 		{
-			"channel": "music",//在
+			"channel": "music",
 			"category": [
 				{
 					"id": 0,
@@ -154,19 +166,6 @@
 				}
 			]/*end of category setting*/
 		},/*end of music channel*/
-		{
-			"channel": "funny",//在
-			"category": [
-				{
-					"id": 0,
-					"category": ["搞笑","相声小品"],
-					"count": 10,
-					"max_count": 10,
-					"source": ["baidu_video"],
-					"flags": {}
-				}
-			]/*end of category setting*/
-		},/*end of funny channel*/
 		{
 			"channel": "journey",
 			"category": [
