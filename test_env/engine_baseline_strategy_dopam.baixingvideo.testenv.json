@@ -81,7 +81,7 @@
 			]/*end of category setting*/
 		},/*end of healthy channel*/
 		{
-			"channel": "entertainment",//在
+			"channel": "entertainment",
 			"category": [
 				{
 					"id": 0,
