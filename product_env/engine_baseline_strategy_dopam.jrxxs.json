@@ -438,6 +438,32 @@
 		}/*end of house channel*/
     ],
 	 "coldstart_strategy": [
+         {
+            "name": "热门排序曝光渠道",
+            "condition": {
+                "app_channel":{
+                    "include": ["meizu_feed"],
+                    "exclude": []
+                }
+            },
+            "override_blending_strategy": [{
+			    "channel": "rcmd",
+                "flags": {
+                    "refresh_publish_time": 0
+                },
+                "hotspot":[
+				    {
+					    "id": 0,
+					    "seats": 20,
+					    "repo": "static_coldstart",
+					    "iindex": "dcp",
+					    "list": "dcp",
+					    "source": ["baidu_news", "baidu_video"]
+				    }
+			    ]
+            }
+            ]
+         },
         {
             "name": "敏感地区腾讯源推荐配置",
             "condition": {
@@ -502,7 +528,7 @@
             "name": "魅族素材投放测试",
             "condition": {
             "app_channel":{
-                "include": ["meizu_feed"],
+                "include": ["暂停使用"],
                 "exclude": []
             }
             },/*end of condition*/
