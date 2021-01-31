@@ -567,7 +567,7 @@
             "name": "热门排序曝光渠道",
             "condition": {
                 "app_channel":{
-                    "include": ["huawei_zao"],
+                    "include": ["huawei_zao","huawei_mix","oppo","tencent2_m"],
                     "exclude": []
                 }
             },
@@ -599,7 +599,7 @@
             "name": "腾讯源冷启动测试",
             "condition": {
             "app_channel":{
-                "include": ["xiaomi","huawei_f","tencent_m","kusai","tencent2_m"],
+                "include": ["xiaomi","huawei_f","tencent_m","kusai"],
                 "exclude": []
             }
             },/*end of condition*/
