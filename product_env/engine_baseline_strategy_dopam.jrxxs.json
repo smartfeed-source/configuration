@@ -537,16 +537,16 @@
 			    "category": [
 				{
 					"id": 0,
-					"category": ["政治","国际","国家","时政","台海时事"],
-					"count": 3,
+					"category": ["政治","国际","时政","台海时事"],
+					"count": 2,
 					"max_count": 10,
 					"source": ["baidu_news"],
 					"flags": {}
 				},
                 {
 					"id": 1,
-                    "category": ["养老保险","民生","社会保险","养老金","退休金","社保"],
-					"count": 5,
+                    "category": ["养老金","民生","社会保险","养老保险","退休金","社保"],
+					"count": 2,
 					"max_count": 10,
 					"source": ["baidu_news"],
 					"flags": {}
@@ -554,14 +554,14 @@
                 {
 					"id": 2,
 						"category": ["军事","环球军事","军情","军舰","海军","空军","陆军"],
-					"count": 3,
+					"count": 2,
 					"max_count": 10,
 					"source": ["baidu_news"],
 					"flags": {}
 				},
                 {
 					"id": 3,
-					 "category": ["健康","养生","保养","疫情","防疫"],
+					 "category": ["健康","养生","保养","疫情","防疫","健身","呼吸道疾病","传染病"],
 					"count": 2,
 					"max_count": 10,
 					"source": ["baidu_news"],
@@ -577,35 +577,51 @@
 				},
                 {
                     "id": 5,
-					"category": ["科技"],
+					"category": ["社会","房产","房地产"],
 					"count": 2,
 					"max_count": 5,
-					"source": ["baidu_video"],
+					"source": ["baidu_news"],
 					"flags": {}
 				},
                 {
                     "id": 6,
-					"category": ["历史"],
-					"count": 1,
-					"max_count": 5,
+					"category": ["历史","文化"],
+					"count": 2,
+					"max_count": 10,
 					"source": ["baidu_news"],
                     "exclude_words":["体育"],
 					"flags": {}
 				},
                 {
                     "id": 7,
-                    "category": ["社会","文化","娱乐","旅游","时尚","生活","奇闻","通讯","房产","房地产"],
+                    "category": ["娱乐","旅游","时尚","通讯","科技"],
+					"count": 2,
+					"max_count": 10,
+					"source": ["baidu_video"],
+					"flags": {}
+				},
+                {
+                    "id": 8,
+                    "category": ["生活","奇闻"],
+					"count": 2,
+					"max_count": 10,
+					"source": ["baidu_video"],
+					"flags": {}
+				},
+                {
+                    "id": 9,
+					"category": ["社会","房产","房地产"],
 					"count": 2,
 					"max_count": 10,
 					"source": ["baidu_news"],
 					"flags": {}
 				},
                 {
-					"id": 8,
+					"id": 10,
                     "delete": true
 				},
                  {
-					"id": 9,
+					"id": 11,
                     "delete": true
 				}
                 ] /*end of category setting*/
