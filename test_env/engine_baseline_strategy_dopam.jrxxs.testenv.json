@@ -614,8 +614,8 @@
 			    "category": [
 				{
 					"id": 0,
-					"category": ["政治","国际","时政","台海时事","缅甸"],
-					"count": 3,
+					"category": ["政治","国际","时政","台海时事"],
+					"count": 2,
 					"max_count": 10,
 					"source": ["baidu_news"],
 					"flags": {}
@@ -623,15 +623,15 @@
                 {
 					"id": 1,
                     "category": ["养老金","民生","社会保险","养老保险","退休金","社保"],
-					"count": 3,
+					"count": 2,
 					"max_count": 10,
-					"source": ["baidu_video"],
+					"source": ["baidu_news"],
 					"flags": {}
 				},
                 {
 					"id": 2,
 						"category": ["军事","环球军事","军情","军舰","海军","空军","陆军"],
-					"count": 3,
+					"count": 2,
 					"max_count": 10,
 					"source": ["baidu_news"],
 					"flags": {}
@@ -662,8 +662,8 @@
 				},
                 {
                     "id": 6,
-					"category": ["历史","社会","文化","房产","房地产"],
-					"count": 3,
+					"category": ["历史","文化"],
+					"count": 2,
 					"max_count": 10,
 					"source": ["baidu_news"],
                     "exclude_words":["体育"],
@@ -671,18 +671,34 @@
 				},
                 {
                     "id": 7,
-                    "category": ["娱乐","旅游","时尚","生活","奇闻","通讯","科技"],
+                    "category": ["娱乐","旅游","时尚","通讯","科技"],
 					"count": 2,
 					"max_count": 10,
 					"source": ["baidu_video"],
 					"flags": {}
 				},
                 {
-					"id": 8,
+                    "id": 8,
+                    "category": ["生活","奇闻"],
+					"count": 2,
+					"max_count": 10,
+					"source": ["baidu_video"],
+					"flags": {}
+				},
+                {
+                    "id": 9,
+					"category": ["社会","房产","房地产"],
+					"count": 2,
+					"max_count": 10,
+					"source": ["baidu_news"],
+					"flags": {}
+				},
+                {
+					"id": 10,
                     "delete": true
 				},
                  {
-					"id": 9,
+					"id": 11,
                     "delete": true
 				}
                 ] /*end of category setting*/
