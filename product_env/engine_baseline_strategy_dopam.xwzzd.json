@@ -545,10 +545,18 @@
                     "refresh_publish_time": 0
                 },
                 "hotspot":[
-				    {
+                    {
 					    "id": 0,
-					    "seats": 20,
-					    "repo": "static_coldstart",
+					    "seats": 4,
+					    "repo": "static_coldstart", 
+					    "iindex": "new",
+					    "list": "new",
+					    "source": ["baidu_news", "baidu_video"]
+				    },
+				    {
+					    "id": 1,
+					    "seats": 16,
+					    "repo": "static_coldstart", 
 					    "iindex": "dcp",
 					    "list": "dcp",
 					    "source": ["baidu_news", "baidu_video"]
