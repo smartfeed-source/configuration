@@ -463,7 +463,7 @@
             ]
          }, 
         {
-            "name": "热门排序实验/对照组",
+            "name": "热门排序实验/dcp算法组",
             "condition": {
                 "abtests":{
                     "coldstart_strategy": "关闭"
@@ -472,63 +472,18 @@
             "override_blending_strategy": [{
 			    "channel": "rcmd",
                 "flags": {
-                    "refresh_publish_time": 1
+                    "refresh_publish_time": 0
                 },
-                /*这里维持与当前正式环境相同的配置*/
-			    "category": [
-				{
-					"id": 0,
-					"category": ["军事","国际","国际社会","要闻","热门","新闻"],
-					"count": 3,
-					"max_count": 10,
-					"source": ["tencent_news","tencent_image","tencent_video"],
-					"flags": {}
-				},
-				{
-					"id": 1,
-					"category": ["健康", "养生","男性健康", "抗疫"],
-					"count": 2,
-					"max_count": 10,
-					"source": ["tencent_news","tencent_image","tencent_video"],
-					"flags": {}
-				},
-				{
-					"id": 2,
-					"category": ["婚姻", "美食", "情感","女性"],
-					"count": 1,
-					"max_count": 10,
-					"source": ["tencent_news","tencent_image","tencent_video"],
-					"flags": {}
-				},
-				{
-					"id": 3,
-					"category": ["历史","文化","社会"],
-					"count": 2,
-					"max_count": 10,
-					"source": ["tencent_news","tencent_image","tencent_video"],
-					"flags": {}
-				},
-				{
-					"id": 4,
-					"category": ["照片","电影","旅游"],
-					"count": 2,
-					"max_count": 10,
-					"source": ["tencent_news","tencent_image","tencent_video"],
-					"flags": {}
-				},
-                {
-					"id": 5,
-                    "delete": true
-				},
-                {
-					"id": 6,
-                    "delete": true
-				},
-                {
-					"id": 7,
-                    "delete": true
-				}
-                ] /*end of category setting*/
+                "hotspot":[
+				    {
+					    "id": 0,
+					    "seats": 20,
+					    "repo": "static_coldstart", 
+					    "iindex": "dcp",
+					    "list": "dcp",
+					    "source": ["baidu_news", "baidu_video"]
+				    }
+			    ]
             }
             ]
         },
