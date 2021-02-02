@@ -463,11 +463,19 @@
 				    },
 				    {
 					    "id": 2,
-					    "seats": 20,
+					    "seats": 16,
 					    "repo": "dopam_news", 
 					    "iindex": "tops",
 					    "list": "timeline_news",
-					    "source": ["yidian_news", "yidian_video"]
+					    "source": ["yidian_news"]
+				    },
+				    {
+					    "id": 3,
+					    "seats": 4,
+					    "repo": "dopam_news", 
+					    "iindex": "tops",
+					    "list": "timeline_news",
+					    "source": ["yidian_video"]
 				    }
 			    ]
                 /*
