@@ -488,7 +488,7 @@
             ]
         },
         {
-            "name": "热门排序实验/dcp算法组",
+            "name": "热门排序实验/dcp+new算法组",
             "condition": {
                 "abtests":{
                     "coldstart_strategy": "关闭"
