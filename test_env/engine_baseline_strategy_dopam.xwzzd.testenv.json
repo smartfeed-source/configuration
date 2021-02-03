@@ -1,7 +1,8 @@
 {
 	"default_blending_strategy": [ {
 			"channel": "rcmd",
-           /* "hotspot":[
+           /* 
+           "hotspot":[
 				    {
 					    "id": 0,
 					    "seats": 20,
