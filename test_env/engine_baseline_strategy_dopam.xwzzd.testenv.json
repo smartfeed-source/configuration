@@ -435,7 +435,7 @@
                     "coldstart_strategy": "bd_hotspot"
                 },
                 "app_channel":{
-                    "include": ["dev"],
+                    "include": [],
                     "exclude": []
                 }
             },
