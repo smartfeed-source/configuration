@@ -16,7 +16,7 @@
 			"category": [{
 					"id": 0,
 					"category": [ "台海时事", "军事","国外宏观","国际","历史"],
-					"count": 0,
+					"count": 4,
 					"max_count": 10,
 					"source": ["yidian_news"],
 					"flags": {}
@@ -24,7 +24,7 @@
                 {
 					"id": 1,
 					"category": ["国际","军事"],
-					"count": 0,
+					"count": 2,
 					"max_count": 10,
 					"source": ["yidian_news"],
 					"flags": {}
@@ -32,7 +32,7 @@
                 {
 					"id": 2,
 					"category": ["健康","三农","法制","军事"],
-					"count": 0,
+					"count": 2,
 					"max_count": 10,
 					"source": ["yidian_news"],
 					"flags": {}
@@ -40,7 +40,7 @@
                 {
 					"id": 3,
 					"category": ["国际", "美食", "养生", "婚姻","文化"],
-					"count": 0,
+					"count": 4,
 					"max_count": 10,
 					"source": ["yidian_news"],
 					"flags": {}
@@ -48,7 +48,7 @@
                 {
 					"id": 4,
 					"category": ["军事", "旅游", "通信", "科技", "社会", "娱乐"],
-					"count": 0,
+					"count": 2,
 					"max_count": 10,
 					"source": ["yidian_news"],
 					"flags": {}
@@ -56,7 +56,7 @@
 				{
 					"id": 5,
 					"category": ["国际", "热点","体育","房产","互联网"],
-					"count": 0,
+					"count": 2,
 					"max_count": 10,
 					"source": ["yidian_news"],
 					"flags": {}
@@ -65,7 +65,7 @@
 				{
 					"id": 6,
 					"category": ["军事", "历史"],
-					"count": 0,
+					"count": 2,
 					"max_count": 10,
 					"source": ["yidian_video"],
 					"flags": {}
@@ -73,7 +73,7 @@
                 {
 					"id": 7,
 					"category": ["娱乐", "搞笑","旅游"],
-					"count": 0,
+					"count": 2,
 					"max_count": 10,
 					"source": ["yidian_video"],
 					"flags": {}
@@ -418,7 +418,7 @@
             "name": "热门排序实验/对照组",
             "condition": {
                 "abtests":{
-                    "coldstart_strategy": "tx_default"
+                    "coldstart_strategy": "关闭"
                 }
             },
             "override_blending_strategy": [{
@@ -434,7 +434,7 @@
             "name": "热门排序实验/dcp算法组",
             "condition": {
                 "abtests":{
-                    "coldstart_strategy": "bd_hotspot"
+                    "coldstart_strategy": "关闭"
                 },
                 "app_channel":{
                     "include": [],
