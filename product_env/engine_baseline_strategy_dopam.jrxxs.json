@@ -449,7 +449,7 @@
             "override_blending_strategy": [{
 			    "channel": "rcmd",
                 "flags": {
-                    "refresh_publish_time": 0
+                    "refresh_publish_time": 1
                 },
                 "hotspot":[
 				    {
