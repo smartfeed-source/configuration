@@ -67,7 +67,7 @@
 					"category": ["军事", "历史"],
 					"count": 2,
 					"max_count": 10,
-					"source": ["yidian_video"],
+					"source": ["yidian_video","yidian_news"],
 					"flags": {}
 				},
                 {
@@ -75,7 +75,7 @@
 					"category": ["娱乐", "搞笑","旅游"],
 					"count": 2,
 					"max_count": 10,
-					"source": ["yidian_video"],
+					"source": ["yidian_video","yidian_news"],
 					"flags": {}
 				}
 			] /*end of category setting*/
