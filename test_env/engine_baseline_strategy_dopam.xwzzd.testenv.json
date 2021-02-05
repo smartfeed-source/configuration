@@ -55,7 +55,7 @@
 				},
 				{
 					"id": 5,
-					"category": ["国际", "热点","体育","房产","互联网"],
+					"category": ["国际", "热点","房产","互联网"],
 					"count": 2,
 					"max_count": 10,
 					"source": ["yidian_news"],
