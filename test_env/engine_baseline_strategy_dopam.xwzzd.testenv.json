@@ -87,7 +87,7 @@
 					"category": ["健康","养生","癌症","传染病","高血压","睡眠"],
 					"count": 5,
 					"max_count": 10,
-					"source": ["baidu_news"],
+					"source": ["yidian_news"],
 					"flags": {}
 				},
                    {
@@ -95,7 +95,7 @@
 					"category": ["健康","中医","护肤","糖尿病","健身","食品安全"],
 					"count": 3,
 					"max_count": 10,
-					"source": ["baidu_news"],
+					"source": ["yidian_news"],
 					"flags": {}
 				},
                    {
@@ -103,7 +103,7 @@
 					"category": ["健康","不孕不育","保健品","呼吸道疾病","心血管病"],
 					"count": 1,
 					"max_count": 10,
-					"source": ["baidu_news"],
+					"source": ["yidian_news"],
 					"flags": {}
 				},
 				{
@@ -111,7 +111,7 @@
 					"category": ["健康"],
 					"count": 2,
 					"max_count": 10,
-					"source": ["baidu_video"],
+					"source": ["yidian_video"],
 					"flags": {}
 				}
 			]/*end of category setting*/
@@ -123,7 +123,7 @@
 					"category": ["台海时事", "军事", "环球军事", "国外宏观","国际","历史"],
 					"count": 3,
 					"max_count": 10,
-					"source": ["baidu_video"],
+					"source": ["yidian_video"],
 					"flags": {}
 				},
                    {
@@ -131,7 +131,7 @@
 					"category": ["军事","国际","时政","搞笑","小品","娱乐"],
 					"count": 3,
 					"max_count": 10,
-					"source": ["baidu_video"],
+					"source": ["yidian_video"],
 					"flags": {}
 				},
                    {
@@ -139,7 +139,7 @@
 					"category": ["影视","猎奇","萌萌哒","广场舞","社会","音乐","生活"],
 					"count": 2,
 					"max_count": 10,
-					"source": ["baidu_video"],
+					"source": ["yidian_video"],
 					"flags": {}
 				},
 				{
@@ -147,7 +147,7 @@
 					"category": ["科技","财经","历史","旅游","养生"],
 					"count": 2,
 					"max_count": 10,
-					"source": ["baidu_video"],
+					"source": ["yidian_video"],
 					"flags": {}
 				}
 			]/*end of category setting*/
@@ -159,7 +159,7 @@
 					"category": ["国际","时政"],
 					"count": 3,
 					"max_count": 10,
-					"source": ["baidu_news"],
+					"source": ["yidian_news"],
 					"flags": {}
 				},
                    {
@@ -167,7 +167,7 @@
 					"category": ["军事","历史","社会","生活"],
 					"count": 3,
 					"max_count": 10,
-					"source": ["baidu_news"],
+					"source": ["yidian_news"],
 					"flags": {}
 				},
                    {
@@ -175,7 +175,7 @@
 					"category": ["国际","时政","历史","科技","IT"],
 					"count": 2,
 					"max_count": 10,
-					"source": ["baidu_news"],
+					"source": ["yidian_news"],
 					"flags": {}
 				},
 				{
@@ -183,7 +183,7 @@
 					"category": ["国际","时政","军事","历史"],
 					"count": 2,
 					"max_count": 10,
-					"source": ["baidu_video"],
+					"source": ["yidian_video"],
 					"flags": {}
 				}
 			]/*end of category setting*/
@@ -195,7 +195,7 @@
 					"category": ["军事","中国军情","国际","台海时事"],
 					"count": 3,
 					"max_count": 10,
-					"source": ["baidu_news"],
+					"source": ["yidian_news"],
 					"flags": {}
 				},
                    {
@@ -203,7 +203,7 @@
 					"category": ["军事","军事历史","海军","战斗机","空军","武器装备","军情"],
 					"count": 2,
 					"max_count": 10,
-					"source": ["baidu_news"],
+					"source": ["yidian_news"],
 					"flags": {}
 				},
                         {
@@ -211,7 +211,7 @@
 					"category": ["军事","中国军情","国际","台海时事","时政","历史"],
 					"count": 2,
 					"max_count": 10,
-					"source": ["baidu_news"],
+					"source": ["yidian_news"],
 					"flags": {}
 				},
                    {
@@ -219,7 +219,7 @@
 					"category": ["环球军事","导弹","航母","陆军","军事历史","中东局势","军舰"],
 					"count": 1,
 					"max_count": 10,
-					"source": ["baidu_news"],
+					"source": ["yidian_news"],
 					"flags": {}
 				},
 				{
@@ -227,7 +227,7 @@
 					"category": ["军事"],
 					"count": 2,
 					"max_count": 10,
-					"source": ["baidu_video","baidu_news"],
+					"source": ["yidian_news","yidian_video"],
 					"flags": {}
 				}
 			]/*end of category setting*/
@@ -239,7 +239,7 @@
 					"category": ["娱乐"],
 					"count": 7,
 					"max_count": 10,
-					"source": ["baidu_news"],
+					"source": ["yidian_news"],
 					"flags": {}
 				},
                    {
@@ -247,7 +247,7 @@
 					"category": ["娱乐","影视周边","小品","相声","搞笑","综艺","影视"],
 					"count": 1,
 					"max_count": 10,
-					"source": ["baidu_video","baidu_news"],
+					"source": ["yidian_video","yidian_news"],
 					"flags": {}
 				},
 				{
@@ -255,7 +255,7 @@
 					"category": ["娱乐","影视周边","小品","相声","搞笑","综艺","影视"],
 					"count": 2,
 					"max_count": 10,
-					"source": ["baidu_video"],
+					"source": ["yidian_video"],
 					"flags": {}
 				}
 			]/*end of category setting*/
@@ -267,7 +267,7 @@
 					"category": ["手机","数码","通信"],
 					"count": 5,
 					"max_count": 10,
-					"source": ["baidu_news"],
+					"source": ["yidian_news"],
 					"flags": {}
 				},
                    {
@@ -275,7 +275,7 @@
 					"category": ["手机","IT","互联网","耳机","相机"],
 					"count": 3,
 					"max_count": 10,
-					"source": ["baidu_news"],
+					"source": ["yidian_news"],
 					"flags": {}
 				},
                    {
@@ -283,7 +283,7 @@
 					"category": ["手机","数码","通信"],
 					"count": 2,
 					"max_count": 10,
-					"source": ["baidu_video","baidu_news"],
+					"source": ["yidian_video","yidian_news"],
 					"flags": {}
 				}
 			]/*end of category setting*/
@@ -295,7 +295,7 @@
 					"category": ["汽车"],
 					"count": 8,
 					"max_count": 10,
-					"source": ["baidu_news"],
+					"source": ["yidian_news"],
 					"flags": {}
 				},
                    {
@@ -303,7 +303,7 @@
 					"category": ["汽车"],
 					"count": 2,
 					"max_count": 10,
-					"source": ["baidu_video","baidu_news"],
+					"source": ["yidian_video","yidian_news"],
 					"flags": {}
 				}
 			]/*end of category setting*/
@@ -315,7 +315,7 @@
 					"category": ["科学","科技"],
 					"count": 5,
 					"max_count": 10,
-					"source": ["baidu_news"],
+					"source": ["yidian_news"],
 					"flags": {}
 				},
                    {
@@ -323,7 +323,7 @@
 					"category": ["科技","科学","新能源","航空航天","IT","互联网","无人机","机器人"],
 					"count": 3,
 					"max_count": 10,
-					"source": ["baidu_news"],
+					"source": ["yidian_news"],
 					"flags": {}
 				},
                    {
@@ -331,7 +331,7 @@
 					"category": ["科技","科学","航空航天","IT","互联网","无人机","机器人"],
 					"count": 2,
 					"max_count": 10,
-					"source": ["baidu_video","baidu_news"],
+					"source": ["yidian_video","yidian_news"],
 					"flags": {}
 				}
 			]/*end of category setting*/
@@ -343,7 +343,7 @@
 					"category": ["财经","投资","金融"],
 					"count": 5,
 					"max_count": 10,
-					"source": ["baidu_news"],
+					"source": ["yidian_news"],
 					"flags": {}
 				},
                    {
@@ -351,7 +351,7 @@
 					"category": ["财经","银行业","宏观经济"],
 					"count": 3,
 					"max_count": 10,
-					"source": ["baidu_news"],
+					"source": ["yidian_news"],
 					"flags": {}
 				},
                    {
@@ -359,7 +359,7 @@
 					"category": ["财经","投资","金融"],
 					"count": 2,
 					"max_count": 10,
-					"source": ["baidu_video","baidu_news"],
+					"source": ["yidian_video","yidian_news"],
 					"flags": {}
 				}
 			]/*end of category setting*/
@@ -371,7 +371,7 @@
 					"category": ["体育"],
 					"count": 8,
 					"max_count": 10,
-					"source": ["baidu_news"],
+					"source": ["yidian_news"],
 					"flags": {}
 				},
                    {
@@ -379,7 +379,7 @@
 					"category": ["体育"],
 					"count": 2,
 					"max_count": 10,
-					"source": ["baidu_video","baidu_news"],
+					"source": ["yidian_video","yidian_news"],
 					"flags": {}
 				}
 			]/*end of category setting*/
@@ -391,7 +391,7 @@
 					"category": ["房产","家居","建筑","房地产","自建房","购房","楼盘"],
 					"count": 5,
 					"max_count": 10,
-					"source": ["baidu_news"],
+					"source": ["yidian_news"],
 					"flags": {}
 				},
                 {
@@ -399,7 +399,7 @@
 					"category": ["二手房","房产","房地产","装修","租房","智能家居"],
 					"count": 3,
 					"max_count": 10,
-					"source": ["baidu_news"],
+					"source": ["yidian_news"],
 					"flags": {}
 				},
                    {
@@ -407,7 +407,7 @@
 					"category": ["房产","家居","建筑","房地产"],
 					"count": 2,
 					"max_count": 10,
-					"source": ["baidu_video","baidu_news"],
+					"source": ["yidian_video","yidian_news"],
 					"flags": {}
 				}
 			]/*end of category setting*/
