@@ -435,6 +435,7 @@
                     "refresh_publish_time": 0
                 },
                 "hotspot":[
+                    /*
                     {
 					    "id": 0,
 					    "seats": 0,
@@ -451,9 +452,10 @@
 					    "list": "dcp",
 					    "source": ["baidu_news", "baidu_video"]
 				    },
+                    */
 				    {
 					    "id": 2,
-					    "seats": 14,
+					    "seats": 12,
 					    "repo": "dopam_news", 
 					    "iindex": "tops",
 					    "list": "timeline_news",
@@ -480,11 +482,35 @@
                     {
 					    "id": 1,
 					    "category": ["历史","时政"],
-					    "count": 2,
+					    "count": 4,
 					    "max_count": 10,
 					    "source": ["yidian_news"],
 				        "flags": {}
-				    }                  
+				    },
+                    {
+					    "id": 2,
+                        "delete": true
+				    },
+                    {
+					    "id": 3,
+                        "delete": true
+				    },
+                    {
+					    "id": 4,
+                        "delete": true
+				    },
+                    {
+					    "id": 5,
+                        "delete": true
+				    },
+                    {
+					    "id": 6,
+                        "delete": true
+				    },
+                    {
+					    "id": 7,
+                        "delete": true
+				    }                
                 ]
                 /*
                     这里不用对category这个recalltype的配置进行删除，这样可以保证万一dcp内容出完了，还有那个兜底。
