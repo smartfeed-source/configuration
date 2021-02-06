@@ -527,6 +527,40 @@
             ]
          }, 
         {
+            "name": "一点资讯内容冷启动",
+            "condition": {
+                "app_channel":{
+                    "include": ["dev"],
+                    "exclude": []
+                }
+            },
+            "override_blending_strategy": [{
+			    "channel": "rcmd",
+                "flags": {
+                    "refresh_publish_time": 0
+                },
+                "hotspot":[
+				    {
+					    "id": 0,
+					    "seats": 16,
+					    "repo": "dopam_news",
+					    "iindex": "tops",
+					    "list": "timeline_news",
+					    "source": ["yidian_news"]
+				    },
+                    {
+					    "id": 1,
+					    "seats": 4,
+					    "repo": "dopam_news",
+					    "iindex": "tops",
+					    "list": "timeline_news",
+					    "source": ["yidian_video"]
+				    }
+			    ]
+            }
+            ]
+         }, 
+        {
             "name": "热门排序曝光渠道",
             "condition": {
                 "app_channel":{
@@ -671,6 +705,17 @@
                             },
                             "seats": 0,
                             "source":["tencent_news","tencent_video","tencent_image"]
+                        },
+                        {
+                            "name": "一点源个性化配置",
+                            "condition": {
+                            "location":{
+                                "include": ["dev"],
+                                "exclude": []
+                                }
+                            },
+                            "seats": 0,
+                            "source":["yidian_news"]
                         }
                     ]
                 },
@@ -709,6 +754,17 @@
                             },
                             "seats": 0,
                             "source":["tencent_news","tencent_video","tencent_image"]
+                        },
+                        {
+                            "name": "一点源个性化配置",
+                            "condition": {
+                            "location":{
+                                "include": ["dev"],
+                                "exclude": []
+                                }
+                            },
+                            "seats": 0,
+                            "source":["yidian_video"]
                         }
                     ]
                 }
