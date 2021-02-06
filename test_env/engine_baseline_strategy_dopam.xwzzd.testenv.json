@@ -452,7 +452,6 @@
 					    "list": "dcp",
 					    "source": ["baidu_news", "baidu_video"]
 				    },
-                    */
 				    {
 					    "id": 2,
 					    "seats": 12,
@@ -469,12 +468,13 @@
 					    "list": "timeline_news",
 					    "source": ["yidian_video"]
 				    }
+                    */
 			    ],
                 "category":[
                     {
 					    "id": 0,
-					    "category": ["娱乐","体育"],
-					    "count": 2,
+					    "category": ["国际","时政","军事"],
+					    "count": 6,
 					    "max_count": 10,
 					    "source": ["yidian_news"],
 				        "flags": {}
@@ -489,15 +489,27 @@
 				    },
                     {
 					    "id": 2,
-                        "delete": true
+					    "category": ["健康", "财经", "旅游"],
+					    "count": 4,
+					    "max_count": 10,
+					    "source": ["yidian_news"],
+				        "flags": {}
 				    },
                     {
 					    "id": 3,
-                        "delete": true
+					    "category": ["财经", "旅游"],
+					    "count": 2,
+					    "max_count": 10,
+					    "source": ["yidian_news"],
+				        "flags": {}
 				    },
                     {
 					    "id": 4,
-                        "delete": true
+					    "category": ["国际", "军事", "时政", "健康", "财经"],
+					    "count": 4,
+					    "max_count": 10,
+					    "source": ["yidian_news"],
+				        "flags": {}
 				    },
                     {
 					    "id": 5,
