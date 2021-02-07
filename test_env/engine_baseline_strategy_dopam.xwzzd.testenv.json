@@ -667,7 +667,7 @@
                                 "exclude": []
                                 }
                             },
-                            "seats": 8,
+                            "seats": 0,
                             "source":["yidian_news"]
                         }
                     ]
@@ -716,7 +716,7 @@
                                 "exclude": []
                                 }
                             },
-                            "seats": 2,
+                            "seats": 0,
                             "source":["yidian_video"]
                         }
                     ]
