@@ -638,7 +638,6 @@
                     },
                     "source":["yidian_news"],/*个性化数据源范围,当前只支持baidu_news和baidu_video*/
                     "branches":[/*配置分支,可以根据condition设置的条件命中用户，对命中的用户以配置覆盖个性化配置*/
-                        /*
                         {
                             "name": "腾讯源个性化测试",
                             "condition": {
@@ -659,8 +658,18 @@
                             },
                             "seats": 0,
                             "source":["tencent_news","tencent_video","tencent_image"]
+                        },
+                        {
+                            "name": "一点源个性化配置",
+                            "condition": {
+                            "location":{
+                                "include": ["dev"],
+                                "exclude": []
+                                }
+                            },
+                            "seats": 8,
+                            "source":["yidian_news"]
                         }
-                        */
                     ]
                 },
                 {
@@ -678,7 +687,6 @@
                     },
                     "source":["yidian_video"],/*个性化数据源范围,当前只支持baidu_news和baidu_video*/
                     "branches":[/*配置分支,可以根据condition设置的条件命中用户，对命中的用户以配置覆盖个性化配置*/
-                        /*
                         {
                             "name": "腾讯源个性化测试",
                             "condition": {
@@ -699,8 +707,18 @@
                             },
                             "seats": 0,
                             "source":["tencent_news","tencent_video","tencent_image"]
+                        },
+                        {
+                            "name": "一点源个性化配置",
+                            "condition": {
+                            "location":{
+                                "include": ["dev"],
+                                "exclude": []
+                                }
+                            },
+                            "seats": 2,
+                            "source":["yidian_video"]
                         }
-                        */
                     ]
                 }
             ]
