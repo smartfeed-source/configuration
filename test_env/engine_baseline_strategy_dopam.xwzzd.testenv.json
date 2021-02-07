@@ -436,10 +436,9 @@
                     "random_shuffle": 1
                 },
                 "hotspot":[
-                    /*
                     {
 					    "id": 0,
-					    "seats": 0,
+					    "seats": 4,
 					    "repo": "static_coldstart", 
 					    "iindex": "new",
 					    "list": "new",
@@ -447,7 +446,7 @@
 				    },
 				    {
 					    "id": 1,
-					    "seats": 0,
+					    "seats": 16,
 					    "repo": "static_coldstart", 
 					    "iindex": "dcp",
 					    "list": "dcp",
@@ -455,7 +454,7 @@
 				    },
 				    {
 					    "id": 2,
-					    "seats": 12,
+					    "seats": 0,
 					    "repo": "dopam_news", 
 					    "iindex": "tops",
 					    "list": "timeline_news",
@@ -463,14 +462,14 @@
 				    },
 				    {
 					    "id": 3,
-					    "seats": 4,
+					    "seats": 0,
 					    "repo": "dopam_news", 
 					    "iindex": "tops",
 					    "list": "timeline_news",
 					    "source": ["yidian_video"]
 				    }
-                    */
 			    ],
+                /*
                 "category":[
                     {
 					    "id": 0,
@@ -525,6 +524,7 @@
                         "delete": true
 				    }                
                 ]
+                */
                 /*
                     这里不用对category这个recalltype的配置进行删除，这样可以保证万一dcp内容出完了，还有那个兜底。
                     同时dcp的得分现在是>1的，而category哪些召回是<1的，所以在dcp用完之前不会混进来category的召回。
