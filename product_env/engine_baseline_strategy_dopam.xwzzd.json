@@ -746,7 +746,7 @@
                         {
                             "name": "一点源个性化配置",
                             "condition": {
-                            "location":{
+                            "app_channel":{
                                 "include": ["dev"],
                                 "exclude": []
                                 }
@@ -795,7 +795,7 @@
                         {
                             "name": "一点源个性化配置",
                             "condition": {
-                            "location":{
+                            "app_channel":{
                                 "include": ["dev"],
                                 "exclude": []
                                 }
