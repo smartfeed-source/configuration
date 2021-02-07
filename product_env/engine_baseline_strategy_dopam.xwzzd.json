@@ -530,7 +530,7 @@
             "name": "一点资讯内容冷启动",
             "condition": {
                 "app_channel":{
-                    "include": ["dev"],
+                    "include": ["vivo_mix"],
                     "exclude": []
                 }
             },
@@ -747,7 +747,7 @@
                             "name": "一点源个性化配置",
                             "condition": {
                             "app_channel":{
-                                "include": ["dev"],
+                                "include": ["vivo_mix"],
                                 "exclude": []
                                 }
                             },
@@ -796,7 +796,7 @@
                             "name": "一点源个性化配置",
                             "condition": {
                             "app_channel":{
-                                "include": ["dev"],
+                                "include": ["vivo_mix"],
                                 "exclude": []
                                 }
                             },
