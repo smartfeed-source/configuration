@@ -466,7 +466,7 @@
             "name": "热门排序实验/dcp算法组",
             "condition": {
                 "abtests":{
-                    "coldstart_strategy": "关闭"
+                    "coldstart_strategy": "dcp"
                 }
             },
             "override_blending_strategy": [{
@@ -491,7 +491,7 @@
             "name": "热门排序实验/dcp+new算法组",
             "condition": {
                 "abtests":{
-                    "coldstart_strategy": "关闭"
+                    "coldstart_strategy": "dcp_new"
                 }
             },
             "override_blending_strategy": [{
@@ -601,7 +601,7 @@
             "name": "热门排序曝光渠道",
             "condition": {
                 "app_channel":{
-                    "include": ["huawei_zao","huawei_mix","oppo","tencent2_m"],
+                    "include": ["huawei_mix","oppo","tencent2_m"],
                     "exclude": []
                 }
             },
