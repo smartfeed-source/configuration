@@ -623,7 +623,7 @@
                 {
 					"id": 1,
                     "category": ["养老金","民生","养老保险","退休金","社保","退休"],
-					"count": 2,
+					"count": 3,
 					"max_count": 10,
 					"source": ["baidu_news"],
 					"flags": {}
@@ -647,7 +647,7 @@
                 {
 					"id": 4,
                     "category": ["三农","农业","农村","农民"],
-					"count": 2,
+					"count": 1,
 					"max_count": 5,
 					"source": ["baidu_news"],
 					"flags": {}
@@ -671,7 +671,7 @@
 				},
                 {
                     "id": 7,
-                    "category": ["娱乐","旅游","时尚","通讯","科技","美食","房产"],
+                    "category": ["娱乐","旅游","时尚","通讯","科技","房产"],
 					"count": 2,
 					"max_count": 10,
 					"source": ["baidu_video"],
