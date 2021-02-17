@@ -478,6 +478,7 @@
 				    {
 					    "id": 0,
 					    "seats": 20,
+                        "max_count": 20,
 					    "repo": "static_coldstart", 
 					    "iindex": "dcp",
 					    "list": "dcp",
@@ -503,6 +504,7 @@
                     {
 					    "id": 0,
 					    "seats": 4,
+                        "max_count": 20,
 					    "repo": "static_coldstart", 
 					    "iindex": "new",
 					    "list": "new",
@@ -511,6 +513,7 @@
 				    {
 					    "id": 1,
 					    "seats": 16,
+                        "max_count": 20,
 					    "repo": "static_coldstart", 
 					    "iindex": "dcp",
 					    "list": "dcp",
@@ -614,6 +617,7 @@
 				    {
 					    "id": 0,
 					    "seats": 20,
+                        "max_count": 20,
 					    "repo": "static_coldstart",
 					    "iindex": "dcp",
 					    "list": "dcp",
