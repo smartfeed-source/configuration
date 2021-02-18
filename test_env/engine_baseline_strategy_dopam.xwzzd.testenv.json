@@ -433,7 +433,8 @@
 			    "channel": "rcmd",
                 "flags": {
                     "refresh_publish_time": 0,
-                    "random_shuffle": 1
+                    "random_shuffle": 1,
+                    "flag_strategy_order": ["hotspot", "category"]
                 },
                 "hotspot":[
                     {
@@ -469,61 +470,6 @@
 					    "source": ["yidian_video"]
 				    }
 			    ]
-                /*,
-                "category":[
-                    {
-					    "id": 0,
-					    "category": ["国际","时政","军事"],
-					    "count": 6,
-					    "max_count": 10,
-					    "source": ["yidian_news"],
-				        "flags": {}
-				    },
-                    {
-					    "id": 1,
-					    "category": ["历史","时政"],
-					    "count": 4,
-					    "max_count": 10,
-					    "source": ["yidian_news"],
-				        "flags": {}
-				    },
-                    {
-					    "id": 2,
-					    "category": ["健康", "财经", "旅游"],
-					    "count": 4,
-					    "max_count": 10,
-					    "source": ["yidian_news"],
-				        "flags": {}
-				    },
-                    {
-					    "id": 3,
-					    "category": ["财经", "旅游"],
-					    "count": 2,
-					    "max_count": 10,
-					    "source": ["yidian_news"],
-				        "flags": {}
-				    },
-                    {
-					    "id": 4,
-					    "category": ["国际", "军事", "时政", "健康", "财经"],
-					    "count": 4,
-					    "max_count": 10,
-					    "source": ["yidian_video"],
-				        "flags": {}
-				    },
-                    {
-					    "id": 5,
-                        "delete": true
-				    },
-                    {
-					    "id": 6,
-                        "delete": true
-				    },
-                    {
-					    "id": 7,
-                        "delete": true
-				    }                
-                ]*/
             }
             ]
          }, 
