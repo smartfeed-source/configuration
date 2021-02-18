@@ -447,12 +447,20 @@
 				    },
 				    {
 					    "id": 1,
-					    "seats": 16,
+					    "seats": 12,
 					    "repo": "static_coldstart", 
 					    "iindex": "dcp",
 					    "list": "dcp",
-					    "source": ["baidu_news", "baidu_video"]
+					    "source": ["baidu_news"]
 				    },
+                    {
+                        "id": 4,
+                        "seats":4,
+					    "repo": "static_coldstart", 
+					    "iindex": "dcp",
+					    "list": "dcp",
+					    "source": ["baidu_video"]
+                    },
 				    {
 					    "id": 2,
 					    "seats": 0,
