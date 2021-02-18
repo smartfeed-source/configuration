@@ -466,7 +466,7 @@
             "name": "热门排序实验/dcp算法组",
             "condition": {
                 "abtests":{
-                    "coldstart_strategy": "dcp"
+                    "coldstart_strategy": "关闭"
                 }
             },
             "override_blending_strategy": [{
@@ -492,7 +492,7 @@
             "name": "热门排序实验/dcp+new算法组",
             "condition": {
                 "abtests":{
-                    "coldstart_strategy": "dcp_new"
+                    "coldstart_strategy": "关闭"
                 }
             },
             "override_blending_strategy": [{
@@ -604,7 +604,7 @@
             "name": "热门排序曝光渠道",
             "condition": {
                 "app_channel":{
-                    "include": ["huawei_mix","oppo","tencent2_m"],
+                    "include": ["huawei_zao","huawei_mix","oppo","tencent2_m"],
                     "exclude": []
                 }
             },
@@ -614,11 +614,20 @@
                     "refresh_publish_time": 1
                 },
                 "hotspot":[
-				    {
+                    {
 					    "id": 0,
-					    "seats": 20,
+					    "seats": 4,
                         "max_count": 20,
-					    "repo": "static_coldstart",
+					    "repo": "static_coldstart", 
+					    "iindex": "new",
+					    "list": "new",
+					    "source": ["baidu_news", "baidu_video"]
+				    },
+				    {
+					    "id": 1,
+					    "seats": 16,
+                        "max_count": 20,
+					    "repo": "static_coldstart", 
 					    "iindex": "dcp",
 					    "list": "dcp",
 					    "source": ["baidu_news", "baidu_video"]
