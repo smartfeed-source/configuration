@@ -546,7 +546,7 @@
                 {
 					"id": 1,
                     "category": ["养老金","民生","养老保险","退休金","社保","退休"],
-					"count": 3,
+					"count": 5,
 					"max_count": 10,
 					"source": ["baidu_news"],
 					"flags": {}
@@ -554,7 +554,7 @@
                 {
 					"id": 2,
 						"category": ["军事","环球军事","军情","军舰","海军","空军","陆军"],
-					"count": 2,
+					"count": 1,
 					"max_count": 10,
 					"source": ["baidu_news"],
 					"flags": {}
@@ -578,7 +578,7 @@
                 {
                     "id": 5,
 					"category": ["社会","生活","房产","房地产"],
-					"count": 2,
+					"count": 1,
 					"max_count": 5,
 					"source": ["baidu_news"],
 					"flags": {}
@@ -586,7 +586,7 @@
                 {
                     "id": 6,
 					"category": ["历史","文化"],
-					"count": 2,
+					"count": 1,
 					"max_count": 10,
 					"source": ["baidu_news"],
                     "exclude_words":["体育","球"],
@@ -595,7 +595,7 @@
                 {
                     "id": 7,
                     "category": ["娱乐","旅游","时尚","通讯","科技","房产"],
-					"count": 2,
+					"count": 1,
 					"max_count": 10,
 					"source": ["baidu_video"],
 					"flags": {}
@@ -603,7 +603,7 @@
                 {
                     "id": 8,
                     "category": ["养老金","民生","养老保险","退休金","社保","退休"],
-					"count": 3,
+					"count": 5,
 					"max_count": 10,
 					"source": ["baidu_news"],
 					"flags": {}
