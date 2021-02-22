@@ -604,7 +604,7 @@
             "name": "热门排序曝光渠道",
             "condition": {
                 "app_channel":{
-                    "include": ["huawei_zao","huawei_mix","oppo","tencent2_m"],
+                    "include": ["huawei_zao","huawei_mix","oppo","tencent2_m","dev"],
                     "exclude": []
                 }
             },
