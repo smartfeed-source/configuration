@@ -217,14 +217,6 @@
 					"max_count": 2,
 					"source": ["yidian_video"],
 					"flags": {}
-				},
-				{
-					"id": 5,
-					"category": ["美食"],
-					"count": 1,
-					"max_count": 2,
-					"source": ["yidian_video"],
-					"flags": {}
 				}
 			]/*end of category setting*/
 		}/*end of rcmd_yidianvideo channel，体验一点视频内容*/
