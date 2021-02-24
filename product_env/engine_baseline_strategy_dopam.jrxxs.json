@@ -456,8 +456,8 @@
 					    "id": 0,
 					    "seats": 20,
 					    "repo": "static_coldstart",
-					    "iindex": "dcp",
-					    "list": "dcp",
+					    "iindex": "jrxxs",
+					    "list": "jrxxs",
 					    "source": ["baidu_news", "baidu_video"]
 				    }
 			    ]
