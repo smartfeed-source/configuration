@@ -611,8 +611,9 @@
             "override_blending_strategy": [{
 			    "channel": "rcmd",
                 "flags": {
-                    "refresh_publish_time": 1,
-                    "flag_strategy_order": ["hotspot", "category"]
+                    	"refresh_publish_time": 1,
+			"random_shuffle": 1,
+                    	"flag_strategy_order": ["hotspot", "category"]
                 },
                 "hotspot":[
                     {
@@ -626,7 +627,7 @@
 				    },
 				    {
 					    "id": 1,
-					    "seats": 12,
+					    "seats": 14,
                         "max_count": 20,
 					    "repo": "static_coldstart", 
 					    "iindex": "dcp",
@@ -635,7 +636,7 @@
 				    },
 				    {
 					    "id": 2,
-					    "seats": 4,
+					    "seats": 2,
                         "max_count": 20,
 					    "repo": "static_coldstart", 
 					    "iindex": "dcp",
