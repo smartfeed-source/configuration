@@ -2,51 +2,51 @@
     {
         "app": "xwzzd",
         "use_baidu_appid": "c951374c",
-        "config": "https://gitee.com/hotpush/configuration/raw/master/product_env/engine_baseline_strategy_dopam.xwzzd.json"
+        "config": "https://raw.githubusercontent.com/smartfeed-source/configuration/master/product_env/engine_baseline_strategy_dopam.xwzzd.json"
     },
     {
         "app": "jrxxs",
         "use_baidu_appid": "c0f46bba",
-        "config": "https://gitee.com/hotpush/configuration/raw/master/product_env/engine_baseline_strategy_dopam.jrxxs.json"
+        "config": "https://raw.githubusercontent.com/smartfeed-source/configuration/master/product_env/engine_baseline_strategy_dopam.jrxxs.json"
     },
     {
         "app": "videoapp1",
         "use_baidu_appid": "dcad7fa9",
-        "config": "https://gitee.com/hotpush/configuration/raw/master/product_env/engine_baseline_strategy_dopam.videoapp1.json"
+        "config": "https://raw.githubusercontent.com/smartfeed-source/configuration/master/product_env/engine_baseline_strategy_dopam.videoapp1.json"
     },
     {
         "app": "daxiguavideo",
         "use_baidu_appid": "dcad7fa9",
-        "config": "https://gitee.com/hotpush/configuration/raw/master/product_env/engine_baseline_strategy_dopam.videoapp1.json"
+        "config": "https://raw.githubusercontent.com/smartfeed-source/configuration/master/product_env/engine_baseline_strategy_dopam.videoapp1.json"
     },
     {
         "app": "caomeivideo",
         "use_baidu_appid": "dcad7fa9",
-        "config": "https://gitee.com/hotpush/configuration/raw/master/product_env/engine_baseline_strategy_dopam.videoapp1.json"
+        "config": "https://raw.githubusercontent.com/smartfeed-source/configuration/master/product_env/engine_baseline_strategy_dopam.videoapp1.json"
     },
     {
         "app": "xiangfuvideo",
         "use_baidu_appid": "dcad7fa9",
-        "config": "https://gitee.com/hotpush/configuration/raw/master/product_env/engine_baseline_strategy_dopam.xiangfuvideo.json"
+        "config": "https://raw.githubusercontent.com/smartfeed-source/configuration/master/product_env/engine_baseline_strategy_dopam.xiangfuvideo.json"
     },
     {
         "app": "baixingvideo",
         "use_baidu_appid": "f374aef3",
-        "config": "https://gitee.com/hotpush/configuration/raw/master/product_env/engine_baseline_strategy_dopam.baixingvideo.json"
+        "config": "https://raw.githubusercontent.com/smartfeed-source/configuration/master/product_env/engine_baseline_strategy_dopam.baixingvideo.json"
     },
     {
         "app": "qitanvideo",
         "use_baidu_appid": "dcad7fa9",
-        "config": "https://gitee.com/hotpush/configuration/raw/master/product_env/engine_baseline_strategy_dopam.qitanvideo.json"
+        "config": "https://raw.githubusercontent.com/smartfeed-source/configuration/master/product_env/engine_baseline_strategy_dopam.qitanvideo.json"
     },
     {
         "app": "jiemenvideo",
         "use_baidu_appid": "dcad7fa9",
-        "config": "https://gitee.com/hotpush/configuration/raw/master/product_env/engine_baseline_strategy_dopam.jiemenvideo.json"
+        "config": "https://raw.githubusercontent.com/smartfeed-source/configuration/master/product_env/engine_baseline_strategy_dopam.jiemenvideo.json"
     },
     {
         "app": "changlevideo",
         "use_baidu_appid": "dcad7fa9",
-        "config": "https://gitee.com/hotpush/configuration/raw/master/product_env/engine_baseline_strategy_dopam.changlevideo.json"
+        "config": "https://raw.githubusercontent.com/smartfeed-source/configuration/master/product_env/engine_baseline_strategy_dopam.changlevideo.json"
     }
 ]
