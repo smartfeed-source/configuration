@@ -765,7 +765,7 @@
             "channel": "phone",
             "category": [{
                     "id": 0,
-                    "category": ["科技","数码","通信"],
+                    "category": ["科技"],
                     "count": 10,
                     "max_count": 10,
                     "source": ["yidian_news"],
@@ -773,7 +773,7 @@
                 },
                    {
                     "id": 1,
-                    "category": ["科技","IT","互联网","耳机","相机"],
+                    "category": ["科技"],
                     "count": 6,
                     "max_count": 10,
                     "source": ["yidian_news"],
@@ -781,7 +781,7 @@
                 },
                    {
                     "id": 2,
-                    "category": ["科技","数码","通信"],
+                    "category": ["科技"],
                     "count": 4,
                     "max_count": 10,
                     "source": ["yidian_video","yidian_news"],
