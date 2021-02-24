@@ -174,7 +174,60 @@
 					"flags": {}
 				}
 			]/*end of category setting*/
-		}/*end of journey channel*/
+		},/*end of journey channel*/
+        {
+			"channel": "rcmd_yidianvideo",
+			"category": [
+				{
+					"id": 0,
+					"category": ["社会"],
+					"count": 2,
+					"max_count": 3,
+					"source": ["yidian_video"],
+					"flags": {}
+				},
+				{
+					"id": 1,
+					"category": ["健康"],
+					"count": 2,
+					"max_count": 3,
+					"source": ["yidian_video"],
+					"flags": {}
+				},
+				{
+					"id": 2,
+					"category": ["军事"],
+					"count": 2,
+					"max_count": 3,
+					"source": ["yidian_video"],
+					"flags": {}
+				},
+				{
+					"id": 3,
+					"category": ["历史"],
+					"count": 2,
+					"max_count": 2,
+					"source": ["yidian_video"],
+					"flags": {}
+				},
+				{
+					"id": 4,
+					"category": ["搞笑","相声小品"],
+					"count": 1,
+					"max_count": 2,
+					"source": ["yidian_video"],
+					"flags": {}
+				},
+				{
+					"id": 5,
+					"category": ["美食"],
+					"count": 1,
+					"max_count": 2,
+					"source": ["yidian_video"],
+					"flags": {}
+				}
+			]/*end of category setting*/
+		}/*end of rcmd_yidianvideo channel，体验一点视频内容*/
 	],
 	"coldstart_strategy": [],
     "personalization":[]
