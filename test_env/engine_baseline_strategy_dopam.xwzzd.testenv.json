@@ -425,7 +425,7 @@
                     "coldstart_strategy": "关闭"
                 },
                 "app_channel":{
-                    "include": ["dev"],
+                    "include": ["dev", "dev(ynet)"],
                     "exclude": []
                 }
             },
@@ -439,7 +439,7 @@
                 "hotspot":[
                     {
 					    "id": 0,
-					    "seats": 4,
+					    "seats": 0,
 					    "repo": "static_coldstart", 
 					    "iindex": "new",
 					    "list": "new",
@@ -447,7 +447,7 @@
 				    },
 				    {
 					    "id": 1,
-					    "seats": 12,
+					    "seats": 0,
 					    "repo": "static_coldstart", 
 					    "iindex": "dcp",
 					    "list": "dcp",
@@ -455,7 +455,7 @@
 				    },
                     {
                         "id": 4,
-                        "seats":4,
+                        "seats":0,
 					    "repo": "static_coldstart", 
 					    "iindex": "dcp",
 					    "list": "dcp",
@@ -471,11 +471,11 @@
 				    },
 				    {
 					    "id": 3,
-					    "seats": 0,
+					    "seats": 20,
 					    "repo": "dopam_news", 
 					    "iindex": "tops",
-					    "list": "timeline_news",
-					    "source": ["yidian_video"]
+					    "list": "timeline",
+					    "source": ["ynet_news"]
 				    }
 			    ]
             }
