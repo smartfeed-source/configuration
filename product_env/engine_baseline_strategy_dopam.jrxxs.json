@@ -528,7 +528,7 @@
             "name": "魅族素材投放测试",
             "condition": {
             "app_channel":{
-                "include": ["暂停使用"],
+                "include": [""],
                 "exclude": []
             }
             },/*end of condition*/
