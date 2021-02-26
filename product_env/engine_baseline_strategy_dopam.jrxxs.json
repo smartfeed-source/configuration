@@ -545,7 +545,7 @@
 				},
                 {
 					"id": 1,
-                    "category": ["养老金","养老","养老保险","退休金","社保","退休","老年"],
+                    "category": ["养老","老年"],
 					"count": 3,
 					"max_count": 10,
 					"source": ["baidu_news"],
@@ -602,7 +602,7 @@
 				},
                 {
                     "id": 8,
-                    "category": ["养老金","养老","养老保险","退休金","社保","退休","老年"],
+                    "category": ["养老","老年"],
 					"count": 5,
 					"max_count": 10,
 					"source": ["baidu_news"],
