@@ -442,7 +442,7 @@
             "name": "热门排序曝光渠道",
             "condition": {
                 "app_channel":{
-                    "include": ["meizu_feed"],
+                    "include": ["暂停使用"],
                     "exclude": []
                 }
             },
