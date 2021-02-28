@@ -441,9 +441,8 @@
          {
             "name": "热门排序曝光渠道",
             "condition": {
-                "app_channel":{
-                    "include": ["暂停使用"],
-                    "exclude": []
+                "abtests":{
+                    "addPension": "false"
                 }
             },
             "override_blending_strategy": [{
@@ -527,10 +526,9 @@
          {
             "name": "魅族素材投放测试",
             "condition": {
-            "app_channel":{
-                "include": ["meizu_feed"],
-                "exclude": []
-            }
+                "abtests":{
+                    "addPension": "true"
+                }
             },/*end of condition*/
             "override_blending_strategy": [{
 			    "channel": "rcmd",
