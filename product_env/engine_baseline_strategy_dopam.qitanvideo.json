@@ -1,7 +1,21 @@
 {
 	"default_blending_strategy": [
 		{
-			"channel": "rcmd_examination",
+		    "channel": "rcmd_examination",
+		    "hotspot":[
+                {
+                    "id": 0,
+                    "seats": 20,
+                    "max_count": 20,
+                    "repo": "static_coldstart", 
+                    "iindex": "dcp",
+                    "list": "dcp",
+                    "source": ["baidu_video"]
+                }
+            ]
+		},
+		{
+			"channel": "rcmd_examination1",
 			"category": [
 				{
 					"id": 0,
