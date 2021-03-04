@@ -614,7 +614,7 @@
 			    "category": [
 				{
 					"id": 0,
-					"category": ["政治","时政"],
+					"category": ["政治","国际"],
 					"count": 3,
 					"max_count": 10,
 					"source": ["baidu_news"],
@@ -622,7 +622,7 @@
 				},
                 {
 					"id": 1,
-                    "category": ["养老金","养老","养老保险","退休金","社保","退休","老年"],
+                    "category": ["养老","老年"],
 					"count": 3,
 					"max_count": 10,
 					"source": ["baidu_news"],
@@ -638,7 +638,7 @@
 				},
                 {
 					"id": 3,
-					 "category": ["健康","养生","保养","疫情","防疫","健身","呼吸道疾病","传染病","高血压","心脏病"],
+					 "category": ["健康","养生","健身","保健"],
 					"count": 2,
 					"max_count": 10,
 					"source": ["baidu_news"],
@@ -646,9 +646,9 @@
 				},
                 {
 					"id": 4,
-                    "category": ["三农","农业","农村","农民"],
+                    "category": ["三农","农业"],
 					"count": 1,
-					"max_count": 5,
+					"max_count": 3,
 					"source": ["baidu_news"],
 					"flags": {}
 				},
@@ -664,14 +664,14 @@
                     "id": 6,
 					"category": ["历史","文化"],
 					"count": 2,
-					"max_count": 10,
+					"max_count": 5,
 					"source": ["baidu_news"],
                     "exclude_words":["体育","球"],
 					"flags": {}
 				},
                 {
                     "id": 7,
-                    "category": ["社会","生活","娱乐","旅游","时尚","科技","房产"],
+                    "category": ["社会","生活","娱乐","旅游","时尚","科技"],
 					"count": 1,
 					"max_count": 5,
 					"source": ["baidu_video"],
@@ -679,7 +679,7 @@
 				},
                 {
                     "id": 8,
-                    "category": ["养老金","养老","养老保险","退休金","社保","退休","老年"],
+                    "category": ["养老","老年"],
 					"count": 5,
 					"max_count": 10,
 					"source": ["baidu_news"],
