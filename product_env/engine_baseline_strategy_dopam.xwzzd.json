@@ -406,7 +406,7 @@
             "name": "北青实验/dcp算法组",
             "condition": {
                 "abtests":{
-                    "bq_coldstart_strategy": "dcp"
+                    "bq_coldstart_strategy": "关闭"
                 }
             },
             "override_blending_strategy": [{
@@ -439,7 +439,7 @@
             "name": "北青实验/对照组",
             "condition": {
                 "abtests":{
-                    "bq_coldstart_strategy": "baseline"
+                    "bq_coldstart_strategy": "关闭"
                 }
             },
             "override_blending_strategy": [{
@@ -477,17 +477,26 @@
             "override_blending_strategy": [{
                 "channel": "rcmd",
                 "flags": {
-                    "refresh_publish_time": 0
+                    "refresh_publish_time": 0,
+                    "random_shuffle": 1
                 },
                 "hotspot":[
                     {
                         "id": 0,
-                        "seats": 20,
+                        "seats": 10,
                         "repo": "dopam_news",
                         "iindex": "tops",
                         "list": "timeline",
                         "source": ["ynet_news"]
-                    }                
+                    },
+				    {
+					    "id": 1,
+					    "seats": 10,
+					    "repo": "bqa_coldstart", 
+					    "iindex": "bqa",
+					    "list": "BQA",
+					    "source": ["ynet_news"]
+				    }              
                 ],
                 "category": [
                 {
