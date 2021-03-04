@@ -471,10 +471,18 @@
 				    },
 				    {
 					    "id": 3,
-					    "seats": 20,
+					    "seats": 0,
 					    "repo": "dopam_news", 
 					    "iindex": "tops",
 					    "list": "timeline",
+					    "source": ["ynet_news"]
+				    },
+				    {
+					    "id": 5,
+					    "seats": 20,
+					    "repo": "bqa_coldstart", 
+					    "iindex": "bqa",
+					    "list": "BQA",
 					    "source": ["ynet_news"]
 				    }
 			    ]
