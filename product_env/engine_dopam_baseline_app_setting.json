@@ -36,7 +36,7 @@
     },
     {
         "app": "qitanvideo",
-        "use_baidu_appid": "dcad7fa9",
+        "use_baidu_appid": "e52c87fb",
         "config": "https://raw.githubusercontent.com/smartfeed-source/configuration/master/product_env/engine_baseline_strategy_dopam.qitanvideo.json"
     },
     {
