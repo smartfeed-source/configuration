@@ -673,7 +673,7 @@
 					"category": ["娱乐","新闻"],
 					"count": 3,
 					"max_count": 10,
-					"source": ["baidu_video"],
+					"source": ["baidu_news"],
                                         "exclude_words":["体育","球"],
 					"flags": {}
 				},
