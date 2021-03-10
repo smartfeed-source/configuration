@@ -666,7 +666,6 @@
 					"count": 2,
 					"max_count": 5,
 					"source": ["baidu_video"],
-                                        "exclude_words":["体育","球"],
 					"flags": {}
 				},
 		{
