@@ -471,6 +471,10 @@
             "condition": {
                 "abtests":{
                     "addCTR": "false"
+                },
+                "app_channel":{
+                    "include": ["huawei_zao"],  
+                    "exclude": []
                 }
             },
             "override_blending_strategy": [{
@@ -497,6 +501,10 @@
             "condition": {
                 "abtests":{
                     "addCTR": "true"
+                },
+                "app_channel":{
+                    "include": ["huawei_zao","dev"],  
+                    "exclude": []
                 }
             },
             "override_blending_strategy": [{
@@ -977,7 +985,7 @@
             "name": "热门排序曝光渠道",
             "condition": {
                 "app_channel":{
-                    "include": ["huawei_zao","huawei_mix","oppo","tencent2_m","dev"],
+                    "include": ["huawei_mix","oppo","tencent2_m"],
                     "exclude": []
                 }
             },
