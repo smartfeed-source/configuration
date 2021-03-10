@@ -467,6 +467,58 @@
             ]
          },
         {
+            "name": "dcp+ctr实验/对照组",
+            "condition": {
+                "abtests":{
+                    "addCTR": "false"
+                }
+            },
+            "override_blending_strategy": [{
+                "channel": "rcmd",
+                "flags": {
+                    "refresh_publish_time": 0
+                },
+                "hotspot":[
+                    {
+                        "id": 0,
+                        "seats": 20,
+                        "max_count": 20,
+                        "repo": "static_coldstart",
+                        "iindex": "dcp",
+                        "list": "dcp",
+                        "source": ["baidu_news",  "baidu_video"]
+                    }
+                ]
+            }
+            ]
+        },
+        {
+            "name": "dcp+ctr实验/实验组",
+            "condition": {
+                "abtests":{
+                    "addCTR": "true"
+                }
+            },
+            "override_blending_strategy": [{
+                "channel": "rcmd",
+                "flags": {
+                    "refresh_publish_time": 0
+                },
+                "hotspot":[
+                    {
+                        "id": 0,
+                        "seats": 20,
+                        "max_count": 20,
+                        "repo": "static_coldstart",
+                        "iindex": "dcp",
+                        "list": "ctr",
+                        "source": ["baidu_news",  "baidu_video"]
+                    }
+                ]
+            }
+            ]
+        },
+        {
             "name": "敏感地区腾讯源推荐配置",
             "condition": {
             "location":{
@@ -920,7 +972,7 @@
             ]/*end of category setting*/
         }/*end of house channel*/                                       
             ]/*override_blending_strategy*/
-         }, 
+         },
         {
             "name": "热门排序曝光渠道",
             "condition": {
