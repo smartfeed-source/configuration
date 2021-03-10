@@ -615,7 +615,7 @@
 				{
 					"id": 0,
 					"category": ["政治","国际","时政","台海时事"],
-					"count": 3,
+					"count": 4,
 					"max_count": 10,
 					"source": ["baidu_news"],
 					"flags": {}
@@ -623,7 +623,7 @@
                 {
 					"id": 1,
                                         "category": ["养老","老年","退休"],
-					"count": 3,
+					"count": 4,
 					"max_count": 10,
 					"source": ["baidu_news"],
 					"flags": {}
@@ -631,7 +631,7 @@
                 {
 					"id": 2,
 			                "category": ["军事","环球军事","军情"],
-					"count": 3,
+					"count": 4,
 					"max_count": 10,
 					"source": ["baidu_news"],
 					"flags": {}
@@ -647,15 +647,15 @@
                 {
 					"id": 4,
                                         "category": ["房产","历史","房地产","文化","社会","时尚","生活","旅游","退休"],
-					"count": 2,
+					"count": 1,
 					"max_count": 10,
 					"source": ["baidu_news"],
 					"flags": {}
 				},
                 {
                                         "id": 5,
-					"category": ["房产","历史","房地产","文化","社会","娱乐","时尚","生活","旅游","退休"],
-					"count": 2,
+					"category": ["房产","历史","房地产","文化","社会","时尚","生活","旅游","退休"],
+					"count": 1,
 					"max_count": 5,
 					"source": ["baidu_video"],
 					"flags": {}
@@ -663,14 +663,14 @@
                 {
                                         "id": 6,
 					"category": ["养老","老年","退休"],
-					"count": 2,
+					"count": 1,
 					"max_count": 5,
 					"source": ["baidu_video"],
 					"flags": {}
 				},
 		{
                                         "id": 7,
-					"category": ["娱乐","新闻"],
+					"category": ["娱乐"],
 					"count": 3,
 					"max_count": 10,
 					"source": ["baidu_news"],
