@@ -535,83 +535,76 @@
 			    "category": [
 				{
 					"id": 0,
-					"category": ["政治","国际"],
-					"count": 3,
+					"category": ["政治","国际","时政","台海时事"],
+					"count": 4,
 					"max_count": 10,
 					"source": ["baidu_news"],
 					"flags": {}
 				},
                 {
 					"id": 1,
-                    "category": ["养老","老年"],
-					"count": 3,
+                                        "category": ["养老","老年","退休"],
+					"count": 4,
 					"max_count": 10,
 					"source": ["baidu_news"],
 					"flags": {}
 				},
                 {
 					"id": 2,
-						"category": ["军事","环球军事","军情"],
-					"count": 2,
+			                "category": ["军事","环球军事","军情"],
+					"count": 4,
 					"max_count": 10,
 					"source": ["baidu_news"],
 					"flags": {}
 				},
                 {
 					"id": 3,
-					 "category": ["健康","养生","健身","保健"],
-					"count": 2,
+					"category": ["三农","农业","健康","养生","健身","保健","退休"],
+					"count": 1,
 					"max_count": 10,
 					"source": ["baidu_news"],
 					"flags": {}
 				},
                 {
 					"id": 4,
-                    "category": ["三农","农业"],
+                                        "category": ["房产","历史","房地产","文化","社会","时尚","生活","旅游","退休"],
 					"count": 1,
-					"max_count": 3,
+					"max_count": 10,
 					"source": ["baidu_news"],
 					"flags": {}
 				},
                 {
-                    "id": 5,
-					"category": ["房产","房地产"],
-					"count": 1,
-					"max_count": 5,
-					"source": ["baidu_news"],
-					"flags": {}
-				},
-                {
-                    "id": 6,
-					"category": ["历史","文化"],
-					"count": 2,
-					"max_count": 5,
-					"source": ["baidu_news"],
-                    "exclude_words":["体育","球"],
-					"flags": {}
-				},
-                {
-                    "id": 7,
-                    "category": ["社会","生活","娱乐","旅游","时尚","科技"],
+                                        "id": 5,
+					"category": ["房产","历史","房地产","文化","社会","时尚","生活","旅游","退休"],
 					"count": 1,
 					"max_count": 5,
 					"source": ["baidu_video"],
 					"flags": {}
 				},
                 {
-                    "id": 8,
-                    "category": ["养老","老年"],
-					"count": 5,
-					"max_count": 10,
-					"source": ["baidu_news"],
+                                        "id": 6,
+					"category": ["养老","老年","退休"],
+					"count": 1,
+					"max_count": 5,
+					"source": ["baidu_video"],
 					"flags": {}
 				},
+		{
+                                        "id": 7,
+					"category": ["娱乐","搞笑"],
+					"count": 4,
+					"max_count": 10,
+					"source": ["baidu_news"],
+                                        "exclude_words":["体育","球"],
+					"flags": {}
+				},
+				  
                 {
-					"id": 9,
+					"id": 8,
                     "delete": true
 				},
                  {
-					"id": 10,
+					"id": 9,
                     "delete": true
 				}
                 ] /*end of category setting*/
