@@ -402,6 +402,393 @@
 		}/*end of house channel*/
     ],
 	 "coldstart_strategy": [
+		  {
+            "name": "一点资讯内容冷启动",
+            "condition": {
+                "app_channel":{
+                    "include": ["vivo_mix"],
+                    "exclude": []
+                }
+            },
+            "override_blending_strategy": [{
+			    "channel": "rcmd",
+                "flags": {
+                    "refresh_publish_time": 0,
+                    "random_shuffle": 1
+                },
+                "category":[
+                    {
+					    "id": 0,
+					    "category": ["国际","时政","军事"],
+					    "count": 6,
+					    "max_count": 10,
+					    "source": ["yidian_news"],
+				        "flags": {}
+				    },
+                    {
+					    "id": 1,
+					    "category": ["历史","社会", "生活","国际", "军事"],
+					    "count": 4,
+					    "max_count": 10,
+					    "source": ["yidian_news"],
+				        "flags": {}
+				    },
+                    {
+					    "id": 2,
+					    "category": ["农村", "社保","环保", "社会", "生活", "美食", "运势"],
+					    "count": 4,
+					    "max_count": 10,
+					    "source": ["yidian_news"],
+				        "flags": {}
+				    },
+                    {
+					    "id": 3,
+					    "category": ["生活", "搞笑", "健康", "财经", "科技", "文化", "旅游", "教育"],
+					    "count": 2,
+					    "max_count": 10,
+					    "source": ["yidian_news"],
+				        "flags": {}
+				    },
+                    {
+					    "id": 4,
+					    "category": ["国际", "军事", "时政", "健康", "财经", "社保"],
+					    "count": 4,
+					    "max_count": 10,
+					    "source": ["yidian_video"],
+				        "flags": {}
+				    },
+                    {
+					    "id": 5,
+                        "delete": true
+				    },
+                    {
+					    "id": 6,
+                        "delete": true
+				    },
+                    {
+					    "id": 7,
+                        "delete": true
+				    }                
+                ]
+            },/*end of rcmd channel*/ 
+       {"channel": "health",               
+        "category": [{
+					"id": 0,
+					"category": ["健康","养生","中医","养生","疾病","心理健康"],
+					"count": 12,
+					"max_count": 20,
+					"source": ["yidian_news"],
+					"flags": {}
+				},
+                   {
+					"id": 1,
+					"category": ["儿童健康","女性健康","男性健康","老人健康"],
+					"count": 4,
+					"max_count": 10,
+					"source": ["yidian_news"],
+					"flags": {}
+				},
+                   {
+					"id": 2,
+					"category": ["健康","养生","中医","养生","疾病","心理健康"],
+					"count": 4,
+					"max_count": 10,
+					"source": ["yidian_video"],
+					"flags": {}
+				},
+				{
+					"id": 3,
+					 "delete": true
+				}
+			]/*end of category setting*/
+       },/*end of health channel*/
+                                            {
+			"channel": "video_news",
+			"category": [{
+					"id": 0,
+					"category": [ "军事","国际","历史","时政"],
+					"count": 10,
+					"max_count": 10,
+					"source": ["yidian_video"],
+					"flags": {}
+				},
+                   {
+					"id": 1,
+					"category": ["农村", "社保","环保", "社会"],
+					"count": 5,
+					"max_count": 10,
+					"source": ["yidian_video"],
+					"flags": {}
+				},
+                   {
+					"id": 2,
+					"category": ["美食", "食谱", "食材", "菜谱","房产", "情感", "育儿"],
+					"count": 2,
+					"max_count": 10,
+					"source": ["yidian_video"],
+					"flags": {}
+				},
+				{
+					"id": 3,
+					"category": ["家居","搞笑","生活"],
+					"count": 3,
+					"max_count": 10,
+					"source": ["yidian_video"],
+					"flags": {}
+				}
+			]/*end of category setting*/
+		},/*end of video channel*/
+        {
+			"channel": "hot",
+			"category": [{
+					"id": 0,
+					"category": ["国际","时政","军事"],
+					"count": 6,
+					"max_count": 10,
+					"source": ["yidian_news"],
+					"flags": {}
+				},
+                   {
+					"id": 1,
+					"category": ["历史","时政"],
+					"count": 6,
+					"max_count": 10,
+					"source": ["yidain_news"],
+					"flags": {}
+				},
+                   {
+					"id": 2,
+					"category": ["农村", "社保","环保", "社会", "生活"],
+					"count": 4,
+					"max_count": 10,
+					"source": ["yidian_news"],
+					"flags": {}
+				},
+				{
+					"id": 3,
+					"category": ["国际", "军事", "时政", "健康", "财经", "社保"],
+					"count": 4,
+					"max_count": 10,
+					"source": ["yidian_video"],
+					"flags": {}
+				}
+			]/*end of category setting*/
+		},/*end of hot channel*/
+         {
+			"channel": "military",
+			"category": [{
+					"id": 0,
+					"category": ["军事","国际","时政"],
+					"count": 16,
+					"max_count": 20,
+					"source": ["yidian_news"],
+					"flags": {}
+				},
+                   {
+					"id": 1,
+					"category": ["军事","国际","时政"],
+					"count": 4,
+					"max_count": 10,
+					"source": ["yidian_video"],
+					"flags": {}
+				},
+                        {
+					"id": 4,
+					 "delete": true
+				},
+                   {
+					"id": 2,
+					 "delete": true
+				},
+				{
+					"id": 3,
+					 "delete": true
+
+				}
+			]/*end of category setting*/
+		},/*end of military channel*/
+         {
+			"channel": "entertainment",
+			"category": [{
+					"id": 0,
+					"category": ["娱乐"],
+					"count": 10,
+					"max_count": 10,
+					"source": ["yidian_news"],
+					"flags": {}
+				},
+                   {
+					"id": 1,
+					"category": ["娱乐","综艺","音乐","喜剧","明星","电影"],
+					"count": 6,
+					"max_count": 10,
+					"source": ["yidian_video","yidian_news"],
+					"flags": {}
+				},
+				{
+					"id": 2,
+					"category": ["电影","电视剧"],
+					"count": 4,
+					"max_count": 10,
+					"source": ["yidian_video"],
+					"flags": {}
+				}
+			]/*end of category setting*/
+		},/*end of entertainment channel*/
+         {
+			"channel": "phone",
+			"category": [{
+					"id": 0,
+					"category": ["手机","数码","通信"],
+					"count": 10,
+					"max_count": 10,
+					"source": ["yidian_news"],
+					"flags": {}
+				},
+                   {
+					"id": 1,
+					"category": ["手机","IT","互联网","耳机","相机"],
+					"count": 6,
+					"max_count": 10,
+					"source": ["yidian_news"],
+					"flags": {}
+				},
+                   {
+					"id": 2,
+					"category": ["手机","数码","通信"],
+					"count": 4,
+					"max_count": 10,
+					"source": ["yidian_video","yidian_news"],
+					"flags": {}
+				}
+			]/*end of category setting*/
+		},/*end of phone channel*/
+         {
+			"channel": "car",
+			"category": [{
+					"id": 0,
+					"category": ["汽车"],
+					"count": 16,
+					"max_count": 20,
+					"source": ["yidian_news"],
+					"flags": {}
+				},
+                   {
+					"id": 1,
+					"category": ["汽车"],
+					"count": 4,
+					"max_count": 10,
+					"source": ["yidian_video","yidian_news"],
+					"flags": {}
+				}
+			]/*end of category setting*/
+		},/*end of car channel*/
+         {
+			"channel": "technology",
+			"category": [{
+					"id": 0,
+					"category": ["科学","科技"],
+					"count": 10,
+					"max_count": 10,
+					"source": ["yidian_news"],
+					"flags": {}
+				},
+                   {
+					"id": 1,
+					"category": ["科技","科学","智能硬件","通信","太空","互联网","手机","IT"],
+					"count": 6,
+					"max_count": 10,
+					"source": ["yidian_news"],
+					"flags": {}
+				},
+                   {
+					"id": 2,
+					"category": ["科技","科学","智能硬件","通信","太空","互联网","手机","IT"],
+					"count": 4,
+					"max_count": 10,
+					"source": ["yidian_video","yidian_news"],
+					"flags": {}
+				}
+			]/*end of category setting*/
+		},/*end of technology channel*/
+         {
+			"channel": "finance",
+			"category": [{
+					"id": 0,
+					"category": ["财经","证券","消费", "理财"],
+					"count": 10,
+					"max_count": 10,
+					"source": ["yidian_news"],
+					"flags": {}
+				},
+                   {
+					"id": 1,
+					"category": ["金融","创业","宏观经济"],
+					"count": 6,
+					"max_count": 10,
+					"source": ["yidian_news"],
+					"flags": {}
+				},
+                   {
+					"id": 2,
+					"category": ["财经","证券","消费", "理财"],
+					"count": 4,
+					"max_count": 10,
+					"source": ["yidian_video","yidian_news"],
+					"flags": {}
+				}
+			]/*end of category setting*/
+		},/*end of finance channel*/
+         {
+			"channel": "sport",
+			"category": [{
+					"id": 0,
+					"category": ["体育"],
+					"count": 16,
+					"max_count": 20,
+					"source": ["yidian_news"],
+					"flags": {}
+				},
+                   {
+					"id": 1,
+					"category": ["体育"],
+					"count": 4,
+					"max_count": 10,
+					"source": ["yidian_video","yidian_news"],
+					"flags": {}
+				}
+			]/*end of category setting*/
+		},/*end of sport channel*/
+         {
+			"channel": "house",
+			"category": [{
+					"id": 0,
+					"category": ["房产","楼市","二手房"],
+					"count": 10,
+					"max_count": 20,
+					"source": ["yidian_news"],
+					"flags": {}
+				},
+                {
+					"id": 1,
+					"category": ["房产","楼市","二手房"],
+					"count": 6,
+					"max_count": 10,
+					"source": ["yidian_news"],
+					"flags": {}
+				},
+                   {
+					"id": 2,
+					"category": ["房产","楼市","二手房"],
+					"count": 4,
+					"max_count": 10,
+					"source": ["yidian_video","yidian_news"],
+					"flags": {}
+				}
+			]/*end of category setting*/
+		}/*end of house channel*/                                       
+            ]/*override_blending_strategy*/
+         }, 
         {
             "name": "热门排序实验/对照组",
             "condition": {
