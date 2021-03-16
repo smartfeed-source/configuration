@@ -406,7 +406,7 @@
             "name": "一点资讯内容冷启动",
             "condition": {
                 "app_channel":{
-                    "include": ["vivo_mix"],
+                    "include": ["dev"],
                     "exclude": []
                 }
             },
