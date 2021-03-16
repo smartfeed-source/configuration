@@ -6,7 +6,7 @@
 					"category": [ "台海时事", "军事","国外宏观","国际","历史"],
 					"count": 4,
 					"max_count": 10,
-					"source": ["baidu_news"],
+					"source": ["yidian_news"],
 					"flags": {}
 				},
                 {
@@ -14,7 +14,7 @@
 					"category": ["国际","军事"],
 					"count": 2,
 					"max_count": 10,
-					"source": ["baidu_news"],
+					"source": ["yidian_news"],
 					"flags": {}
 				},
                 {
@@ -22,7 +22,7 @@
 					"category": ["健康","三农","法制","军事"],
 					"count": 2,
 					"max_count": 10,
-					"source": ["baidu_news"],
+					"source": ["yidian_news"],
 					"flags": {}
 				},
                 {
@@ -30,7 +30,7 @@
 					"category": ["国际", "美食", "养生", "婚姻","文化","时政"],
 					"count": 4,
 					"max_count": 10,
-					"source": ["baidu_news"],
+					"source": ["yidian_news"],
 					"flags": {}
 				},
                 {
@@ -38,7 +38,7 @@
 					"category": ["军事", "旅游", "通信", "科技", "社会", "娱乐"],
 					"count": 2,
 					"max_count": 10,
-					"source": ["baidu_news"],
+					"source": ["yidian_news"],
 					"flags": {}
 				},
 				{
@@ -46,7 +46,7 @@
 					"category": ["国际", "热点","房产","互联网"],
 					"count": 2,
 					"max_count": 10,
-					"source": ["baidu_news"],
+					"source": ["yidian_news"],
 					"flags": {}
 				},
                 
@@ -55,7 +55,7 @@
 					"category": ["军事", "历史"],
 					"count": 2,
 					"max_count": 10,
-					"source": ["baidu_video","baidu_news"],
+					"source": ["yidian_video","yidian_news"],
 					"flags": {}
 				},
                 {
@@ -63,7 +63,7 @@
 					"category": ["娱乐", "搞笑","旅游"],
 					"count": 2,
 					"max_count": 10,
-					"source": ["baidu_video","baidu_news"],
+					"source": ["yidian_video","yidian_news"],
 					"flags": {}
 				}
 			] /*end of category setting*/
