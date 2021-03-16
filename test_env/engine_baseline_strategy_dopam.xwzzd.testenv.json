@@ -812,7 +812,7 @@
                     "coldstart_strategy": "关闭"
                 },
                 "app_channel":{
-                    "include": ["dev", "dev(ynet)"],
+                    "include": ["这个条件先置为无效"],
                     "exclude": []
                 }
             },
