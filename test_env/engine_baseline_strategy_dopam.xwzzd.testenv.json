@@ -406,7 +406,7 @@
             "name": "一点资讯内容冷启动",
             "condition": {
                 "app_channel":{
-                    "include": ["dev"],
+                    "include": ["暂不生效"],
                     "exclude": []
                 }
             },
