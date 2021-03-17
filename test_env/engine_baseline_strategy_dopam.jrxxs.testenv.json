@@ -639,7 +639,7 @@
                 {
 					"id": 3,
 					"category": ["三农","农业","健康","养生","健身","保健","退休"],
-					"count": 3,
+					"count": 2,
 					"max_count": 10,
 					"source": ["baidu_news"],
 					"flags": {}
@@ -662,10 +662,10 @@
 				},
                 {
                                         "id": 6,
-					"category": ["养老","老年","退休"],
-					"count": 1,
+					"category": ["军事","历史","生活","社会"],
+					"count": 2,
 					"max_count": 5,
-					"source": ["baidu_video"],
+					"source": ["baidu_news"],
 					"flags": {}
 				},
 		{
