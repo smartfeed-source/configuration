@@ -579,7 +579,7 @@
             "name": "热门排序曝光渠道",
             "condition": {
                 "app_channel":{
-                    "include": ["meizu_feed"],
+                    "include": ["暂停使用"],
                     "exclude": []
                 }
             },
@@ -605,7 +605,7 @@
             "name": "魅族素材投放测试",
             "condition": {
             "app_channel":{
-                "include": [""],
+                "include": ["meizu_feed"],
                 "exclude": []
             }
             },/*end of condition*/
