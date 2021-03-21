@@ -684,6 +684,8 @@
                         "delete": true
                     }
                 ]
+            }
+            ]
         },/*end of rcmd channel*/
         {
             "name": "一点资讯内容热门排序算法冷启动/实验组",
