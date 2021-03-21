@@ -512,7 +512,7 @@
                     "addCTR": "true"
                 },
                 "app_channel":{
-                    "include": ["huawei_zao","dev"],
+                    "include": ["huawei_zao"],
                     "exclude": []
                 }
             },
@@ -527,8 +527,8 @@
                         "seats": 16,
                         "max_count": 20,
                         "repo": "static_coldstart",
-                        "iindex": "dcp",
-                        "list": "ctr",
+                        "iindex": "dcp1",
+                        "list": "dcp",
                         "source": ["baidu_news"]
                     },
                     {
@@ -536,8 +536,8 @@
                         "seats": 4,
                         "max_count": 20,
                         "repo": "static_coldstart",
-                        "iindex": "dcp",
-                        "list": "ctr",
+                        "iindex": "dcp1",
+                        "list": "dcp",
                         "source": ["baidu_video"]
                     }
                 ]
@@ -692,7 +692,7 @@
                     "hotspot_yidian": "true"
                 },
                 "app_channel":{
-                    "include": ["vivo_mix"],
+                    "include": ["vivo_mix","dev"],
                     "exclude": []
                 }
             },
