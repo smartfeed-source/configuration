@@ -518,8 +518,8 @@
                         "seats": 20,
                         "max_count": 20,
                         "repo": "static_coldstart",
-                        "iindex": "dcp",
-                        "list": "ctr",
+                        "iindex": "dcp1",
+                        "list": "dcp",
                         "source": ["baidu_news",  "baidu_video"]
                     }
                 ]
@@ -596,8 +596,11 @@
             ]
          },
         {
-            "name": "一点资讯内容冷启动",
+            "name": "一点资讯内容冷启动/对照组",
             "condition": {
+                "abtests":{
+                    "hotspot_yidian": "false"
+                },
                 "app_channel":{
                     "include": ["vivo_mix"],
                     "exclude": []
@@ -663,8 +666,38 @@
                         "delete": true
                     }                
                 ]
-            },/*end of rcmd channel*/ 
-       {"channel": "health",               
+        },/*end of rcmd channel*/
+        {
+            "name": "一点资讯内容热门排序算法冷启动/实验组",
+            "condition": {
+                "abtests":{
+                    "hotspot_yidian": "true"
+                },
+                "app_channel":{
+                    "include": ["vivo_mix"],
+                    "exclude": []
+                }
+            },
+            "override_blending_strategy": [{
+                "channel": "rcmd",
+                "flags": {
+                    "refresh_publish_time": 0
+                },
+                "hotspot":[
+                    {
+                        "id": 0,
+                        "seats": 20,
+                        "max_count": 20,
+                        "repo": "static_coldstart",
+                        "iindex": "yidian",
+                        "list": "dcp",
+                        "source": ["yidian_news",  "yidian_video"]
+                    }
+                ]
+            }
+            ]
+        },
+        {"channel": "health",
         "category": [{
                     "id": 0,
                     "category": ["健康","养生","中医","养生","疾病","心理健康"],
