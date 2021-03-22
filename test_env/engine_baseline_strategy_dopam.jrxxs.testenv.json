@@ -614,8 +614,8 @@
 			    "category": [
 				{
 					"id": 0,
-					"category": ["政治","国际","时政","台海时事"],
-					"count": 4,
+					"category": ["政治","社会","国际","时政","台海时事","军事"],
+					"count": 3,
 					"max_count": 10,
 					"source": ["baidu_news"],
 					"flags": {}
@@ -630,8 +630,8 @@
 				},
                 {
 					"id": 2,
-			                "category": ["军事","环球军事","军情"],
-					"count": 4,
+			                "category": ["军事","国际","社会","政治","环球军事","军情"],
+					"count": 3,
 					"max_count": 10,
 					"source": ["baidu_news"],
 					"flags": {}
@@ -646,16 +646,16 @@
 				},
                 {
 					"id": 4,
-                                        "category": ["房产","历史","房地产","文化","社会","时尚","生活","旅游","退休"],
-					"count": 2,
+                                        "category": ["房产","历史","房地产","文化","搞笑","娱乐","社会","时尚","生活","旅游","退休"],
+					"count": 3,
 					"max_count": 10,
 					"source": ["baidu_news"],
 					"flags": {}
 				},
                 {
                                         "id": 5,
-					"category": ["房产","历史","房地产","文化","社会","时尚","生活","旅游","退休"],
-					"count": 2,
+					"category": ["房产","历史","房地产","文化","搞笑","娱乐","社会","时尚","生活","旅游","退休"],
+					"count": 3,
 					"max_count": 5,
 					"source": ["baidu_video"],
 					"flags": {}
@@ -670,11 +670,10 @@
 				},
 		{
                                         "id": 7,
-					"category": ["娱乐","搞笑"],
+					"category": ["娱乐","搞笑","母婴"],
 					"count": 2,
 					"max_count": 10,
 					"source": ["baidu_news"],
-                                        "exclude_words":["体育","球"],
 					"flags": {}
 				},
 				  
